@@ -1,0 +1,27 @@
+/* header */
+.header{
+    display:flex;
+    height:100px;
+    padding:0 4%;
+}
+.header .nav-list {
+    display:flex;
+}
+.header .header-right{
+    margin:0 auto; 
+}
+.header-right a{
+    color:#000;
+}
+.header .header-right .nav-list li{
+    width:150px;
+    display:inline-block;
+    padding: 35px 0;
+    text-align: center;
+}
+.header .header-right .nav-list li:hover{
+    background-color:#a9a9a9;
+}
+header .inner{
+    display:none;
+}
