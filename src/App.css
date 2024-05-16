@@ -1,29 +1,19 @@
+/* header */
 .header{
     display:flex;
     height:100px;
     padding:0 4%;
-    /* background-color: skyblue; */
 }
 .header .nav-list {
     display:flex;
-    /* margin-top:20px; */
 }
-/* .header .header-left{
-    width:20%;
-} */
 .header .header-right{
     margin:0 auto; 
 }
-/* .header .header-right .nav-list{
-    width:80%;
-} */
-
 .header-right a{
     color:#000;
 }
-
 .header .header-right .nav-list li{
-    /* border: solid 1px black; */
     width:150px;
     display:inline-block;
     padding: 35px 0;
