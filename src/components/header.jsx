@@ -3,8 +3,8 @@ export const Header = () => {
         <>
         <header>
 			<div class="header">
-				<div class="header left">
-			
+				<div class="header-left">
+					
 				</div>
 				<nav class="header-right">
 					<ul class="nav-list">
