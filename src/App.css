@@ -5,12 +5,11 @@
 }
 
 /* header */
-.header{
-    display:flex;
+.header {
+    display: flex;
     width: 100%;
-    height:100px;
-    padding:0 4%;
-
+    height: 100px;
+    padding: 0 4%;
 }
 .header .nav-list {
     display: flex;
@@ -35,7 +34,7 @@ header .inner {
 }
 
 /* main-visual */
-.main-visual{
+.main-visual {
     /* background-image: url(assets/img/**); */
     background-color: rgba(0, 0, 0, 0.4);
     background-blend-mode: color;
@@ -44,42 +43,42 @@ header .inner {
     background-size: cover;
     color: white;
 }
-.main-contents{
+.main-contents {
     padding-top: 280px;
     padding-left: 150px;
 }
-.heading{
+.heading {
     letter-spacing: 0.1em;
     font-size: 4rem;
 }
-.head-item{
+.head-item {
     font-size: 1.5rem;
 }
 /* pending */
-.news{
+.news {
     padding-top: 50px;
     width: 70%;
     margin: 0 auto;
 }
-.news-list{
+.news-list {
     list-style: none;
- }
-.news-list .item a{
+}
+.news-list .item a {
     display: flex;
     text-decoration: none;
     color: #333;
-    border-bottom: 1px solid #CCC;
+    border-bottom: 1px solid #ccc;
     padding: 20px;
 }
-.news-list .item:first-child a{
-    border-top: 1px solid #CCC;
+.news-list .item:first-child a {
+    border-top: 1px solid #ccc;
 }
-.news-list .item .date{
+.news-list .item .date {
     min-width: 140px;
     font-size: 16px;
     color: #999;
     padding-right: 20px;
 }
-.news-list .item a:hover .title{
+.news-list .item a:hover .title {
     color: black;
 }
