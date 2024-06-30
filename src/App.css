@@ -10,27 +10,28 @@
     width: 100%;
     height:100px;
     padding:0 4%;
+
 }
 .header .nav-list {
-    display:flex;
+    display: flex;
 }
-.header .header-right{
-    margin:0 auto; 
+.header .header-right {
+    margin: 0 auto;
 }
-.header-right a{
-    color:#000;
+.header-right a {
+    color: #000;
 }
-.header .header-right .nav-list li{
-    width:150px;
-    display:inline-block;
+.header .header-right .nav-list li {
+    width: 150px;
+    display: inline-block;
     padding: 35px 0;
     text-align: center;
 }
-.header .header-right .nav-list li:hover{
-    background-color:#a9a9a9;
+.header .header-right .nav-list li:hover {
+    background-color: #a9a9a9;
 }
-header .inner{
-    display:none;
+header .inner {
+    display: none;
 }
 
 /* main-visual */
