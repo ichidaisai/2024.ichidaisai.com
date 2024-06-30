@@ -3,7 +3,7 @@ export const Header = () => {
         <>
             <header>
                 <div class="header">
-                    <div class="header left"></div>
+                    <div class="header-left"></div>
                     <nav class="header-right">
                         <ul class="nav-list">
                             <a href="./home.html">
