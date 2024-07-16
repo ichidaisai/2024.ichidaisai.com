@@ -21,7 +21,6 @@ export const Footer = () => {
                                     TEL & FAX:
                                     <a
                                         href="tel:0828485443"
-                                        style="color: black"
                                     >
                                         (082) 848-5443
                                     </a>
@@ -34,14 +33,14 @@ export const Footer = () => {
                         </div>
                         <div className="col">
                             <p className="h4">SNS で実行委員会をフォロー</p>
-                            <a href="#" style="text-decoration: none;">
+                            <a href="#">
                                 <img
                                     className="sns-icon"
                                     src="./img/x_icon.png"
                                     alt="ichidaisai-x"
                                 ></img>
                             </a>
-                            <a href="#" style="text-decoration: none;">
+                            <a href="#">
                                 <img
                                     className="sns-icon"
                                     src="./img/instagram_icon.png"
