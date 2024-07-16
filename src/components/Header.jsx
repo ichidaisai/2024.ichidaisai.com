@@ -2,10 +2,10 @@ export const Header = () => {
     return (
         <>
             <header>
-                <div class="header">
-                    <div class="header-left"></div>
-                    <nav class="header-right">
-                        <ul class="nav-list">
+                <div className="header">
+                    <div className="header-left"></div>
+                    <nav className="header-right">
+                        <ul className="nav-list">
                             <a href="./home.html">
                                 <li>HOME</li>
                             </a>
@@ -23,7 +23,7 @@ export const Header = () => {
                             </a>
                         </ul>
 
-                        <div class="inner">
+                        <div className="inner">
                             <ul>
                                 <a href="./home.html">
                                     <li>HOME</li>
@@ -43,7 +43,7 @@ export const Header = () => {
                             </ul>
                         </div>
                     </nav>
-                    <div class="toggle-btn">
+                    <div className="toggle-btn">
                         <span></span>
                         <span></span>
                         <span></span>
