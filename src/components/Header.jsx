@@ -11,6 +11,9 @@ export const Header = () => {
                             <Link href="./home.html">
                                 <li>HOME</li>
                             </Link>
+                            <Link href="./guest.html">
+                                <li>GUEST</li>
+                            </Link>
                             <Link href="./stage.html">
                                 <li>STAGE</li>
                             </Link>
