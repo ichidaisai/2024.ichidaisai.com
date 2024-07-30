@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export const Header = () => {
     return (
         <>
@@ -6,40 +8,40 @@ export const Header = () => {
                     <div className="header-left"></div>
                     <nav className="header-right">
                         <ul className="nav-list">
-                            <a href="./home.html">
+                            <Link href="./home.html">
                                 <li>HOME</li>
-                            </a>
-                            <a href="./stage.html">
+                            </Link>
+                            <Link href="./stage.html">
                                 <li>STAGE</li>
-                            </a>
-                            <a href="./map.html">
+                            </Link>
+                            <Link href="./map.html">
                                 <li>MAP</li>
-                            </a>
-                            <a href="./about.html">
+                            </Link>
+                            <Link href="./about.html">
                                 <li>ABOUT</li>
-                            </a>
-                            <a href="./access.html">
+                            </Link>
+                            <Link href="./access.html">
                                 <li>ACCESS</li>
-                            </a>
+                            </Link>
                         </ul>
 
                         <div className="inner">
                             <ul>
-                                <a href="./home.html">
+                                <Link href="./home.html">
                                     <li>HOME</li>
-                                </a>
-                                <a href="./stage.html">
+                                </Link>
+                                <Link href="./stage.html">
                                     <li>STAGE</li>
-                                </a>
-                                <a href="./map.html">
+                                </Link>
+                                <Link href="./map.html">
                                     <li>MAP</li>
-                                </a>
-                                <a href="./about.html">
+                                </Link>
+                                <Link href="./about.html">
                                     <li>ABOUT</li>
-                                </a>
-                                <a href="./access.html">
+                                </Link>
+                                <Link href="./access.html">
                                     <li>ACCESS</li>
-                                </a>
+                                </Link>
                             </ul>
                         </div>
                     </nav>

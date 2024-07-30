@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export const Pending = () => {
     return (
         <>
@@ -11,12 +13,12 @@ export const Pending = () => {
             <div className="news">
                 <ul className="news-list">
                     <li className="item">
-                        <a href="#">
+                        <Link href="#">
                             <p className="date">2024/6/28</p>
                             <p className="title">
                                 現在準備中です！随時更新しますのでもうしばらくお待ちください。
                             </p>
-                        </a>
+                        </Link>
                     </li>
                 </ul>
             </div>

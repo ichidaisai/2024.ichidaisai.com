@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export const Footer = () => {
     return (
         <>
@@ -19,7 +21,7 @@ export const Footer = () => {
                                 </span>
                                 <span className="d-block">
                                     TEL & FAX:
-                                    <a href="tel:0828485443">(082) 848-5443</a>
+                                    <Link href="tel:0828485443">(082) 848-5443</Link>
                                 </span>
                                 <span className="d-block">
                                     電子メール: ichidaisai@outlook.jp
@@ -29,20 +31,20 @@ export const Footer = () => {
                         </div>
                         <div className="col">
                             <p className="h4">SNS で実行委員会をフォロー</p>
-                            <a href="#">
+                            <Link href="#">
                                 <img
                                     className="sns-icon"
                                     src="./img/x_icon.png"
                                     alt="ichidaisai-x"
                                 ></img>
-                            </a>
-                            <a href="#">
+                            </Link>
+                            <Link href="#">
                                 <img
                                     className="sns-icon"
                                     src="./img/instagram_icon.png"
                                     alt="ichidaisai-instagram"
                                 ></img>
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </div>
