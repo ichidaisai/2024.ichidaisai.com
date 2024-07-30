@@ -1,16 +1,14 @@
-import "./App.css";
-import { Pending } from "./components/Pending";
 import { Header } from "./components/Header";
 import { Footer } from "./components/Footer";
-
-function App() {
+import { Outlet } from "react-router-dom";
+const Layout = () => {
     return (
         <>
             <Header />
-            <Pending />
+            <Outlet />
             <Footer />
         </>
     );
-}
+};
 
-export default App;
+export default Layout;
