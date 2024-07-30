@@ -6,14 +6,21 @@ import {
     createBrowserRouter,
     RouterProvider,
   } from "react-router-dom";
-import PendingPage from "./pages/PendingPage";
+import { Pending } from "./components/Pending";
+import Layout from "./Layout";
 
-  const router = createBrowserRouter([
-    {
-      path: "/",
-      element: <PendingPage />,
-    },
-  ])
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Layout />,
+    children: [
+      {
+        path: "/",
+        element: <Pending />,
+      }
+    ],
+  },
+]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
     <React.StrictMode>
