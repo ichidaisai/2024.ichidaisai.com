@@ -21,7 +21,9 @@ export const Footer = () => {
                                 </span>
                                 <span className="d-block">
                                     TEL & FAX:
-                                    <Link href="tel:0828485443">(082) 848-5443</Link>
+                                    <Link href="tel:0828485443">
+                                        (082) 848-5443
+                                    </Link>
                                 </span>
                                 <span className="d-block">
                                     電子メール: ichidaisai@outlook.jp
