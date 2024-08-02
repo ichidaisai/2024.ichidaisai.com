@@ -28,8 +28,8 @@ export const footer = () => {
                     </a>
                     </div>
                 </div>
-            </div>
-        </footer>
-        </>
-    )
-}
+        </div>
+      </footer>
+    </>
+  );
+};
