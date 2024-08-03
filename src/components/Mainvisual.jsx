@@ -1,4 +1,4 @@
-export const mainvisual = () => {
+export const Mainvisual = () => {
     return (
         <>
             <title>広島市立大学 第31回 大学祭</title>
