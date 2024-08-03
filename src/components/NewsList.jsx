@@ -5,7 +5,7 @@ export const NewsList = () => {
         <>
             <div className="news">
                 <ul className="news-list">
-                    <li class="item">
+                    <li className="item">
                         <a href="#guest">
                             <p className="date">2024/8/4</p>
                             <p className="title">
@@ -13,7 +13,7 @@ export const NewsList = () => {
                             </p>
                         </a>
                     </li>
-                    <li class="item">
+                    <li className="item">
                         <Link href="#">
                             <p className="date">2024/6/28</p>
                             <p className="title">
