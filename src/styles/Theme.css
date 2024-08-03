@@ -1,0 +1,13 @@
+.section-title span{
+    color: #ed2b64;
+}
+
+.theme-content{
+    max-width: 600px;   
+    margin:0 auto;
+}
+
+.section-title{
+    margin-top:70px;
+    margin-bottom:70px;
+}
