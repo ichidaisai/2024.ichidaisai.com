@@ -1,10 +1,10 @@
-import { Link } from "react-router-dom";
+
 
 export const Pending = () => {
     return (
         <>
             <div className="tyuuizikou">
-                <h2 class="section-title">注意事項</h2>
+                <h2 className="section-title">注意事項</h2>
                 <h3>大学祭に来られる際の注意事項は以下になります．</h3>
                     <p>☆全面禁煙
                         <br></br>
