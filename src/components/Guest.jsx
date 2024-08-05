@@ -7,8 +7,8 @@ export const Guest = () => {
             <h2>ゲストステージ</h2>
             <div className="lead_container center">
                 <p className="lead">今年のゲストは<span>Arakezuri</span>に決定！</p>
-                <p><span className="guest-span">10月27日（日）13:30〜</span></p>
-                <img src="../public/guest_cover.jpg" alt="Arakezuriの宣材写真" />
+                <p><span className="guest-span">10月27日（日）13:30〜14:10</span></p>
+                <img src="/public/guest_cover.jpg" alt="Arakezuriの宣材写真" />
 
             </div>
             <div className="content center">
@@ -25,7 +25,7 @@ export const Guest = () => {
             <div className="about_container center">
                 <h3>ステージ</h3>
                     <ul>
-                        <li>10月27日（日）13:30〜</li>
+                        <li>10月27日（日）13:30〜14:10</li>
                         <li>学内野外ステージ</li>
                     </ul>
                 <h3>プロフィール</h3>
