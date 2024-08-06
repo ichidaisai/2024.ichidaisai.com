@@ -20,11 +20,10 @@ h3 {
 }
 
 .guest-span {
-    background: linear-gradient(transparent 60%,#52ce98 60%);
+    background: linear-gradient(transparent 60%, #52ce98 60%);
     padding: 2px 12px;
     font-size: large;
 }
-
 
 .lead_container > .lead > span {
     color: black;
@@ -46,13 +45,13 @@ h2:before {
     content: "";
     position: absolute;
     display: inline-block;
-    
+
     bottom: -25px;
-    
+
     width: 60px;
     height: 5px;
     left: 50%;
-    
+
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
     background-color: black;
@@ -63,13 +62,13 @@ h3:before {
     content: "";
     position: absolute;
     display: inline-block;
-    
+
     bottom: -8px;
-    
+
     width: 60px;
     height: 5px;
     left: 50%;
-    
+
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
     background-color: black;
@@ -86,7 +85,7 @@ h3:before {
 .about_container {
     font-size: large;
     margin: 4em;
-    line-height: 2.0;
+    line-height: 2;
 }
 
 .about_container > p {
@@ -109,8 +108,3 @@ h3:before {
     color: white;
     text-decoration-line: none;
 }
-
-
-
-
-
