@@ -1,6 +1,6 @@
 
 
-export const Pending = () => {
+export const NoticeList = () => {
     return (
      <>
         <div className="tyuuizikou">
