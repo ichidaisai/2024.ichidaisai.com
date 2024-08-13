@@ -1,0 +1,110 @@
+h2 {
+    font-size: 32px;
+    font-weight: 700;
+
+    position: relative;
+    margin: 2em;
+    text-align: center;
+}
+
+h3 {
+    font-size: 24px;
+    position: relative;
+    margin: 3em;
+    text-align: center;
+}
+
+.lead_container > .lead {
+    font-weight: 400;
+    margin: 2em;
+}
+
+.guest-span {
+    background: linear-gradient(transparent 60%, #52ce98 60%);
+    padding: 2px 12px;
+    font-size: large;
+}
+
+.lead_container > .lead > span {
+    color: black;
+    border: solid 1.5px black;
+    margin: 1em;
+    padding: 0.5em 1em;
+    font-weight: 700;
+}
+
+.content {
+    line-height: 2.5;
+}
+
+.center {
+    text-align: center;
+}
+
+h2:before {
+    content: "";
+    position: absolute;
+    display: inline-block;
+
+    bottom: -25px;
+
+    width: 60px;
+    height: 5px;
+    left: 50%;
+
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background-color: black;
+    border-radius: 2px;
+}
+
+h3:before {
+    content: "";
+    position: absolute;
+    display: inline-block;
+
+    bottom: -8px;
+
+    width: 60px;
+    height: 5px;
+    left: 50%;
+
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background-color: black;
+    border-radius: 1px;
+}
+
+.lead_container > img {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    width: 100%;
+    max-width: 1080px;
+}
+
+.about_container {
+    font-size: large;
+    margin: 4em;
+    line-height: 2;
+}
+
+.about_container > p {
+    margin-bottom: 32px;
+}
+
+.content {
+    margin: 2rem;
+}
+
+.link {
+    border-radius: 100vh;
+    border: solid 1.5px black;
+    margin-top: 8em;
+    padding: 0.5em 1em;
+}
+
+.link:hover {
+    background-color: black;
+    color: white;
+    text-decoration-line: none;
+}
