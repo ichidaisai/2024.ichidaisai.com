@@ -2,21 +2,53 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 
 export const Header = () => {
-    const [open ,setOpen] = useState(false);
+    const [open, setOpen] = useState(false);
     const handleOpen = () => {
-        setOpen(!open)
-    }
+        setOpen(!open);
+    };
     return (
         <>
             <header>
-                    <img src="/public/ichidaisai_logo.jpg" alt="header-logo" className="header-logo"/>
-                    <nav>
-                        <ul className="nav-list">
+                <img
+                    src="/public/ichidaisai_logo.jpg"
+                    alt="header-logo"
+                    className="header-logo"
+                />
+                <nav>
+                    <ul className="nav-list">
+                        <Link href="./home.html">
+                            <li>HOME</li>
+                        </Link>
+                        <Link href="./guest.html">
+                            <li>GUEST</li>
+                        </Link>
+                        <Link href="./stage.html">
+                            <li>STAGE</li>
+                        </Link>
+                        <Link href="./map.html">
+                            <li>MAP</li>
+                        </Link>
+                        <Link href="./about.html">
+                            <li>ABOUT</li>
+                        </Link>
+                        <Link href="./access.html">
+                            <li>ACCESS</li>
+                        </Link>
+                    </ul>
+                    <button
+                        className={`openbtn ${open && "active"}`}
+                        onClick={handleOpen}
+                    >
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <div
+                        className={`${open ? "active-nav-list" : "none-nav-list"}`}
+                    >
+                        <ul>
                             <Link href="./home.html">
                                 <li>HOME</li>
-                            </Link>
-                            <Link href="./guest.html">
-                                <li>GUEST</li>
                             </Link>
                             <Link href="./stage.html">
                                 <li>STAGE</li>
@@ -31,28 +63,12 @@ export const Header = () => {
                                 <li>ACCESS</li>
                             </Link>
                         </ul>
-                        <button className={`openbtn ${open && "active"}`} onClick={handleOpen}><span></span><span></span><span></span></button>
-                        <div className={`${open ? "active-nav-list":"none-nav-list"}`}>
-                            <ul>
-                                <Link href="./home.html">
-                                    <li>HOME</li>
-                                </Link>
-                                <Link href="./stage.html">
-                                    <li>STAGE</li>
-                                </Link>
-                                <Link href="./map.html">
-                                    <li>MAP</li>
-                                </Link>
-                                <Link href="./about.html">
-                                    <li>ABOUT</li>
-                                </Link>
-                                <Link href="./access.html">
-                                    <li>ACCESS</li>
-                                </Link>
-                            </ul>
-                        </div>
-                        <div className={`${open ? "mask":"mask-none"}`} onClick={handleOpen}></div>
-                    </nav>
+                    </div>
+                    <div
+                        className={`${open ? "mask" : "mask-none"}`}
+                        onClick={handleOpen}
+                    ></div>
+                </nav>
             </header>
         </>
     );
