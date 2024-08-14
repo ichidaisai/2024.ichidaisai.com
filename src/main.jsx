@@ -5,6 +5,7 @@ import "./styles/App.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { Pending } from "./components/Pending";
 import Layout from "./Layout";
+import { Home } from "./pages/Home";
 
 const router = createBrowserRouter([
     {
@@ -13,6 +14,10 @@ const router = createBrowserRouter([
         children: [
             {
                 path: "/",
+                element: <Home />,
+            },
+            {
+                path: "/pending",
                 element: <Pending />,
             },
         ],
