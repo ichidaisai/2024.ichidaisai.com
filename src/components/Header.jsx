@@ -1,12 +1,16 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
 
 export const Header = () => {
+    const [open ,setOpen] = useState(false);
+    const handleOpen = () => {
+        setOpen(!open)
+    }
     return (
         <>
             <header>
-                <div className="header">
-                    <div className="header-left"><img src="/public/ichidaisai-logo.jpg" alt="" /></div>
-                    <nav className="header-right">
+                    <img src="/public/ichidaisai_logo.jpg" alt="header-logo" className="header-logo"/>
+                    <nav>
                         <ul className="nav-list">
                             <Link href="./home.html">
                                 <li>HOME</li>
@@ -27,8 +31,8 @@ export const Header = () => {
                                 <li>ACCESS</li>
                             </Link>
                         </ul>
-
-                        <div className="inner">
+                        <button className={`openbtn ${open && "active"}`} onClick={handleOpen}><span></span><span></span><span></span></button>
+                        <div className={`${open ? "active-nav-list":"none-nav-list"}`}>
                             <ul>
                                 <Link href="./home.html">
                                     <li>HOME</li>
@@ -47,14 +51,8 @@ export const Header = () => {
                                 </Link>
                             </ul>
                         </div>
+                        <div className={`${open ? "mask":"mask-none"}`} onClick={handleOpen}></div>
                     </nav>
-                    <div className="toggle-btn">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
-                    <div id="mask"></div>
-                </div>
             </header>
         </>
     );
