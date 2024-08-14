@@ -1,12 +1,17 @@
 import "../styles/Theme.css";
 export const Theme = () => {
-    return(
+    return (
         <>
             <div className="Theme">
-                <h2 className="section-title"><span>T</span>HEME</h2>
+                <h2 className="section-title">
+                    <span>T</span>HEME
+                </h2>
                 <div className="theme-content">
-                    <img className="ichidaisai-mainvisual" src="/public/poster.jpg" alt="">
-                    </img>
+                    <img
+                        className="ichidaisai-mainvisual"
+                        src="/public/poster.jpg"
+                        alt=""
+                    ></img>
                     <h2>Spawn！（スポーン）</h2>
                     <p>
                         動詞としては、引き起こす、生じる、発生させると言う意味があります。大学祭を通してさまざまな人間関係や化学反応が起こればいいなという願いを込めました。
@@ -15,6 +20,6 @@ export const Theme = () => {
                     </p>
                 </div>
             </div>
-        </>  
+        </>
     );
 };
