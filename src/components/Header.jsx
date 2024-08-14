@@ -5,7 +5,7 @@ export const Header = () => {
         <>
             <header>
                 <div className="header">
-                    <div className="header-left"></div>
+                    <div className="header-left"><img src="/public/ichidaisai-logo.jpg" alt="" /></div>
                     <nav className="header-right">
                         <ul className="nav-list">
                             <Link href="./home.html">
