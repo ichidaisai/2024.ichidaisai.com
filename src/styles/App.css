@@ -48,6 +48,29 @@ header .inner {
 .header-left  {
     width: 100px;
 }
+/* footer */
+footer {
+    border-top:1px solid #ccc ;
+    padding-top:100px;
+}
+footer .footer-content{
+    display: flex;
+}
+footer .footer-contact,footer .footer-sns {
+    width:50%;
+}
+.footer-content h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.footer-contact-info {
+    font-size:15px;
+}
+.sns-icon{
+    width: 50px;
+    margin-right:10px;
+}
 
 /* pending */
 .news {
