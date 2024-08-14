@@ -5,7 +5,7 @@ export const Theme = () => {
             <div className="Theme">
                 <h2 className="section-title"><span>T</span>HEME</h2>
                 <div className="theme-content">
-                    <img className="ichidaisai-mainvisual" src="./img/poster.png" alt="">
+                    <img className="ichidaisai-mainvisual" src="/public/poster.jpg" alt="">
                     </img>
                     <h2>Spawn！（スポーン）</h2>
                     <p>
