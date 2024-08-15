@@ -2,9 +2,9 @@ import "../styles/Mainvisual.css";
 
 export const Mainvisual = () => {
     return (
-        <>
+        <div className="mainvisual">
             <title>広島市立大学 第31回 大学祭</title>
-            <img className="home-visual" src="./img/header.png" alt=""></img>
+            <img className="home-visual" src="/public/mainvisual.jpg" alt="mainvisual" />
             <h2 className="datetime">
                 <span>31st</span>
                 <br />
@@ -16,6 +16,6 @@ export const Mainvisual = () => {
                 <br />
                 <span className="colored">10:00 ~ 20:00</span>
             </h2>
-        </>
+        </div>
     );
 };
