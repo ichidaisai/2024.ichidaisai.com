@@ -1,4 +1,5 @@
 import "../styles/Guest.css";
+import guest_cover from "guest_cover.jpg"
 
 export const Guest = () => {
     return (
@@ -13,7 +14,7 @@ export const Guest = () => {
                         10月27日（日）13:30〜14:10
                     </span>
                 </p>
-                <img src="/public/guest_cover.jpg" alt="Arakezuriの宣材写真" />
+                <img src={guest_cover} alt="Arakezuriの宣材写真" />
             </div>
             <div className="content center">
                 <p>

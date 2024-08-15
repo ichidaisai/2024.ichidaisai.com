@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+import xLogo from "../assets/x_logo.png"
+import instagramLogo from "../assets/instagram_logo.png"
 
 export const Footer = () => {
     return (
@@ -26,14 +28,14 @@ export const Footer = () => {
                     <h3>SNS で実行委員会をフォロー</h3>
                     <Link href="#">
                         <img
-                            src="/public/x_logo.png"
+                            src={xLogo}
                             alt="ichidaisai-x"
                             className="sns-icon"
                         ></img>
                     </Link>
                     <Link href="#">
                         <img
-                            src="/public/instagram_logo.png"
+                            src={instagramLogo}
                             alt="ichidaisai-instagram"
                             className="sns-icon"
                         ></img>

@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import ichidaisai_logo from "../assets/ichidaisai_logo.jpg"
 
 export const Header = () => {
     const [open, setOpen] = useState(false);
@@ -10,7 +11,7 @@ export const Header = () => {
         <>
             <header>
                 <img
-                    src="/public/ichidaisai_logo.jpg"
+                    src={ichidaisai_logo}
                     alt="header-logo"
                     className="header-logo"
                 />

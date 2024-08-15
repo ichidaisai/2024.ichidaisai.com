@@ -1,4 +1,5 @@
 import "../styles/Mainvisual.css";
+import mainvisual from "../assets/mainvisual.jpg"
 
 export const Mainvisual = () => {
     return (
@@ -6,7 +7,7 @@ export const Mainvisual = () => {
             <title>広島市立大学 第31回 大学祭</title>
             <img
                 className="home-visual"
-                src="/public/mainvisual.jpg"
+                src={mainvisual}
                 alt="mainvisual"
             />
             <h2 className="datetime">
