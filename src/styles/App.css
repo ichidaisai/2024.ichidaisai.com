@@ -77,3 +77,11 @@ header .inner {
 .news-list .item a:hover .title {
     color: black;
 }
+
+/* section-title */
+.section-title {
+    font-size: 30px;
+    text-align: center;
+    margin:80px 0;
+    font-weight: bold;
+}
