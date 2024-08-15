@@ -1,4 +1,4 @@
-import "../styles/NoticeList.css"
+import "../styles/NoticeList.css";
 
 export const NoticeList = () => {
     return (
