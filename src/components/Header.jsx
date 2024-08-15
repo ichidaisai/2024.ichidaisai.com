@@ -47,24 +47,24 @@ export const Header = () => {
                         className={`${open ? "active-nav-list" : "none-nav-list"}`}
                     >
                         <ul>
-                        <Link to="/">
-                            <li>HOME</li>
-                        </Link>
-                        <Link to="/pending">
-                            <li>GUEST</li>
-                        </Link>
-                        <Link to="/pending">
-                            <li>STAGE</li>
-                        </Link>
-                        <Link to="/pending">
-                            <li>MAP</li>
-                        </Link>
-                        <Link to="/pending">
-                            <li>ABOUT</li>
-                        </Link>
-                        <Link to="/pending">
-                            <li>ACCESS</li>
-                        </Link>
+                            <Link to="/">
+                                <li>HOME</li>
+                            </Link>
+                            <Link to="/pending">
+                                <li>GUEST</li>
+                            </Link>
+                            <Link to="/pending">
+                                <li>STAGE</li>
+                            </Link>
+                            <Link to="/pending">
+                                <li>MAP</li>
+                            </Link>
+                            <Link to="/pending">
+                                <li>ABOUT</li>
+                            </Link>
+                            <Link to="/pending">
+                                <li>ACCESS</li>
+                            </Link>
                         </ul>
                     </div>
                     <div
