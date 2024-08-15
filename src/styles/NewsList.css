@@ -1,0 +1,27 @@
+.news {
+    padding-top: 50px;
+    width: 70%;
+    margin: 0 auto;
+}
+.news-list {
+    list-style: none;
+}
+.news-list .item a {
+    display: flex;
+    text-decoration: none;
+    color: #333;
+    border-bottom: 1px solid #ccc;
+    padding: 20px;
+}
+.news-list .item:first-child a {
+    border-top: 1px solid #ccc;
+}
+.news-list .item .date {
+    min-width: 140px;
+    font-size: 16px;
+    color: #999;
+    padding-right: 20px;
+}
+.news-list .item a:hover .title {
+    color: black;
+}
