@@ -1,0 +1,11 @@
+.notice-list {
+    text-align: center;
+}
+.notice-list li {
+    margin: 10px 0;
+}
+.tyuuizikou p {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
