@@ -2,7 +2,7 @@ import "../styles/Guest.css";
 
 export const Guest = () => {
     return (
-        <>
+        <div className="guest">
             <h2>ゲストステージ</h2>
             <div className="lead_container center">
                 <p className="lead">
@@ -49,6 +49,6 @@ export const Guest = () => {
                     公式サイト
                 </a>
             </div>
-        </>
+        </div>
     );
 };

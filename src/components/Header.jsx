@@ -16,22 +16,22 @@ export const Header = () => {
                 />
                 <nav>
                     <ul className="nav-list">
-                        <Link href="./home.html">
+                        <Link to="/">
                             <li>HOME</li>
                         </Link>
-                        <Link href="./guest.html">
+                        <Link to="/guest">
                             <li>GUEST</li>
                         </Link>
-                        <Link href="./stage.html">
+                        <Link to="/pending">
                             <li>STAGE</li>
                         </Link>
-                        <Link href="./map.html">
+                        <Link to="/pending">
                             <li>MAP</li>
                         </Link>
-                        <Link href="./about.html">
+                        <Link to="/pending">
                             <li>ABOUT</li>
                         </Link>
-                        <Link href="./access.html">
+                        <Link to="/pending">
                             <li>ACCESS</li>
                         </Link>
                     </ul>
@@ -47,21 +47,24 @@ export const Header = () => {
                         className={`${open ? "active-nav-list" : "none-nav-list"}`}
                     >
                         <ul>
-                            <Link href="./home.html">
-                                <li>HOME</li>
-                            </Link>
-                            <Link href="./stage.html">
-                                <li>STAGE</li>
-                            </Link>
-                            <Link href="./map.html">
-                                <li>MAP</li>
-                            </Link>
-                            <Link href="./about.html">
-                                <li>ABOUT</li>
-                            </Link>
-                            <Link href="./access.html">
-                                <li>ACCESS</li>
-                            </Link>
+                        <Link to="/">
+                            <li>HOME</li>
+                        </Link>
+                        <Link to="/pending">
+                            <li>GUEST</li>
+                        </Link>
+                        <Link to="/pending">
+                            <li>STAGE</li>
+                        </Link>
+                        <Link to="/pending">
+                            <li>MAP</li>
+                        </Link>
+                        <Link to="/pending">
+                            <li>ABOUT</li>
+                        </Link>
+                        <Link to="/pending">
+                            <li>ACCESS</li>
+                        </Link>
                         </ul>
                     </div>
                     <div
