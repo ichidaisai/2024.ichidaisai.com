@@ -35,6 +35,9 @@ export const Header = () => {
                         <Link to="/pending">
                             <li>ACCESS</li>
                         </Link>
+                        <Link to="/pending">
+                            <li>FUNDING</li>
+                        </Link>
                     </ul>
                     <button
                         className={`openbtn ${open && "active"}`}
@@ -65,6 +68,9 @@ export const Header = () => {
                         </Link>
                         <Link to="/pending">
                             <li>ACCESS</li>
+                        </Link>
+                        <Link to="/pending">
+                            <li>FUNDING</li>
                         </Link>
                         </ul>
                     </div>
