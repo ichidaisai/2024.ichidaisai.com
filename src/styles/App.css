@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-body {
+main {
     max-width: 1080px;
     margin: 0 auto;
     padding: 0 4%;
@@ -48,11 +48,24 @@ header .nav-list a:hover {
 
 /* footer */
 footer {
+    border: none !important;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+    overflow: hidden;
     border-top: 1px solid #ccc;
-    padding-top: 100px;
+    margin-top: 3em;
+    padding-top: 3em;
+    padding-bottom: 2em;
+    place-items: center;
+    background-image: url("../assets/footer.png");
 }
+
 footer .footer-content {
     display: flex;
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 4%;
 }
 footer .footer-contact,
 footer .footer-sns {
@@ -65,6 +78,7 @@ footer .footer-sns {
 }
 .footer-contact-info {
     font-size: 15px;
+    line-height: 1.25em;
 }
 .sns-icon {
     width: 50px;

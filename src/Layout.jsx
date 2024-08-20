@@ -4,8 +4,10 @@ import { Outlet } from "react-router-dom";
 const Layout = () => {
     return (
         <>
+            <main>
             <Header />
-            <Outlet />
+                <Outlet />
+            </main>
             <Footer />
         </>
     );
