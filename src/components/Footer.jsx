@@ -45,10 +45,3 @@ export const Footer = () => {
         </footer>
     );
 };
-
-const background_img = {
-    backgroundImage: "url(../assets/footer.png)",
-    backgroundSize: "cover",
-    backgroundPosition: "center",
-    backgroundRepeat: "no-repeat",
-};
