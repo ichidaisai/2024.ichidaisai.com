@@ -1,6 +1,6 @@
 import "../styles/Funding.css";
 import funding_img from "../assets/funding_btn.png";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export const Funding = () => {
     return (
@@ -16,8 +16,8 @@ export const Funding = () => {
                 ぜひ、皆さまの温かいご支援を、どうぞよろしくお願いいたします！
             </p>
             <p>期間やリターンなどの詳しい内容はこちらをクリック！</p>
-            {/* <Link to={"https://tarubo.en-jine.com/projects/ichidaisaithirtyfirst?p_token=61fa3df42d1f409cb1d9d658c5da343b"}><img src={funding_img} alt="" className="funding-btn"/></Link> */}
-            <img src={funding_img} alt="" className="funding-btn" />
+
+            <Link to="https://tarubo.en-jine.com/projects/ichidaisaithirtyfirst?p_token=61fa3df42d1f409cb1d9d658c5da343b"><img src={funding_img} alt="" className="funding-btn" /></Link>
 
             <p>今年の大学祭のテーマは、『Spawn!』です。</p>
             <p>
