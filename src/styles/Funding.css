@@ -1,0 +1,17 @@
+.funding {
+    font-size: 20px;
+    font-weight: bold;
+    background-image: url(../assets/funding_background.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position-x: right;
+    background-position-y: bottom;
+    background-color: rgba(255, 255, 255, 0.8);
+    background-blend-mode: lighten;
+}
+.funding p {
+    margin-bottom: 10px;
+}
+.funding-btn {
+    width: 50%;
+}

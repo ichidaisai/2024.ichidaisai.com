@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import ichidaisai_logo from "../assets/ichidaisai_logo.jpg";
+import ichidaisai_logo_512 from "../assets/ichidaisai_logo_512.png";
 
 export const Header = () => {
     const [open, setOpen] = useState(false);
@@ -11,7 +11,7 @@ export const Header = () => {
         <>
             <header>
                 <img
-                    src={ichidaisai_logo}
+                    src={ichidaisai_logo_512}
                     alt="header-logo"
                     className="header-logo"
                 />
@@ -35,6 +35,9 @@ export const Header = () => {
                         <Link to="/pending">
                             <li>ACCESS</li>
                         </Link>
+                        <Link to="/funding">
+                            <li>FUNDING</li>
+                        </Link>
                     </ul>
                     <button
                         className={`openbtn ${open && "active"}`}
@@ -48,24 +51,27 @@ export const Header = () => {
                         className={`${open ? "active-nav-list" : "none-nav-list"}`}
                     >
                         <ul>
-                        <Link to="/">
-                            <li>HOME</li>
-                        </Link>
-                        <Link to="/guest">
-                            <li>GUEST</li>
-                        </Link>
-                        <Link to="/pending">
-                            <li>STAGE</li>
-                        </Link>
-                        <Link to="/pending">
-                            <li>MAP</li>
-                        </Link>
-                        <Link to="/pending">
-                            <li>ABOUT</li>
-                        </Link>
-                        <Link to="/pending">
-                            <li>ACCESS</li>
-                        </Link>
+                            <Link to="/">
+                                <li>HOME</li>
+                            </Link>
+                            <Link to="/guest">
+                                <li>GUEST</li>
+                            </Link>
+                            <Link to="/pending">
+                                <li>STAGE</li>
+                            </Link>
+                            <Link to="/pending">
+                                <li>MAP</li>
+                            </Link>
+                            <Link to="/pending">
+                                <li>ABOUT</li>
+                            </Link>
+                            <Link to="/pending">
+                                <li>ACCESS</li>
+                            </Link>
+                            <Link to="/funding">
+                                <li>FUNDING</li>
+                            </Link>
                         </ul>
                     </div>
                     <div
