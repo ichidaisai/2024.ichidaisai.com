@@ -6,7 +6,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { Pending } from "./components/Pending";
 import Layout from "./Layout";
 import { Home } from "./pages/Home";
-import { Guest } from "./components/Guest" 
+import { Guest } from "./components/Guest";
 import { Funding } from "./pages/Founding";
 
 const router = createBrowserRouter([
@@ -24,12 +24,12 @@ const router = createBrowserRouter([
             },
             {
                 path: "/guest",
-                element: <Guest />
+                element: <Guest />,
             },
             {
                 path: "/funding",
-                element: <Funding />
-            }
+                element: <Funding />,
+            },
         ],
     },
 ]);
