@@ -17,7 +17,9 @@ export const Funding = () => {
             </p>
             <p>期間やリターンなどの詳しい内容はこちらをクリック！</p>
 
-            <Link to="https://tarubo.en-jine.com/projects/ichidaisaithirtyfirst?p_token=61fa3df42d1f409cb1d9d658c5da343b"><img src={funding_img} alt="" className="funding-btn" /></Link>
+            <Link to="https://tarubo.en-jine.com/projects/ichidaisaithirtyfirst?p_token=61fa3df42d1f409cb1d9d658c5da343b">
+                <img src={funding_img} alt="" className="funding-btn" />
+            </Link>
 
             <p>今年の大学祭のテーマは、『Spawn!』です。</p>
             <p>
