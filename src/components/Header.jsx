@@ -35,7 +35,7 @@ export const Header = () => {
                         <Link to="/pending">
                             <li>ACCESS</li>
                         </Link>
-                        <Link to="/pending">
+                        <Link to="/funding">
                             <li>FUNDING</li>
                         </Link>
                     </ul>
