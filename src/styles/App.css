@@ -37,13 +37,21 @@ header .nav-list {
 }
 
 header .nav-list li {
+    height: 100px;
     padding: 35px 0;
     width: 100px;
     text-align: center;
 }
+
+header .nav-list li .info {
+    font-size: 10px;
+}
+
 header .nav-list a:hover {
-    background-color: #a9a9a9;
-    color: black;
+    background-color: #ed2b64;
+    /* #00008b; */
+    text-decoration: none;
+    color: #fff;
 }
 
 /* footer */
@@ -71,6 +79,11 @@ footer .footer-contact,
 footer .footer-sns {
     width: 50%;
 }
+
+footer .copy {
+    text-align: center;
+    padding-top: 10px;
+}
 .footer-content h3 {
     font-size: 20px;
     font-weight: bold;
@@ -80,6 +93,7 @@ footer .footer-sns {
     font-size: 15px;
     line-height: 1.25em;
 }
+
 .sns-icon {
     width: 50px;
     margin-right: 10px;
@@ -110,10 +124,15 @@ footer .footer-sns {
 
 /* section-title */
 .section-title {
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
     font-size: 30px;
     text-align: center;
-    margin: 80px 0;
+    margin: 60px 0 30px 0;
+    padding-left: 10px;
     font-weight: bold;
+    border-left: solid 4px #ed2b64;
 }
 
 @media screen and (max-width: 768px) {

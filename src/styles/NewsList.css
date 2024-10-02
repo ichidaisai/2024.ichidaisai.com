@@ -23,5 +23,21 @@
     padding-right: 20px;
 }
 .news-list .item a:hover .title {
-    color: black;
+    color: #ed2b64;
+}
+
+@media screen and (max-width: 768px) {
+    .news {
+        padding-top: 50px;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .news-list .item .date {
+        /* min-width: 140px; */
+        padding-right: 0;
+    }
+    .news-list .item .date {
+        min-width: 100px;
+    }
 }

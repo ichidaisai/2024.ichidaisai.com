@@ -6,8 +6,8 @@ import nopet from "../assets/nopet.png";
 export const NoticeList = () => {
     return (
         <>
+            <h2 className="section-title">注意事項</h2>
             <div className="tyuuizikou">
-                <h2 className="section-title">注意事項</h2>
                 <p>大学祭に来られる際の注意事項は以下になります．</p>
                 <ul className="notice-list">
                     <li>敷地内全面禁煙</li>
