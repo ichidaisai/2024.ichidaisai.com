@@ -1,4 +1,7 @@
 import "../styles/NoticeList.css";
+import nosake from "../assets/nosake.png";
+import kinen from "../assets/kinen.png";
+import nopet from "../assets/nopet.png";
 
 export const NoticeList = () => {
     return (
@@ -16,6 +19,12 @@ export const NoticeList = () => {
                     </li>
                     <li>公共交通機関のご利用のお願い</li>
                 </ul>
+                
+            </div>
+            <div className="notice-picture">
+                <div><img src={nosake} alt="noalcohol" /></div>
+                <div><img src={kinen} alt="nosmoke" /></div>
+                <div><img src={nopet} alt="nopet" /></div>
             </div>
         </>
     );
