@@ -1,11 +1,18 @@
 .notice-list {
-    text-align: center;
+    /* text-align: center; */
+    margin-top: 40px ;
 }
+
 .notice-list li {
     margin: 10px 0;
 }
+
+.tyuuizikou{
+    width: 80%;
+    margin: 0 auto;
+}
+
 .tyuuizikou p {
     font-weight: bold;
-    text-align: center;
-    margin-bottom: 30px;
+    /* text-align: center; */
 }

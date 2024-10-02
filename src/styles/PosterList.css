@@ -1,0 +1,13 @@
+.pos-list{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1.5em;
+    word-spacing: 0.8em;
+}
+
+.pos-list .heading{
+    font-size: 1.3em;
+    margin: 50px 0 30px 0;
+    font-weight: bold;
+}
