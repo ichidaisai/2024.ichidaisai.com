@@ -43,7 +43,7 @@ header .nav-list li {
     text-align: center;
 }
 
-header .nav-list li .info{
+header .nav-list li .info {
     font-size: 10px;
 }
 
@@ -80,7 +80,7 @@ footer .footer-sns {
     width: 50%;
 }
 
-footer .copy{
+footer .copy {
     text-align: center;
     padding-top: 10px;
 }
