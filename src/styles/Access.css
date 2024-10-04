@@ -4,7 +4,6 @@
 .text h2 {
     font-size: 32px;
     font-weight: 700;
-
     position: relative;
     margin: 2em;
 }
@@ -12,7 +11,12 @@
 .text h3 {
     font-size: 24pt;
     position: relative;
-    margin: 1em;   
+    margin: 1em;
+    
+}
+
+.way-span {
+    background: linear-gradient(transparent 60%, #ffff66 60%);
 }
 
 .text p {
@@ -46,8 +50,16 @@
 
 .table p {
     text-align: right;
+    color: blue;
 }
 
 .map {
     margin-top: 2em;
+}
+
+.gmap_iframe{
+    aspect-ratio: 16 / 9;
+    max-width: 1000px;
+    width: 100%;
+    height: auto;
 }
