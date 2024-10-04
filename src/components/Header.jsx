@@ -48,7 +48,9 @@ export const Header = () => {
                         <span></span>
                     </button>
                     <div
-                        className={`${open ? "active-nav-list" : "none-nav-list"}`}
+                        className={`${
+                            open ? "active-nav-list" : "none-nav-list"
+                        }`}
                     >
                         <ul>
                             <Link to="/">

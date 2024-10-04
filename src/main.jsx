@@ -9,6 +9,7 @@ import { Home } from "./pages/Home";
 import { Guest } from "./components/Guest";
 import { Access } from "./pages/Access";
 import { Funding } from "./pages/Founding";
+import { PosterList } from "./pages/PosterList";
 
 const router = createBrowserRouter([
     {
@@ -34,6 +35,10 @@ const router = createBrowserRouter([
             {
                 path: "/funding",
                 element: <Funding />,
+            },
+            {
+                path: "/poster",
+                element: <PosterList />,
             },
         ],
     },

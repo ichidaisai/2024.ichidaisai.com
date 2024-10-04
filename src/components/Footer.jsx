@@ -22,7 +22,7 @@ export const Footer = () => {
                         </p>
                         <p>電子メール: ichidaisai@outlook.jp</p>
                     </div>
-                    <p>&copy; 2024 広島市立大学 大学祭実行委員会</p>
+                    {/* <p>&copy; 2024 広島市立大学 大学祭実行委員会</p> */}
                 </div>
                 <div className="footer-sns">
                     <h3>SNS で実行委員会をフォロー</h3>
@@ -42,6 +42,8 @@ export const Footer = () => {
                     </Link>
                 </div>
             </div>
+
+            <p className="copy">&copy; 2024 広島市立大学 大学祭実行委員会</p>
         </footer>
     );
 };
