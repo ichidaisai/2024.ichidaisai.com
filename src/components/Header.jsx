@@ -23,7 +23,7 @@ export const Header = () => {
                         <Link to="/guest">
                             <li>GUEST</li>
                         </Link>
-                        <Link to="/pending">
+                        <Link to="/stage">
                             <li>STAGE</li>
                         </Link>
                         <Link to="/pending">
@@ -59,7 +59,7 @@ export const Header = () => {
                             <Link to="/guest">
                                 <li>GUEST</li>
                             </Link>
-                            <Link to="/pending">
+                            <Link to="/stage">
                                 <li>STAGE</li>
                             </Link>
                             <Link to="/pending">
