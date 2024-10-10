@@ -1,57 +1,64 @@
 import "../styles/Funding.css";
-import funding_img from "../assets/funding_btn.png";
 import { Link } from "react-router-dom";
+
+import funding_img from "../assets/funding_btn.png";
+import ichi1 from "../assets/ichipoppo/106001.png";
+import ichi2 from "../assets/ichipoppo/102002.png";
+import ichi3 from "../assets/ichipoppo/106003.png";
+
 
 export const Funding = () => {
     return (
         <div className="funding">
-            <p>クラウドファンディングに挑戦します！</p>
             <p>
+                クラウドファンディングに挑戦します！
+                <br />
                 今年初の試みとして、市大祭はより一層の盛り上がりを目指して、クラウドファンディングに挑戦します！
-            </p>
-            <p>
+                <br />
                 あなたのご支援が、学生たちの熱い思いを形にする大きな力になります！
-            </p>
-            <p>
+                <br />
                 ぜひ、皆さまの温かいご支援を、どうぞよろしくお願いいたします！
+                <br />
+                期間やリターンなどの詳しい内容はこちらをクリック！
+                <br />
             </p>
-            <p>期間やリターンなどの詳しい内容はこちらをクリック！</p>
 
-            <Link to="https://tarubo.en-jine.com/projects/ichidaisaithirtyfirst?p_token=61fa3df42d1f409cb1d9d658c5da343b">
+            {/* <Link to="https://tarubo.en-jine.com/projects/ichidaisaithirtyfirst?p_token=61fa3df42d1f409cb1d9d658c5da343b">
                 <img src={funding_img} alt="" className="funding-btn" />
-            </Link>
+            </Link> */}
 
-            <p>今年の大学祭のテーマは、『Spawn!』です。</p>
+            <Link
+                style={{ textDecoration: "none" }}
+                to="https://tarubo.en-jine.com/projects/ichidaisaithirtyfirst?p_token=61fa3df42d1f409cb1d9d658c5da343b"
+            >
+                <button className="btn">クラファンページはこちら</button>
+            </Link>
             <p>
-                このテーマには新たな挑戦や成長、そして皆さんと共に
-                化学反応を起こすという強い思いが込められています。
+                クラウドファンディングで市大祭を支援し、外部ゲストを招きませんか？！
+                <br />
+                今年の大学祭のテーマは『Spawn!』です。
+                <br />
+                このテーマには、新たな挑戦や成長、そして皆さんと共に「化学反応」を起こしたいという強い思いが込められています。
+                <br />
+                今年は学生同士だけでなく、幅広い世代が楽しめるイベントや、地域の子どもたちに喜んでもらえる企画を数多く用意しています！
+                <br />
+                しかし、運営資金はOBOG（卒業生）後援会や企業様からの協賛金に支えられているものの、新たな取り組みが多い今年は特に資金面での課題があります。
+                <br />
+                31年目を迎える市大祭を成功させ、これからも長く続く大学祭を作り上げるために、ぜひ皆さまのご支援をお願いいたします。
             </p>
-            <p>
-                今年のテーマに沿って本学の学生間のみならず
-                幅広い世代の交流の場を提供する地域密着型の大学祭を
-                目指しています！
-            </p>
-            <p>
-                地域の子供たちに喜んでもらえるお祭りにするために屋台や、
-                お化け屋敷、ビンゴ大会など毎年おこなっているものに
-                加えて、今年は顔ハメパネルやスタンプラリーなどなど！
-            </p>
-            <p>実行委員初の試みとなるイベントを企画しています！</p>
-            <p>
-                市大祭はOBOGの方々が所属する後援会からの寄付金、
-                企業様からの協賛で運営しております。
-            </p>
-            <p>
-                上記の通り今年は特により多くの方々を招き
-                楽しんでもらえるよう、今年は例年以上に学外から
-                多くの方をお招きし、市大祭を楽しんでもらえるよう
-                尽力しておりますが、運営資金において苦悩しているのが現状です。
-            </p>
-            <p>
-                31年目を迎える市大祭を成功させ、
-                学校とともに永続する大学祭を作り上げるために、
-                ご支援、応援、シェアなどなどしていただけたら嬉しいです！
-            </p>
+
+            <div className="ichipoppo-funding">
+                <div>
+                    <img src={ichi3}/>
+                </div>
+                <div>
+                    <img src={ichi1}/>
+                </div>
+                <div>
+                    <img src={ichi2}/>
+                </div>
+            </div>
+            
         </div>
     );
 };

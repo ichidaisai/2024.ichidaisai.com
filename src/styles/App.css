@@ -62,7 +62,7 @@ footer {
     background-repeat: no-repeat;
     overflow: hidden;
     border-top: 1px solid #ccc;
-    margin-top: 3em;
+    /* margin-top: 3em; */
     padding-top: 3em;
     padding-bottom: 2em;
     place-items: center;
