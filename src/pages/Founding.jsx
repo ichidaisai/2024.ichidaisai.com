@@ -6,7 +6,6 @@ import ichi1 from "../assets/ichipoppo/106001.png";
 import ichi2 from "../assets/ichipoppo/102002.png";
 import ichi3 from "../assets/ichipoppo/106003.png";
 
-
 export const Funding = () => {
     return (
         <div className="funding">
@@ -49,16 +48,15 @@ export const Funding = () => {
 
             <div className="ichipoppo-funding">
                 <div>
-                    <img src={ichi3}/>
+                    <img src={ichi3} />
                 </div>
                 <div>
-                    <img src={ichi1}/>
+                    <img src={ichi1} />
                 </div>
                 <div>
-                    <img src={ichi2}/>
+                    <img src={ichi2} />
                 </div>
             </div>
-            
         </div>
     );
 };
