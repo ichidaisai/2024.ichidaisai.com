@@ -13,19 +13,18 @@ export const Stage = () => {
                 </Scroll>
                 <Scroll to="day2" smooth={true} offset={-80}>
                     <span>DAY2</span>
-                </Scroll>            
+                </Scroll>
             </div>
             <div className="stage_main">
                 <div className="day1">
                     <h3>１日目</h3>
-                    <img src={time_table_1day} alt="10/26のタイムテーブル"/>
+                    <img src={time_table_1day} alt="10/26のタイムテーブル" />
                 </div>
                 <div className="day2">
                     <h3>２日目</h3>
-                    <img src={time_table_2day} alt="10/27のタイムテーブル"/>
+                    <img src={time_table_2day} alt="10/27のタイムテーブル" />
                 </div>
-                
-            </div>    
+            </div>
         </div>
-    )
-}
+    );
+};

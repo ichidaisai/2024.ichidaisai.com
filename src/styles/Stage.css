@@ -1,4 +1,4 @@
-.stage h2{
+.stage h2 {
     font-size: 32px;
     font-weight: 700;
     position: relative;
@@ -49,20 +49,20 @@
     border-radius: 1px;
 }
 
-.stage span{
+.stage span {
     background-color: rgb(170, 170, 170);
     color: white;
     margin: 0.05em;
     padding: 20px 80px;
 }
 
-.stage span:hover{
-    background-color: rgb(250,57,94);
+.stage span:hover {
+    background-color: rgb(250, 57, 94);
     color: white;
     text-decoration-line: none;
 }
 
-.stage_item{
+.stage_item {
     z-index: 1;
     text-align: center;
     position: sticky;
@@ -70,12 +70,12 @@
     margin: 1em;
 }
 
-.stage img{
+.stage img {
     width: 65%;
     height: 65%;
     margin-bottom: 5em;
 }
 
-.stage_main{
+.stage_main {
     text-align: center;
 }
