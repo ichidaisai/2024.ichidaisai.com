@@ -7,14 +7,13 @@
     margin: 10px 0;
 }
 
-.tyuuizikou {
-    width: 80%;
+.notice {
+    width: 90%;
     margin: 0 auto;
 }
 
-.tyuuizikou p {
+.notice p {
     font-weight: bold;
-    /* text-align: center; */
 }
 .notice-picture {
     display: flex;
@@ -24,7 +23,18 @@
     height: auto;
 }
 .notice-picture img {
+    margin-bottom: 20px;
     max-width: 100%;
     height: auto;
     width: 200px;
+}
+.text {
+    line-height: 1.5em;
+    background-color: #eee;
+    padding: 20px;
+}
+
+.bus-schedule {
+    padding-top: 10px;
+    text-decoration: underline;
 }
