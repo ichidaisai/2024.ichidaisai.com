@@ -1,17 +1,30 @@
 .funding {
-    font-size: 20px;
-    font-weight: bold;
-    background-image: url(../assets/funding_background.png);
-    background-repeat: no-repeat;
-    background-size: 50%;
-    background-position-x: right;
-    background-position-y: bottom;
-    background-color: rgba(255, 255, 255, 0.8);
-    background-blend-mode: lighten;
+    font-size: 0.9em;
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px 20px 0 20px;
 }
 .funding p {
-    margin-bottom: 10px;
+    line-height: 2em;
+    text-align: center;
 }
 .funding-btn {
-    width: 50%;
+    width: 40%;
+}
+
+.funding .btn {
+    font-size: 0.95em;
+}
+
+.ichipoppo-funding {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: auto;
+    height: auto;
+}
+.ichipoppo-funding img {
+    height: auto;
+    width: 88%;
+    padding: 20px 3%;
 }
