@@ -26,14 +26,14 @@ export const Footer = () => {
                 </div>
                 <div className="footer-sns">
                     <h3>SNS で実行委員会をフォロー</h3>
-                    <Link href="#">
+                    <Link to="https://x.com/ichidai_sai">
                         <img
                             src={xLogo}
                             alt="ichidaisai-x"
                             className="sns-icon"
                         ></img>
                     </Link>
-                    <Link href="#">
+                    <Link to="https://www.instagram.com/ichidai_sai/">
                         <img
                             src={instagramLogo}
                             alt="ichidaisai-instagram"
