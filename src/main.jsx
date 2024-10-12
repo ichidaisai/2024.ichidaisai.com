@@ -31,7 +31,7 @@ const router = createBrowserRouter([
             },
             {
                 path: "/access",
-                element: <Access />
+                element: <Access />,
             },
             {
                 path: "/funding",
