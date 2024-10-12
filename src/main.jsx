@@ -7,6 +7,7 @@ import { Pending } from "./components/Pending";
 import Layout from "./Layout";
 import { Home } from "./pages/Home";
 import { Guest } from "./components/Guest";
+import { Access } from "./pages/Access";
 import { Funding } from "./pages/Founding";
 import { PosterList } from "./pages/PosterList";
 import { Stage } from "./pages/Stage";
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
             {
                 path: "/guest",
                 element: <Guest />,
+            },
+            {
+                path: "/access",
+                element: <Access />,
             },
             {
                 path: "/funding",
