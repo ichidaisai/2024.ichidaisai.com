@@ -5,13 +5,12 @@
     padding: 40px 20px 0 20px;
 }
 .funding p {
-    font-weight:bold;
-    font-size: 1.0em;
+    font-weight: bold;
+    font-size: 1em;
     line-height: 2em;
     text-align: center;
 }
 .funding a {
-    
     line-height: 2em;
     text-align: center;
 }
