@@ -108,3 +108,9 @@
     color: white;
     text-decoration-line: none;
 }
+
+.colored {
+    color: #ed2b64;
+    font-weight: bold;
+    line-height: 1.2;
+}
