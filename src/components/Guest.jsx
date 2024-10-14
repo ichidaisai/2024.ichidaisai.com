@@ -4,7 +4,9 @@ import guest_cover from "../assets/guest_cover.jpg";
 export const Guest = () => {
     return (
         <div className="guest">
-            <h2><span className="colored">ゲ</span>ストステージ</h2>
+            <h2>
+                <span className="colored">ゲ</span>ストステージ
+            </h2>
             <div className="lead_container center">
                 <p className="lead">
                     今年のゲストは<span>Arakezuri</span>に決定！
