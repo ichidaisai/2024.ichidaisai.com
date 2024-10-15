@@ -9,6 +9,7 @@ import { Home } from "./pages/Home";
 import { Guest } from "./components/Guest";
 import { Funding } from "./pages/Founding";
 import { PosterList } from "./pages/PosterList";
+import { Map } from "./pages/Map";
 
 const router = createBrowserRouter([
     {
@@ -34,6 +35,10 @@ const router = createBrowserRouter([
             {
                 path: "/poster",
                 element: <PosterList />,
+            },
+            {
+                path: "/map",
+                element: <Map />,
             },
         ],
     },

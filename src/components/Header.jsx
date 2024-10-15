@@ -26,7 +26,7 @@ export const Header = () => {
                         <Link to="/pending">
                             <li>STAGE</li>
                         </Link>
-                        <Link to="/pending">
+                        <Link to="/map">
                             <li>MAP</li>
                         </Link>
                         <Link to="/pending">
