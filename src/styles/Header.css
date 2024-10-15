@@ -17,7 +17,7 @@ header .header-logo {
     align-items: center;
 }
 
-.nav-list li{
+.nav-list li {
     height: 100px;
     padding: 35px 0;
     width: 100px;
@@ -72,7 +72,7 @@ header .nav-list a:hover {
         transition: all 0.5s;
     }
 
-    .toggle_btn.active span{
+    .toggle_btn.active span {
         background-color: #ffffff;
     }
 
@@ -89,8 +89,6 @@ header .nav-list a:hover {
         -webkit-transform: translateY(-10px) rotate(45deg);
         transform: translateY(-10px) rotate(45deg);
     }
-
-
 
     .mask {
         display: block;
@@ -126,13 +124,13 @@ header .nav-list a:hover {
         padding: 2em;
     }
 
-    .active-nav-list ul li{
+    .active-nav-list ul li {
         padding: 1.8em;
         display: flex;
         font-weight: bold;
     }
 
-    .active-nav-list ul li{
+    .active-nav-list ul li {
         padding: 1.8em;
         display: flex;
         font-weight: bold;
@@ -143,8 +141,8 @@ header .nav-list a:hover {
         text-decoration: none;
     }
 
-    .active-nav-list ul li .right{
-        transform: translateY(-2px); 
+    .active-nav-list ul li .right {
+        transform: translateY(-2px);
         margin-left: auto;
     }
 
