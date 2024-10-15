@@ -42,7 +42,7 @@
 }
 
 .guest h2:before {
-    content: "";
+    content: '';
     position: absolute;
     display: inline-block;
 
@@ -59,7 +59,7 @@
 }
 
 .guest h3:before {
-    content: "";
+    content: '';
     position: absolute;
     display: inline-block;
 

@@ -1,6 +1,6 @@
-import { Link } from "react-router-dom";
-import xLogo from "../assets/x_logo.png";
-import instagramLogo from "../assets/instagram_logo.png";
+import { Link } from 'react-router-dom'
+import xLogo from '../assets/x_logo.png'
+import instagramLogo from '../assets/instagram_logo.png'
 
 export const Footer = () => {
     return (
@@ -45,5 +45,5 @@ export const Footer = () => {
 
             <p className="copy">&copy; 2024 広島市立大学 大学祭実行委員会</p>
         </footer>
-    );
-};
+    )
+}

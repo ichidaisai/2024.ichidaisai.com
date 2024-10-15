@@ -30,7 +30,7 @@ footer {
     padding-top: 3em;
     padding-bottom: 2em;
     place-items: center;
-    background-image: url("../assets/footer.png");
+    background-image: url('../assets/footer.png');
 }
 
 footer .footer-content {

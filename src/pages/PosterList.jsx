@@ -1,4 +1,4 @@
-import "../styles/PosterList.css";
+import '../styles/PosterList.css'
 
 export const PosterList = () => {
     return (
@@ -27,5 +27,5 @@ export const PosterList = () => {
                 仁保教室 明光義塾 横川駅前教室 明光義塾 安芸中野東教室
             </div>
         </>
-    );
-};
+    )
+}
