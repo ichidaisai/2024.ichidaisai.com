@@ -1,13 +1,13 @@
-import "../styles/NoticeList.css";
-import nosake from "../assets/nosake.png";
-import kinen from "../assets/kinen.png";
-import nopet from "../assets/nopet.png";
+import '../styles/NoticeList.css'
+import nosake from '../assets/nosake.png'
+import kinen from '../assets/kinen.png'
+import nopet from '../assets/nopet.png'
 
 export const NoticeList = () => {
-    const pdfDownloadUrl = "public/2024102627.pdf";
+    const pdfDownloadUrl = 'public/2024102627.pdf'
     const handleClick = () => {
-        window.open(pdfDownloadUrl, "_blank");
-    };
+        window.open(pdfDownloadUrl, '_blank')
+    }
 
     return (
         <>
@@ -46,7 +46,7 @@ export const NoticeList = () => {
                         バスの増便に関する詳しい情報は、こちらをご覧ください。
                         <div
                             className="bus-schedule"
-                            style={{ cursor: "pointer" }}
+                            style={{ cursor: 'pointer' }}
                             onClick={handleClick}
                         >
                             ＞広島市立大学10/26,27臨時時刻表
@@ -55,5 +55,5 @@ export const NoticeList = () => {
                 </div>
             </div>
         </>
-    );
-};
+    )
+}

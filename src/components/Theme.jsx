@@ -1,4 +1,4 @@
-import "../styles/Theme.css";
+import '../styles/Theme.css'
 export const Theme = () => {
     return (
         <>
@@ -21,5 +21,5 @@ export const Theme = () => {
                 </div>
             </div>
         </>
-    );
-};
+    )
+}

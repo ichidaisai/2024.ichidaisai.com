@@ -1,9 +1,9 @@
-import "../styles/Funding.css";
-import { Link } from "react-router-dom";
+import '../styles/Funding.css'
+import { Link } from 'react-router-dom'
 
-import ichi1 from "../assets/ichipoppo/106001.png";
-import ichi2 from "../assets/ichipoppo/102002.png";
-import ichi3 from "../assets/ichipoppo/106003.png";
+import ichi1 from '../assets/ichipoppo/106001.png'
+import ichi2 from '../assets/ichipoppo/102002.png'
+import ichi3 from '../assets/ichipoppo/106003.png'
 
 export const Funding = () => {
     return (
@@ -21,9 +21,8 @@ export const Funding = () => {
                 <br />
             </p>
 
-
             <Link
-                style={{ textDecoration: "none" }}
+                style={{ textDecoration: 'none' }}
                 to="https://tarubo.en-jine.com/projects/ichidaisaithirtyfirst?p_token=61fa3df42d1f409cb1d9d658c5da343b"
             >
                 <button className="btn">クラファンページはこちら</button>
@@ -54,5 +53,5 @@ export const Funding = () => {
                 </div>
             </div>
         </div>
-    );
-};
+    )
+}

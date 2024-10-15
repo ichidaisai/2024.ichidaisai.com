@@ -1,14 +1,14 @@
-import "../styles/Header.css";
-import { useState } from "react";
-import { Link } from "react-router-dom";
-import ichidaisai_logo_512 from "../assets/ichidaisai_logo_512.png";
-import { SlArrowRight } from "react-icons/sl";
+import '../styles/Header.css'
+import { useState } from 'react'
+import { Link } from 'react-router-dom'
+import ichidaisai_logo_512 from '../assets/ichidaisai_logo_512.png'
+import { SlArrowRight } from 'react-icons/sl'
 
 export const Header = () => {
-    const [open, setOpen] = useState(false);
+    const [open, setOpen] = useState(false)
     const handleOpen = () => {
-        setOpen(!open);
-    };
+        setOpen(!open)
+    }
     return (
         <header>
             <img
@@ -18,7 +18,7 @@ export const Header = () => {
             />
 
             <nav>
-                <ul className={`nav-list ${open ? "open" : ""}`}>
+                <ul className={`nav-list ${open ? 'open' : ''}`}>
                     <Link to="/">
                         <li>HOME</li>
                     </Link>
@@ -43,7 +43,7 @@ export const Header = () => {
                 </ul>
 
                 <div
-                    className={`toggle_btn ${open ? "active" : ""}`}
+                    className={`toggle_btn ${open ? 'active' : ''}`}
                     onClick={handleOpen}
                     id="btn"
                 >
@@ -53,9 +53,7 @@ export const Header = () => {
                 </div>
 
                 <div
-                    className={`nav-menu ${
-                        open ? "active-nav-list" : "none-nav-list"
-                    }`}
+                    className={`nav-menu ${open ? 'active-nav-list' : 'none-nav-list'}`}
                 >
                     <ul>
                         <Link to="/">
@@ -117,10 +115,10 @@ export const Header = () => {
                     </ul>
                 </div>
                 <div
-                    className={`${open ? "mask" : "mask-none"}`}
+                    className={`${open ? 'mask' : 'mask-none'}`}
                     onClick={handleOpen}
                 ></div>
             </nav>
         </header>
-    );
-};
+    )
+}

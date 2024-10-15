@@ -1,7 +1,7 @@
-import "../styles/Stage.css";
-import time_table_1day from "../assets/TimeTable_1026.png";
-import time_table_2day from "../assets/TimeTable_1027.png";
-import { Link as Scroll } from "react-scroll";
+import '../styles/Stage.css'
+import time_table_1day from '../assets/TimeTable_1026.png'
+import time_table_2day from '../assets/TimeTable_1027.png'
+import { Link as Scroll } from 'react-scroll'
 
 export const Stage = () => {
     return (
@@ -26,5 +26,5 @@ export const Stage = () => {
                 </div>
             </div>
         </div>
-    );
-};
+    )
+}

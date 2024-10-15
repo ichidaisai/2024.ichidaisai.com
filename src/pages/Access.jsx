@@ -1,4 +1,4 @@
-import "../styles/Access.css";
+import '../styles/Access.css'
 
 export const Access = () => {
     return (
@@ -44,5 +44,5 @@ export const Access = () => {
                 ></iframe>
             </div>
         </div>
-    );
-};
+    )
+}

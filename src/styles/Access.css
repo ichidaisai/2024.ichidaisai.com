@@ -26,7 +26,7 @@
 }
 
 .text h2:before {
-    content: "";
+    content: '';
     position: absolute;
     display: inline-block;
 
