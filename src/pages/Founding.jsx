@@ -1,7 +1,6 @@
 import "../styles/Funding.css";
 import { Link } from "react-router-dom";
 
-import funding_img from "../assets/funding_btn.png";
 import ichi1 from "../assets/ichipoppo/106001.png";
 import ichi2 from "../assets/ichipoppo/102002.png";
 import ichi3 from "../assets/ichipoppo/106003.png";
@@ -22,9 +21,6 @@ export const Funding = () => {
                 <br />
             </p>
 
-            {/* <Link to="https://tarubo.en-jine.com/projects/ichidaisaithirtyfirst?p_token=61fa3df42d1f409cb1d9d658c5da343b">
-                <img src={funding_img} alt="" className="funding-btn" />
-            </Link> */}
 
             <Link
                 style={{ textDecoration: "none" }}
