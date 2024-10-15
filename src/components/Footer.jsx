@@ -1,6 +1,6 @@
-import { Link } from "react-router-dom";
-import xLogo from "../assets/x_logo.png";
-import instagramLogo from "../assets/instagram_logo.png";
+import { Link } from 'react-router-dom'
+import xLogo from '../assets/x_logo.png'
+import instagramLogo from '../assets/instagram_logo.png'
 
 export const Footer = () => {
     return (
@@ -22,18 +22,18 @@ export const Footer = () => {
                         </p>
                         <p>電子メール: ichidaisai@outlook.jp</p>
                     </div>
-                    <p>&copy; 2024 広島市立大学 大学祭実行委員会</p>
+                    {/* <p>&copy; 2024 広島市立大学 大学祭実行委員会</p> */}
                 </div>
                 <div className="footer-sns">
                     <h3>SNS で実行委員会をフォロー</h3>
-                    <Link href="#">
+                    <Link to="https://x.com/ichidai_sai">
                         <img
                             src={xLogo}
                             alt="ichidaisai-x"
                             className="sns-icon"
                         ></img>
                     </Link>
-                    <Link href="#">
+                    <Link to="https://www.instagram.com/ichidai_sai/">
                         <img
                             src={instagramLogo}
                             alt="ichidaisai-instagram"
@@ -42,6 +42,8 @@ export const Footer = () => {
                     </Link>
                 </div>
             </div>
+
+            <p className="copy">&copy; 2024 広島市立大学 大学祭実行委員会</p>
         </footer>
-    );
-};
+    )
+}

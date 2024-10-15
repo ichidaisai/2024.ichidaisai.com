@@ -1,41 +1,56 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-import "reset-css/reset.css";
-import "./styles/App.css";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import { Pending } from "./components/Pending";
-import Layout from "./Layout";
-import { Home } from "./pages/Home";
-import { Guest } from "./components/Guest";
-import { Funding } from "./pages/Founding";
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import 'reset-css/reset.css'
+import './styles/App.css'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { Pending } from './components/Pending'
+import Layout from './Layout'
+import { Home } from './pages/Home'
+import { Guest } from './components/Guest'
+import { Access } from './pages/Access'
+import { Funding } from './pages/Founding'
+import { PosterList } from './pages/PosterList'
+import { Stage } from './pages/Stage'
 
 const router = createBrowserRouter([
     {
-        path: "/",
+        path: '/',
         element: <Layout />,
         children: [
             {
-                path: "/",
+                path: '/',
                 element: <Home />,
             },
             {
-                path: "/pending",
+                path: '/pending',
                 element: <Pending />,
             },
             {
-                path: "/guest",
+                path: '/guest',
                 element: <Guest />,
             },
             {
-                path: "/funding",
+                path: '/access',
+                element: <Access />,
+            },
+            {
+                path: '/funding',
                 element: <Funding />,
+            },
+            {
+                path: '/poster',
+                element: <PosterList />,
+            },
+            {
+                path: '/stage',
+                element: <Stage />,
             },
         ],
     },
-]);
+])
 
-ReactDOM.createRoot(document.getElementById("root")).render(
+ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
         <RouterProvider router={router} />
-    </React.StrictMode>,
-);
+    </React.StrictMode>
+)

@@ -6,15 +6,19 @@
     "scripts": {
         "dev": "vite",
         "build": "vite build",
+        "format": "prettier --write ./src",
         "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
         "preview": "vite preview"
     },
     "dependencies": {
         "bootstrap": "^5.3.3",
+        "prettier": "^3.3.3",
         "react": "^18.2.0",
         "react-bootstrap": "^2.10.3",
         "react-dom": "^18.2.0",
+        "react-icons": "^5.3.0",
         "react-router-dom": "^6.25.1",
+        "react-scroll": "^1.9.0",
         "reset-css": "^5.0.2"
     },
     "devDependencies": {

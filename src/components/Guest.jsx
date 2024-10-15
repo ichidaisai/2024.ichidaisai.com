@@ -1,5 +1,5 @@
-import "../styles/Guest.css";
-import guest_cover from "../assets/guest_cover.jpg";
+import '../styles/Guest.css'
+import guest_cover from '../assets/guest_cover.jpg'
 
 export const Guest = () => {
     return (
@@ -51,5 +51,5 @@ export const Guest = () => {
                 </a>
             </div>
         </div>
-    );
-};
+    )
+}
