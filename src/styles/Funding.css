@@ -5,6 +5,12 @@
     padding: 40px 20px 0 20px;
 }
 .funding p {
+    font-weight: bold;
+    font-size: 1em;
+    line-height: 2em;
+    text-align: center;
+}
+.funding a {
     line-height: 2em;
     text-align: center;
 }
@@ -13,7 +19,7 @@
 }
 
 .funding .btn {
-    font-size: 0.95em;
+    font-size: 1.25em;
 }
 
 .ichipoppo-funding {
