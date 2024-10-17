@@ -4,7 +4,28 @@
     margin: 0 auto;
     padding: 40px 20px 0 20px;
 }
+.funding h2 {
+    font-size: 32px;
+    font-weight:bold;
+    font-weight: 700;
+    text-align: center;
+}
+.funding h3 {
+    font-size: 32px;
+    font-weight:bold;
+    font-weight: 700;
+    position: relative;
+    line-height: 1em;
+    text-align: center;
+}
 .funding p {
+    font-weight:bold;
+    font-size: 1.0em;
+    line-height: 2em;
+    text-align: center;
+}
+.funding a {
+    
     line-height: 2em;
     text-align: center;
 }
@@ -27,4 +48,20 @@
     height: auto;
     width: 88%;
     padding: 20px 3%;
+}
+.funding h3:before {
+    content: '';
+    position: absolute;
+    display: inline-block;
+
+    bottom: -25px;
+
+    width: 60px;
+    height: 5px;
+    left: 50%;
+
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background-color: black;
+    border-radius: 2px;
 }
