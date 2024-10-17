@@ -6,26 +6,25 @@
 }
 .funding h2 {
     font-size: 32px;
-    font-weight:bold;
+    font-weight: bold;
     font-weight: 700;
     text-align: center;
 }
 .funding h3 {
     font-size: 32px;
-    font-weight:bold;
+    font-weight: bold;
     font-weight: 700;
     position: relative;
     line-height: 1em;
     text-align: center;
 }
 .funding p {
-    font-weight:bold;
-    font-size: 1.0em;
+    font-weight: bold;
+    font-size: 1em;
     line-height: 2em;
     text-align: center;
 }
 .funding a {
-    
     line-height: 2em;
     text-align: center;
 }

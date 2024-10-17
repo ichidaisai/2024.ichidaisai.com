@@ -8,8 +8,8 @@ import ichi3 from '../assets/ichipoppo/106003.png'
 export const Funding = () => {
     return (
         <div className="funding">
-        <h2>クラウドファンディングに</h2>
-        <h3>挑戦します！</h3>
+            <h2>クラウドファンディングに</h2>
+            <h3>挑戦します！</h3>
             <p>
                 <br />
                 今年初の試みとして、市大祭はより一層の盛り上がりを目指して、クラウドファンディングに挑戦します！
@@ -54,6 +54,5 @@ export const Funding = () => {
                 </div>
             </div>
         </div>
-        
     )
 }
