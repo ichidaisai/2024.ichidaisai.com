@@ -2,14 +2,44 @@
     background-color: rgb(255, 255, 255);
 }
 */
-.geijutsu1 h2 {
-    border-bottom: 2px solid #e80ca6;
+.mogi {
+    margin: 50px;
+}
+.mogi h3 {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    border-bottom: 3px solid #e80ca6;
     display: inline-block;
     padding-bottom: 5px; /* 下の余白を調整 */
 }
-.geijutsu1 img {
+.mogi-a-map{
+    margin: 30px;
+}
+.mogi-map {
     max-width: 100%;
     height: auto;
-    width: 500px;
+    width: 800px;
     display: block;
+}
+.mogi-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 3px solid #ffffff;
+    position: relative;
+}
+.mogi-icon img {
+    margin-right: 5%;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    height: auto;
+    width: 30%;
+}
+.mogi-icon p {
+    position: absolute;
+    top: -20px;
+    left: 300px;
+    /* background-color: rgba(255, 255, 255, 0.644); */
 }
