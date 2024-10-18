@@ -1,20 +1,11 @@
-/*.pending {
-    background-color: rgb(255, 255, 255);
-}
-*/
-.mogi {
-    margin: 50px;
-}
-.mogi h3 {
+.MAP h3 {
+    margin: 30px;
     font-size: 20px;
     font-family: sans-serif;
     font-weight: bold;
     border-bottom: 3px solid #e80ca6;
     display: inline-block;
     padding-bottom: 5px; /* 下の余白を調整 */
-}
-.mogi-a-map{
-    margin: 30px;
 }
 .mogi-map {
     max-width: 100%;
@@ -41,5 +32,65 @@
     position: absolute;
     top: -20px;
     left: 300px;
-    /* background-color: rgba(255, 255, 255, 0.644); */
+    background-color: rgba(255, 255, 255, 0.644);
+}
+.gakuseikaikan ,.koudou ,.jouhoutou1f ,.kougitou{
+    display: block;
+}
+.gakuseikaikan img {
+    display: flex;
+    margin-top: 50px;
+}
+.kougitou1f-map {
+    display: block;
+    /* margin-top: 30px; */
+    height: auto;
+    width: 300px;
+}
+.kougitou3f-map {
+    display: flex;
+    height: auto;
+    width: 600px;
+}
+.kokusai-map ,.geijutu-map {
+    display: block;
+    height: auto;
+    width: 800px;
+}
+.geijutu1f2f-map {
+    display: block;
+    height: auto;
+    width: 500px;
+}
+.geijutu3f-map {
+    display: block;
+    height: auto;
+    width: 700px;
+}
+.cafe1-map {
+    /* margin: 30px; */
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    width: 400px;
+}
+.cafe-icon {
+    margin-top: 30px;
+    max-width: 100%;
+    height: auto;
+    width: 30%;
+    position: relative;
+    /* float: left; */
+}
+.cafe-icon img {
+    flex-wrap: wrap;
+    height: auto;
+    width: 200px;
+}
+.cafe-icon p {
+    position: absolute;
+    font-size: 30px;
+    top: -0px;
+    left: -35px;
+    background-color: rgb(255, 255, 255);
 }
