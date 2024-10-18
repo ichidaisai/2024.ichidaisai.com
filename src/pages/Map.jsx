@@ -34,12 +34,12 @@ import rossoebianco from "../assets/cafe_icon/rossoebianco.png";
 import sadoubu from "../assets/cafe_icon/sadoubu.png";
 import shabondama from "../assets/cafe_icon/shabondama.png";
 import tenmon from "../assets/cafe_icon/tenmon.png";
-
-import abyad from "../assets/cafe_icon/abiyad.png";
+//芸術1，2階
+import abyad from "../assets/cafe_icon/abyad.png";
 import babu from "../assets/cafe_icon/babu.png";
 import creative from "../assets/cafe_icon/creative.png";
 import dekoboko from "../assets/cafe_icon/dekoboko.png";
-import fashonshow from "../assets/cafe_icon/fashonshow.png";
+import fashionshow from "../assets/cafe_icon/fashionshow.png";
 import hachiri from "../assets/cafe_icon/hachiri.png";
 import koguma from "../assets/cafe_icon/koguma.png";
 import kotochamu from "../assets/cafe_icon/kotochamu.png";
@@ -47,6 +47,33 @@ import potesara from "../assets/cafe_icon/potesara.png";
 import shashinbu from "../assets/cafe_icon/shashinbu.png";
 import untitled from "../assets/cafe_icon/untitled.png";
 import urushi from "../assets/cafe_icon/uruuruurushi.png";
+//芸術3階
+import bijutsubu1 from "../assets/cafe_icon/bijutsubu.png";
+import happiness from "../assets/cafe_icon/happiness.png";
+import mochihako from "../assets/cafe_icon/mochihako.png";
+import mohebi from "../assets/cafe_icon/mohebi.png";
+import nainai from "../assets/cafe_icon/nainai.png";
+import omurauzu from "../assets/cafe_icon/omuraizu.png";
+import shimashimamo from "../assets/cafe_icon/shimashimamo.png";
+import uchucafe from "../assets/cafe_icon/uchucafe.png";
+//芸術4階
+import cuicui from "../assets/cafe_icon/cuicui.png";
+import kinkou from "../assets/cafe_icon/kinkou.png";
+import meyomeyo from "../assets/cafe_icon/meyomeyo.png";
+import tdcafe from "../assets/cafe_icon/tdcafe.png";
+import tea from "../assets/cafe_icon/tea.png";
+//芸術5階
+import choukoku from "../assets/cafe_icon/choukoku.png";
+import ichinari from "../assets/cafe_icon/ichinari.png";
+import koa from "../assets/cafe_icon/koa.png";
+import mimikiki from "../assets/cafe_icon/mimikiki.png";
+import nihongatenji from "../assets/cafe_icon/nihonga-tenji.png";
+import nihongayuushi from "../assets/cafe_icon/nihonga-yuushi.png";
+//芸術6階
+import drawers from "../assets/cafe_icon/drawers.png";
+import aburae2 from "../assets/cafe_icon/aburae2.png";
+import gesshitai from "../assets/cafe_icon/gesshitai.png";
+import sannenaburae from "../assets/cafe_icon/sannenaburae.png";
 
 //模擬アイコン画像
 import fest from "../assets/mogi_icon/mogi-a1.png";
@@ -67,7 +94,7 @@ import boy from "../assets/mogi_icon/mogi-a15.png";
 import chicken from "../assets/mogi_icon/mogi-a16.png";
 import flidaway from "../assets/mogi_icon/mogi-a17.png";
 import yakitori from "../assets/mogi_icon/mogi-a18.png";
-import bijutubu from "../assets/mogi_icon/mogi-b1.png";
+import bijutsubu2 from "../assets/mogi_icon/mogi-b1.png";
 import amyon from "../assets/mogi_icon/mogi-b2.png";
 import beads from "../assets/mogi_icon/mogi-b3.png";
 import ichigeki from "../assets/mogi_icon/mogi-b4.png";
@@ -178,7 +205,7 @@ export const Map = () => {
     const Bshops = [
         {
             title:"B1",
-            imgUrl:bijutubu,
+            imgUrl:bijutsubu2,
             state:""       
         },
         {
@@ -322,7 +349,7 @@ export const Map = () => {
         },
         {
             title:"➁",
-            imgUrl:fashonshow,
+            imgUrl:fashionshow,
             state:""
         },
         {
