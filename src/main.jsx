@@ -11,6 +11,7 @@ import { Access } from "./pages/Access";
 import { Funding } from "./pages/Founding";
 import { PosterList } from "./pages/PosterList";
 import { Stage } from "./pages/Stage";
+import { StampRally } from "./pages/StampRally";
 
 const router = createBrowserRouter([
     {
@@ -45,6 +46,10 @@ const router = createBrowserRouter([
                 path: "/stage",
                 element: <Stage />,
             },
+            {
+                path: "/stamprally",
+                element: <StampRally />,
+            },
         ],
     },
 ]);
@@ -52,5 +57,5 @@ const router = createBrowserRouter([
 ReactDOM.createRoot(document.getElementById("root")).render(
     <React.StrictMode>
         <RouterProvider router={router} />
-    </React.StrictMode>,
+    </React.StrictMode>
 );
