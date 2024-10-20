@@ -9,6 +9,10 @@ export const Header = () => {
     const handleOpen = () => {
         setOpen(!open)
     }
+
+    const closeMenu = () => {
+        setOpen(false)
+    }
     return (
         <header>
             <img
@@ -56,7 +60,7 @@ export const Header = () => {
                     className={`nav-menu ${open ? 'active-nav-list' : 'none-nav-list'}`}
                 >
                     <ul>
-                        <Link to="/">
+                        <Link to="/" onClick={closeMenu}>
                             <li>
                                 <span>HOME</span>
                                 <span className="right">
@@ -64,7 +68,7 @@ export const Header = () => {
                                 </span>
                             </li>
                         </Link>
-                        <Link to="/guest">
+                        <Link to="/guest" onClick={closeMenu}>
                             <li>
                                 <span className="left">GUEST</span>
                                 <span className="right">
@@ -72,7 +76,7 @@ export const Header = () => {
                                 </span>
                             </li>
                         </Link>
-                        <Link to="/stage">
+                        <Link to="/stage" onClick={closeMenu}>
                             <li>
                                 <span className="left">STAGE</span>
                                 <span className="right">
@@ -80,7 +84,7 @@ export const Header = () => {
                                 </span>
                             </li>
                         </Link>
-                        <Link to="/pending">
+                        <Link to="/pending" onClick={closeMenu}>
                             <li>
                                 <span className="left">MAP</span>
                                 <span className="right">
@@ -88,7 +92,7 @@ export const Header = () => {
                                 </span>
                             </li>
                         </Link>
-                        <Link to="/pending">
+                        <Link to="/pending" onClick={closeMenu}>
                             <li>
                                 <span className="left">ABOUT</span>
                                 <span className="right">
@@ -96,7 +100,7 @@ export const Header = () => {
                                 </span>
                             </li>
                         </Link>
-                        <Link to="/access">
+                        <Link to="/access" onClick={closeMenu}>
                             <li>
                                 <span className="left">ACCESS</span>
                                 <span className="right">
@@ -104,7 +108,7 @@ export const Header = () => {
                                 </span>
                             </li>
                         </Link>
-                        <Link to="/funding">
+                        <Link to="/funding" onClick={closeMenu}>
                             <li>
                                 <span className="left">FUNDING</span>
                                 <span className="right">
