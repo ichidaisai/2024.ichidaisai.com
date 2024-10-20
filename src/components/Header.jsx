@@ -14,10 +14,6 @@ export const Header = () => {
     const closeMenu = () => {
         setOpen(false)
     }
-    useEffect(() => {
-        closeMenu()
-    }, [location])
-
     return (
         <header>
             <img
