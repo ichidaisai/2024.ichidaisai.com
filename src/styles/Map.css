@@ -18,22 +18,24 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    flex-flow: column;
     border: 3px solid #ffffff;
     position: relative;
+    width: 100px;
 }
 .mogi-icon img {
     margin-right: 5%;
     margin-bottom: 20px;
     flex-wrap: wrap;
     height: auto;
-    width: 30%;
+
 }
-.mogi-icon p {
+/* .mogi-icon p {
     position: absolute;
     top: -20px;
     left: 300px;
     background-color: rgba(255, 255, 255, 0.644);
-}
+} */
 .gakuseikaikan ,.koudou ,.jouhoutou1f ,.kougitou{
     display: block;
 }
@@ -93,4 +95,13 @@
     top: -0px;
     left: -35px;
     background-color: rgb(255, 255, 255);
+}
+
+.mogi-a-div{
+    display: flex;
+    flex-wrap: wrap;
+}
+.gakuseikaikan-container{
+    display: flex;
+    justify-content: space-between;
 }

@@ -535,6 +535,7 @@ export const Map = () => {
                         <h3>模擬出店A</h3>
                         <img className="mogi-map" src={mogimap1} alt="模擬出店Aマップ" />
                     </div>}
+                    <div className="mogi-a-div">
                     {
                         Ashops.map((shopa)=>{
                         
@@ -546,6 +547,7 @@ export const Map = () => {
                             )
                         })
                     }
+                    </div>
                 </div>  
                 <div className="mogi-b">
                     {<div className="mogi-b-map">
@@ -569,21 +571,25 @@ export const Map = () => {
                 <div className="section-title">
                     <span>学生会館，講堂前，情報科学部棟，国際学部棟</span>
                 </div>
-                {<div className="gakuseikaikan">
+                <div className="gakuseikaikan">
                     <h3>学生会館</h3>
-                    <img className="cafe1-map" src={gakuseikaikanmap} alt="学生会館マップ" />
-                    {
-                        gakuseikaikan.map((shop1)=>{
- 
-                            return (
-                            <div className="cafe-icon">
-                                <p>{shop1.title}</p>
-                                <img src={shop1.imgUrl} alt="出店" />
-                            </div>
-                            )
-                        })
-                    }
-                </div>}
+                    <div className="gakuseikaikan-container">
+                        <img className="cafe1-map" src={gakuseikaikanmap} alt="学生会館マップ" />
+                        <div>
+                            {
+                                gakuseikaikan.map((shop1)=>{
+    
+                                    return (
+                                    <div className="cafe-icon">
+                                        <p>{shop1.title}</p>
+                                        <img src={shop1.imgUrl} alt="出店" />
+                                    </div>
+                                    )
+                                })
+                            }
+                        </div>
+                    </div>
+                </div>
                 {<div className="koudou">
                     <h3>講堂前</h3>
                     <img className="cafe1-map" src={koudoumap} alt="講堂前マップ" />
