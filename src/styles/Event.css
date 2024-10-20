@@ -22,10 +22,15 @@
 .event-icon {
     width: 100%;
     aspect-ratio: 1;
-    background-color: #f0f0f0;
 }
 
 .event-list .date {
     font-weight: bold;
     margin: 0.5em 0;
+}
+
+@media screen and (max-width: 428px) {
+    .event-description {
+        font-size: 12px;
+    }
 }
