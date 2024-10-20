@@ -4,7 +4,7 @@ import bingo_icon from '../assets/eventIcon/bingo_icon.png'
 import karimono_icon from '../assets/eventIcon/karimono_icon.png'
 import kehaigiri_icon from '../assets/eventIcon/kehaigiri_icon.png'
 import nodojiman_icon from '../assets/eventIcon/nodojiman_icon.png'
-import stamp1 from '../assets/stamp1.png'
+import stamp_icon from '../assets/eventIcon/stamp_icon.png'
 
 const returnTop = () => {
     window.scrollTo({
@@ -42,7 +42,7 @@ export const Event = () => {
                     onClick={returnTop}
                 >
                     <div className="event-icon">
-                        <img src={stamp1} />
+                        <img src={stamp_icon} />
                     </div>
                     <div className="event-description">
                         <p className="date">10/26, 27</p>
