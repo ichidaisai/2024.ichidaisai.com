@@ -11,7 +11,7 @@ import { Access } from './pages/Access'
 import { Funding } from './pages/Founding'
 import { PosterList } from './pages/PosterList'
 import { Stage } from './pages/Stage'
-import { StampRally } from "./pages/StampRally";
+import { StampRally } from './pages/StampRally'
 
 const router = createBrowserRouter([
     {
@@ -47,7 +47,7 @@ const router = createBrowserRouter([
                 element: <Stage />,
             },
             {
-                path: "/stamprally",
+                path: '/stamprally',
                 element: <StampRally />,
             },
         ],

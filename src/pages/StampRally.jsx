@@ -1,19 +1,17 @@
-import "../styles/StampRally.css";
-import stamp1 from "../assets/stamp1.png";
-import stamp2 from "../assets/stamp2.png";
+import '../styles/StampRally.css'
+import stamp1 from '../assets/stamp1.png'
+import stamp2 from '../assets/stamp2.png'
 
-import stamp4_1 from "../assets/stamp4_1.png";
-import stamp4_2 from "../assets/stamp4_2.png";
-import stamp5 from "../assets/stamp5.png";
-import stamp10 from "../assets/stamp10.png";
+import stamp4_1 from '../assets/stamp4_1.png'
+import stamp4_2 from '../assets/stamp4_2.png'
+import stamp5 from '../assets/stamp5.png'
+import stamp10 from '../assets/stamp10.png'
 
 export const StampRally = () => {
     return (
         <>
             <div className="stamp-visual">
-                <div className="stamp-title">
-                    市大祭スタンプラリー
-                </div>
+                <div className="stamp-title">市大祭スタンプラリー</div>
             </div>
             <p className="stamp-description">
                 市大祭でスタンプラリーを開催！！！
@@ -123,5 +121,5 @@ export const StampRally = () => {
                 </div>
             </div>
         </>
-    );
-};
+    )
+}

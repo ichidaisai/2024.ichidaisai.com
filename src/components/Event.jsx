@@ -1,11 +1,11 @@
-import "../styles/Event.css";
-import { Link } from "react-router-dom";
+import '../styles/Event.css'
+import { Link } from 'react-router-dom'
 
 const returnTop = () => {
     window.scrollTo({
         top: 0,
-    });
-};
+    })
+}
 
 export const Event = () => {
     return (
@@ -28,7 +28,7 @@ export const Event = () => {
                 </div>
 
                 <Link
-                    style={{ textDecoration: "none" }}
+                    style={{ textDecoration: 'none' }}
                     to="/stamprally"
                     className="event-item"
                     onClick={returnTop}
@@ -68,5 +68,5 @@ export const Event = () => {
                 </div>
             </div>
         </>
-    );
-};
+    )
+}
