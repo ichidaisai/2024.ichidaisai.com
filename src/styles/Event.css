@@ -1,0 +1,36 @@
+.event-content {
+    width: 90%;
+    margin: 0 auto;
+    line-height: 1.5em;
+    padding-bottom: 10px;
+}
+
+.event-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.event-item {
+    width: 30%;
+    margin-right: 5%;
+    margin-bottom: 20px;
+}
+.event-item:nth-child(3n) {
+    margin-right: 0;
+}
+.event-icon {
+    width: 100%;
+    aspect-ratio: 1;
+}
+
+.event-list .date {
+    font-weight: bold;
+    margin: 0.5em 0;
+}
+
+@media screen and (max-width: 428px) {
+    .event-description {
+        font-size: 12px;
+    }
+}

@@ -1,31 +1,32 @@
 .access {
     text-align: center;
+    margin-bottom: 50px;
 }
-.text h2 {
+.access-container h2 {
     font-size: 32px;
-    font-weight: 700;
+    font-weight: bold;
     position: relative;
     margin: 2em;
 }
 
-.text h3 {
-    font-size: 24pt;
+.access-container h3 {
+    font-size: 13pt;
     position: relative;
     margin: 1em;
 }
 
 .way-span {
     background: linear-gradient(transparent 60%, #ffff66 60%);
+    font-weight: bold;
 }
 
-.text p {
-    font-size: 16pt;
+.access-container p {
     position: relative;
     line-height: 20pt;
     margin-bottom: 10pt;
 }
 
-.text h2:before {
+.access-container h2:before {
     content: '';
     position: absolute;
     display: inline-block;
@@ -44,7 +45,8 @@
 
 .table h3 {
     margin-top: 2em;
-    font-size: 24px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .table p {

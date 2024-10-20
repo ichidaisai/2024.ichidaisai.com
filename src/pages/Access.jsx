@@ -3,7 +3,7 @@ import '../styles/Access.css'
 export const Access = () => {
     return (
         <div className="access">
-            <div className="text">
+            <div className="access-container">
                 <h2>アクセス</h2>
 
                 <h3>
