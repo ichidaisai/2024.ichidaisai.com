@@ -1,14 +1,15 @@
 .access {
     text-align: center;
+    margin-bottom: 50px;
 }
-.text h2 {
+.access-container h2 {
     font-size: 32px;
     font-weight: bold;
     position: relative;
     margin: 2em;
 }
 
-.text h3 {
+.access-container h3 {
     font-size: 13pt;
     position: relative;
     margin: 1em;
@@ -19,13 +20,13 @@
     font-weight: bold;
 }
 
-.text p {
+.access-container p {
     position: relative;
     line-height: 20pt;
     margin-bottom: 10pt;
 }
 
-.text h2:before {
+.access-container h2:before {
     content: '';
     position: absolute;
     display: inline-block;
