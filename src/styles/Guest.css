@@ -9,7 +9,7 @@
 
 .guest h3 {
     font-size: 24px;
-    position: relative;
+    position: static;
     margin: 3em;
     text-align: center;
 }
@@ -17,6 +17,7 @@
 .lead_container > .lead {
     font-weight: 400;
     margin: 2em;
+    line-height: 2.5em;
 }
 
 .guest-span {
