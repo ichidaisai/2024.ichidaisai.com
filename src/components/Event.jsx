@@ -74,7 +74,12 @@ export const Event = () => {
                     </div>
                 </div>
 
-                <div className="event-item">
+                <Link
+                   className="event-item"
+                   style = {{ textDecoration: "none"}}
+                   to = "/karimonokyousou"
+                   onclick = {returnTop}
+                   >
                     <div className="event-icon">
                         <img src={karimono_icon} />
                     </div>
@@ -84,7 +89,7 @@ export const Event = () => {
                         <p className="date">12:20-12:50</p>
                         <h5 className="event-title">借りモノ競争 in HCU</h5>
                     </div>
-                </div>
+                </Link>
             </div>
         </>
     )
