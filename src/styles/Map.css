@@ -93,33 +93,53 @@
     margin-top: 30px;
     max-width: 100%;
     height: auto;
-    width: 30%;
+    width: 25%;
     position: relative;
     /* float: left; */
 }
 .cafe-icon img {
-    flex-wrap: wrap;
+    /* flex-wrap: wrap;
     height: auto;
-    width: 150px;
+    width: 150px; */
+    padding: 5%;
 }
 .cafe-icon p {
     position: absolute;
     font-size: 30px;
-    top: -0px;
-    left: -35px;
-    background-color: rgb(255, 255, 255);
+    top: -20px;
+    left: 0px;
+    /* background-color: rgb(255, 255, 255); */
 }
-.gakuseikaikan .cafe-container .cafe1-map .cafe-icon {
+.gakuseikaikan .cafe1-container .cafe1-map .cafe-icon {
     margin-right: 30%;
 }
 
-.cafe-container {
+.cafe1-container ,.cafe2-container ,.cafe3-container {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     flex-wrap: wrap;
 }
+.cafe1-container {
+    justify-content: space-between;
+    column-gap: 15%;
+}
+/* .cafe2-container ,cafe3-container {
+    column-gap: 0px;
+} */ */
+.cafe3-container {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
 @media screen and (max-width: 768px) {
     .cafe-container{
         display: block;
+    }
+    .cafe-icon p {
+        position: absolute;
+        font-size: 20px;
+        top: -20px;
+        left: 0px;
     }
 }

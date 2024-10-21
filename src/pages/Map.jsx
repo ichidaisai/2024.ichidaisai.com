@@ -575,26 +575,24 @@ export const Map = () => {
                 </div>
                 <div className="gakuseikaikan">
                     <h3>学生会館</h3>
-                    <div className="cafe-container">
-                        <img className="cafe1-map" src={gakuseikaikanmap} alt="学生会館マップ" />
-                        <div>
-                            {
-                                gakuseikaikan.map((shop1)=>{
+                    <img className="cafe1-map" src={gakuseikaikanmap} alt="学生会館マップ" />
+                    <div className="cafe2-container">
+                        {
+                            gakuseikaikan.map((shop1)=>{
     
-                                    return (
-                                    <div className="cafe-icon">
-                                        <p>{shop1.title}</p>
-                                        <img src={shop1.imgUrl} alt="出店" />
-                                    </div>
-                                    )
-                                })
-                            }
-                        </div>
+                                return (
+                                <div className="cafe-icon">
+                                    <p>{shop1.title}</p>
+                                    <img src={shop1.imgUrl} alt="出店" />
+                                </div>
+                                )
+                            })
+                        }
                     </div>
                 </div>
                 {<div className="koudou">
                     <h3>講堂前</h3>
-                    <div className="cafe-container">
+                    <div className="cafe1-container">
                         <img className="cafe1-map" src={koudoumap} alt="講堂前マップ" />
                         {
                             koudou.map((shop2)=>{
@@ -611,7 +609,7 @@ export const Map = () => {
                 </div>}
                 {<div className="jouhoutou1f">
                     <h3>情報科学部棟1F</h3>
-                    <div className="cafe-container">
+                    <div className="cafe1-container">
                         <img className="cafe1-map" src={jouhoutou1fmap} alt="情報科学部棟マップ" />
                         {
                             jouhoutou1f.map((shop3)=>{
@@ -628,11 +626,11 @@ export const Map = () => {
                 </div>}
                 {<div className="kokusai">
                     <h3>国際学部棟（講義棟）1F,3F</h3>
-                    <div className="cafe-container">
+                    <div className="cafe1-container">
                         <img className="kokusai1f-map" src={kougitou1fmap} alt="国際学部棟1Fマップ" />
                         <img className="kokusai3f-map" src={kougitou3fmap} alt="国際学部棟3Fマップ" />
                     </div>
-                    <div className="cafe-container">
+                    <div className="cafe2-container">
                         {
                             kougitou1f3f.map((shop4)=>{
     
@@ -647,7 +645,7 @@ export const Map = () => {
                     </div>
                     <h3>国際学部棟（講義棟）4F</h3>
                     <img className="kokusai-map" src={kougitou4fmap} alt="国際学部棟4Fマップ" />
-                    <div className="cafe-container">
+                    <div className="cafe2-container">
                         {
                             kougitou4f.map((shop5)=>{
     
@@ -662,7 +660,7 @@ export const Map = () => {
                     </div>
                     <h3>国際学部棟（講義棟）5F</h3>
                     <img className="kokusai-map" src={kougitou5fmap} alt="国際学部棟5Fマップ" />
-                    <div className="cafe-container">
+                    <div className="cafe2-container">
                         {
                             kougitou5f.map((shop6)=>{
     
@@ -682,7 +680,7 @@ export const Map = () => {
                 {<div className="geijututou">
                     <h3>芸術学部棟1F,2F</h3>
                     <img className="geijutu1f2f-map" src={geijutsu2fmap} alt="芸術学部棟1F,2Fマップ" />
-                    <div className="cafe-container">
+                    <div className="cafe2-container">
                         {
                             geijutsu1f2f.map((shop7)=>{
     
@@ -697,7 +695,7 @@ export const Map = () => {
                     </div>
                     <h3>芸術学部棟3F</h3>
                     <img className="geijutu3f-map" src={geijutsu3fmap} alt="芸術学部棟3Fマップ" />
-                    <div className="cafe-container">
+                    <div className="cafe2-container">
                         {
                             geijutsu3f.map((shop8)=>{
     
@@ -712,7 +710,7 @@ export const Map = () => {
                     </div>
                     <h3>芸術学部棟4F</h3>
                     <img className="geijutu4f-map" src={geijutsu4fmap} alt="芸術学部棟4Fマップ" />
-                    <div className="cafe-container">
+                    <div className="cafe2-container">
                         {
                             geijutsu4f.map((shop9)=>{
     
@@ -726,12 +724,13 @@ export const Map = () => {
                         }
                     </div>
                     <h3>芸術学部棟5F,6F</h3>
-                    <div className="cafe-container">
-                        <img className="geijutu5f-map" src={geijutsu5fmap} alt="芸術学部棟5Fマップ" />
-                        <img className="geijutu6f-map" src={geijutsu6fmap} alt="芸術学部棟6Fマップ" />
+                    {/* <div className="cafe2-container"> */}
+                    <img className="geijutu5f-map" src={geijutsu5fmap} alt="芸術学部棟5Fマップ" />
+                    <img className="geijutu6f-map" src={geijutsu6fmap} alt="芸術学部棟6Fマップ" />
+                    <div className="cafe3-container">
                         {
-                            geijutsu5f6f.map((shop10)=>{
-    
+                                geijutsu5f6f.map((shop10)=>{
+        
                                 return (
                                 <div className="cafe-icon">
                                     <p>{shop10.title}</p>
@@ -741,6 +740,7 @@ export const Map = () => {
                             })
                         }
                     </div>
+                    {/* </div> */}
                 </div>}
             </div>
         </div>
