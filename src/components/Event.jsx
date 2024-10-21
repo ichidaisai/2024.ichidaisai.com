@@ -75,11 +75,11 @@ export const Event = () => {
                 </div>
 
                 <Link
-                   className="event-item"
-                   style = {{ textDecoration: "none"}}
-                   to = "/karimonokyousou"
-                   onclick = {returnTop}
-                   >
+                    className="event-item"
+                    style={{ textDecoration: 'none' }}
+                    to="/karimonokyousou"
+                    onclick={returnTop}
+                >
                     <div className="event-icon">
                         <img src={karimono_icon} />
                     </div>
