@@ -1,5 +1,5 @@
 import '../styles/Guest.css'
-import guest_cover from '../assets/guest_cover.jpg'
+import guest_cover from '../assets/guest_cover.webp'
 
 export const Guest = () => {
     return (
