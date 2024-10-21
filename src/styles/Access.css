@@ -16,7 +16,7 @@
 }
 
 .way-span {
-    background: linear-gradient(transparent 60%, #ffff66 60%);
+    background: linear-gradient(transparent 60%, #ed2b64 60%);
     font-weight: bold;
 }
 
@@ -39,7 +39,7 @@
 
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
-    background-color: black;
+    background-color: #ed2b64;
     border-radius: 2px;
 }
 
