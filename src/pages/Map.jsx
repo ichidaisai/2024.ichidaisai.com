@@ -535,7 +535,7 @@ export const Map = () => {
                         <h3>模擬出店A</h3>
                         <img className="mogi-map" src={mogimap1} alt="模擬出店Aマップ" />
                     </div>}
-                    <div className="mogi-a-div">
+                    <div className="mogi-div">
                     {
                         Ashops.map((shopa)=>{
                         
@@ -554,6 +554,7 @@ export const Map = () => {
                         <h3>模擬出店B</h3>
                         <img className="mogi-map" src={mogimap2} alt="模擬出店Bマップ" />
                     </div>}
+                    <div className="mogi-div">
                     {
                         Bshops.map((shopb)=>{
  
@@ -565,6 +566,7 @@ export const Map = () => {
                             )
                         })
                     }
+                    </div>
                 </div>
             </div>
             <div className="cafe">
@@ -573,7 +575,7 @@ export const Map = () => {
                 </div>
                 <div className="gakuseikaikan">
                     <h3>学生会館</h3>
-                    <div className="gakuseikaikan-container">
+                    <div className="cafe-container">
                         <img className="cafe1-map" src={gakuseikaikanmap} alt="学生会館マップ" />
                         <div>
                             {
@@ -592,75 +594,87 @@ export const Map = () => {
                 </div>
                 {<div className="koudou">
                     <h3>講堂前</h3>
-                    <img className="cafe1-map" src={koudoumap} alt="講堂前マップ" />
-                    {
-                        koudou.map((shop2)=>{
- 
-                            return (
-                            <div className="cafe-icon">
-                                <p>{shop2.title}</p>
-                                <img src={shop2.imgUrl} alt="出店" />
-                            </div>
-                            )
-                        })
-                    }
+                    <div className="cafe-container">
+                        <img className="cafe1-map" src={koudoumap} alt="講堂前マップ" />
+                        {
+                            koudou.map((shop2)=>{
+    
+                                return (
+                                <div className="cafe-icon">
+                                    <p>{shop2.title}</p>
+                                    <img src={shop2.imgUrl} alt="出店" />
+                                </div>
+                                )
+                            })
+                        }
+                    </div>
                 </div>}
                 {<div className="jouhoutou1f">
                     <h3>情報科学部棟1F</h3>
-                    <img className="cafe1-map" src={jouhoutou1fmap} alt="情報科学部棟マップ" />
-                    {
-                        jouhoutou1f.map((shop3)=>{
- 
-                            return (
-                            <div className="cafe-icon">
-                                <p>{shop3.title}</p>
-                                <img src={shop3.imgUrl} alt="出店" />
-                            </div>
-                            )
-                        })
-                    }
+                    <div className="cafe-container">
+                        <img className="cafe1-map" src={jouhoutou1fmap} alt="情報科学部棟マップ" />
+                        {
+                            jouhoutou1f.map((shop3)=>{
+    
+                                return (
+                                <div className="cafe-icon">
+                                    <p>{shop3.title}</p>
+                                    <img src={shop3.imgUrl} alt="出店" />
+                                </div>
+                                )
+                            })
+                        }
+                    </div>
                 </div>}
-                {<div className="kougitou">
+                {<div className="kokusai">
                     <h3>国際学部棟（講義棟）1F,3F</h3>
-                    <img className="kougitou1f-map" src={kougitou1fmap} alt="講義棟1Fマップ" />
-                    <img className="kougitou3f-map" src={kougitou3fmap} alt="講義棟3Fマップ" />
-                    {
-                        kougitou1f3f.map((shop4)=>{
- 
-                            return (
-                            <div className="cafe-icon">
-                                <p>{shop4.title}</p>
-                                <img src={shop4.imgUrl} alt="出店" />
-                            </div>
-                            )
-                        })
-                    }
+                    <div className="cafe-container">
+                        <img className="kokusai1f-map" src={kougitou1fmap} alt="国際学部棟1Fマップ" />
+                        <img className="kokusai3f-map" src={kougitou3fmap} alt="国際学部棟3Fマップ" />
+                    </div>
+                    <div className="cafe-container">
+                        {
+                            kougitou1f3f.map((shop4)=>{
+    
+                                return (
+                                <div className="cafe-icon">
+                                    <p>{shop4.title}</p>
+                                    <img src={shop4.imgUrl} alt="出店" />
+                                </div>
+                                )
+                            })
+                        }
+                    </div>
                     <h3>国際学部棟（講義棟）4F</h3>
-                    <img className="kokusai-map" src={kougitou4fmap} alt="講義棟4Fマップ" />
-                    {
-                        kougitou4f.map((shop5)=>{
- 
-                            return (
-                            <div className="cafe-icon">
-                                <p>{shop5.title}</p>
-                                <img src={shop5.imgUrl} alt="出店" />
-                            </div>
-                            )
-                        })
-                    }
+                    <img className="kokusai-map" src={kougitou4fmap} alt="国際学部棟4Fマップ" />
+                    <div className="cafe-container">
+                        {
+                            kougitou4f.map((shop5)=>{
+    
+                                return (
+                                <div className="cafe-icon">
+                                    <p>{shop5.title}</p>
+                                    <img src={shop5.imgUrl} alt="出店" />
+                                </div>
+                                )
+                            })
+                        }
+                    </div>
                     <h3>国際学部棟（講義棟）5F</h3>
-                    <img className="kokusai-map" src={kougitou5fmap} alt="講義棟5Fマップ" />
-                    {
-                        kougitou5f.map((shop6)=>{
- 
-                            return (
-                            <div className="cafe-icon">
-                                <p>{shop6.title}</p>
-                                <img src={shop6.imgUrl} alt="出店" />
-                            </div>
-                            )
-                        })
-                    }
+                    <img className="kokusai-map" src={kougitou5fmap} alt="国際学部棟5Fマップ" />
+                    <div className="cafe-container">
+                        {
+                            kougitou5f.map((shop6)=>{
+    
+                                return (
+                                <div className="cafe-icon">
+                                    <p>{shop6.title}</p>
+                                    <img src={shop6.imgUrl} alt="出店" />
+                                </div>
+                                )
+                            })
+                        }
+                    </div>
                 </div>}
                 <div className="section-title">
                     <span>芸術学部棟</span>
@@ -668,57 +682,65 @@ export const Map = () => {
                 {<div className="geijututou">
                     <h3>芸術学部棟1F,2F</h3>
                     <img className="geijutu1f2f-map" src={geijutsu2fmap} alt="芸術学部棟1F,2Fマップ" />
-                    {
-                        geijutsu1f2f.map((shop7)=>{
- 
-                            return (
-                            <div className="cafe-icon">
-                                <p>{shop7.title}</p>
-                                <img src={shop7.imgUrl} alt="出店" />
-                            </div>
-                            )
-                        })
-                    }
+                    <div className="cafe-container">
+                        {
+                            geijutsu1f2f.map((shop7)=>{
+    
+                                return (
+                                <div className="cafe-icon">
+                                    <p>{shop7.title}</p>
+                                    <img src={shop7.imgUrl} alt="出店" />
+                                </div>
+                                )
+                            })
+                        }
+                    </div>
                     <h3>芸術学部棟3F</h3>
                     <img className="geijutu3f-map" src={geijutsu3fmap} alt="芸術学部棟3Fマップ" />
-                    {
-                        geijutsu3f.map((shop8)=>{
- 
-                            return (
-                            <div className="cafe-icon">
-                                <p>{shop8.title}</p>
-                                <img src={shop8.imgUrl} alt="出店" />
-                            </div>
-                            )
-                        })
-                    }
+                    <div className="cafe-container">
+                        {
+                            geijutsu3f.map((shop8)=>{
+    
+                                return (
+                                <div className="cafe-icon">
+                                    <p>{shop8.title}</p>
+                                    <img src={shop8.imgUrl} alt="出店" />
+                                </div>
+                                )
+                            })
+                        }
+                    </div>
                     <h3>芸術学部棟4F</h3>
-                    <img className="geijutu-map" src={geijutsu4fmap} alt="芸術学部棟4Fマップ" />
-                    {
-                        geijutsu4f.map((shop9)=>{
- 
-                            return (
-                            <div className="cafe-icon">
-                                <p>{shop9.title}</p>
-                                <img src={shop9.imgUrl} alt="出店" />
-                            </div>
-                            )
-                        })
-                    }
+                    <img className="geijutu4f-map" src={geijutsu4fmap} alt="芸術学部棟4Fマップ" />
+                    <div className="cafe-container">
+                        {
+                            geijutsu4f.map((shop9)=>{
+    
+                                return (
+                                <div className="cafe-icon">
+                                    <p>{shop9.title}</p>
+                                    <img src={shop9.imgUrl} alt="出店" />
+                                </div>
+                                )
+                            })
+                        }
+                    </div>
                     <h3>芸術学部棟5F,6F</h3>
-                    <img className="geijutu-map" src={geijutsu5fmap} alt="芸術学部棟5Fマップ" />
-                    <img className="cafe1-map" src={geijutsu6fmap} alt="芸術学部棟6Fマップ" />
-                    {
-                        geijutsu5f6f.map((shop10)=>{
- 
-                            return (
-                            <div className="cafe-icon">
-                                <p>{shop10.title}</p>
-                                <img src={shop10.imgUrl} alt="出店" />
-                            </div>
-                            )
-                        })
-                    }
+                    <div className="cafe-container">
+                        <img className="geijutu5f-map" src={geijutsu5fmap} alt="芸術学部棟5Fマップ" />
+                        <img className="geijutu6f-map" src={geijutsu6fmap} alt="芸術学部棟6Fマップ" />
+                        {
+                            geijutsu5f6f.map((shop10)=>{
+    
+                                return (
+                                <div className="cafe-icon">
+                                    <p>{shop10.title}</p>
+                                    <img src={shop10.imgUrl} alt="出店" />
+                                </div>
+                                )
+                            })
+                        }
+                    </div>
                 </div>}
             </div>
         </div>
