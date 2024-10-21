@@ -1,5 +1,5 @@
 import '../styles/Mainvisual.css'
-import mainvisual from '../assets/mainvisual.png'
+import mainvisual from '../assets/mainvisual_2.webp'
 
 export const Mainvisual = () => {
     return (

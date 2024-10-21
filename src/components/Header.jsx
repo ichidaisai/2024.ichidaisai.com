@@ -1,7 +1,7 @@
 import '../styles/Header.css'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
-import ichidaisai_logo_512 from '../assets/ichidaisai_logo_512.png'
+import ichidaisai_logo_512 from '../assets/ichidaisai_logo_512.webp'
 import { SlArrowRight } from 'react-icons/sl'
 
 export const Header = () => {

@@ -31,9 +31,9 @@ export const Access = () => {
             </div>
             <div className="table">
                 <h3>広島電鉄バス 臨時時刻表</h3>
-                <img src="src\assets\bus_table.jpg" />
+                <img src="src\assets\bus_table.webp" />
                 <p>
-                    <a href="src\assets\bus_table.pdf">PDFはこちらから</a>
+                    <a href="public\2024102627.pdf">PDFはこちらから</a>
                 </p>
             </div>
             <div className="map">
