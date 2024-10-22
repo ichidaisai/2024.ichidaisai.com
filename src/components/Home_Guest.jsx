@@ -32,12 +32,12 @@ export const Home_Guest = () => {
                     <div className="home_guest-icon">
                         <img src={guest_glid} />
                     </div>
-                </Link>
                     <div className="home_guest-description">
                         <p className="date">10/27</p>
                         <p className="date">13:30-14:10</p>
                         <h5 className="place">学内野外ステージ</h5>
                     </div>
+                </Link>
             </div>
 
             
