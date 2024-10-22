@@ -55,7 +55,6 @@
     color: white;
     margin: 0.05em;
     padding: 20px 80px;
-    
 }
 
 .stage span:hover {
@@ -83,7 +82,7 @@
 }
 
 @media screen and (max-width: 768px) {
-    .stage span{
+    .stage span {
         padding: 20px 60px;
     }
 }
