@@ -67,11 +67,16 @@ export const Event = () => {
                         <img src={nodojiman_icon} />
                     </div>
 
-                    <div className="event-description">
-                        <p className="date">10/26</p>
+                    <Link
+                     className="event-item"
+                     style={{ textDecoration: "none" }}
+                     to="/Nodojiman"
+                     onClick={returnTop}
+>                      <p className="date">10/26</p>
                         <p className="date">14:10-14:40</p>
                         <h5 className="event-title">のど自慢</h5>
-                    </div>
+                        </Link>
+
                 </div>
 
                 <div className="event-item">
