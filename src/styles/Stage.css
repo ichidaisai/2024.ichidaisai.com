@@ -2,7 +2,8 @@
     font-size: 32px;
     font-weight: 700;
     position: relative;
-    margin: 2em;
+    margin-bottom: 2em;
+    margin-top: 2em;
     text-align: center;
 }
 
@@ -54,6 +55,7 @@
     color: white;
     margin: 0.05em;
     padding: 20px 80px;
+    
 }
 
 .stage span:hover {
@@ -78,4 +80,10 @@
 
 .stage_main {
     text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .stage span{
+        padding: 20px 60px;
+    }
 }
