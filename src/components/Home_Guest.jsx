@@ -18,7 +18,8 @@ export const Home_Guest = () => {
                 今年度の大学祭にはヒーローズジャーニーバンド
                 <span>“Arakezuri”</span>と
                 <br />
-                元乃木坂46<span>”和田まあや”</span>＆舞台などで活躍中の<span>”藤井菜央”</span>が登場！
+                元乃木坂46<span>”和田まあや”</span>＆舞台などで活躍中の
+                <span>”藤井菜央”</span>が登場！
                 <br />
                 聞く人の心を惹きつけ、背中を押してくれる熱いステージと市大祭坂んじょ特別ステージをお楽しみに！
                 <br />
@@ -42,7 +43,7 @@ export const Home_Guest = () => {
                     </div>
                 </Link>
                 <Link
-                style={{ textDecoration: 'none' }}
+                    style={{ textDecoration: 'none' }}
                     //to="/guest"
                     className="home_guest-item"
                     //onClick={returnTop}
@@ -54,7 +55,7 @@ export const Home_Guest = () => {
                         <p className="date">10/26</p>
                         <p className="date">13:10-14:00</p>
                         <h5 className="detail">クラファンコラボ企画</h5>
-                    </div>  
+                    </div>
                 </Link>
             </div>
         </>

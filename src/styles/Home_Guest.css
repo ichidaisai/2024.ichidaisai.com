@@ -33,8 +33,6 @@
     margin: 0.5em 0;
 }
 
-
-
 @media screen and (max-width: 428px) {
     .home_guest-description {
         font-size: 12px;
