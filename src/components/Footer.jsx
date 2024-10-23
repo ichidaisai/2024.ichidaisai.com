@@ -45,5 +45,5 @@ export const Footer = () => {
 
             <p className="copy">&copy; 2024 広島市立大学 大学祭実行委員会</p>
         </footer>
-    );
-};
+    )
+}

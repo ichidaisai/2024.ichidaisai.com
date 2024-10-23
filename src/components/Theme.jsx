@@ -1,4 +1,4 @@
-import "../styles/Theme.css";
+import '../styles/Theme.css'
 export const Theme = () => {
     return (
         <>
@@ -9,7 +9,7 @@ export const Theme = () => {
                 <div className="theme-content">
                     <img
                         className="ichidaisai-mainvisual"
-                        src="/public/poster.jpg"
+                        src="/public/poster.webp"
                         alt=""
                     ></img>
                     <h2>Spawn！（スポーン）</h2>
@@ -21,5 +21,5 @@ export const Theme = () => {
                 </div>
             </div>
         </>
-    );
-};
+    )
+}

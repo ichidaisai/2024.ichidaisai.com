@@ -1,0 +1,113 @@
+.stamp-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.stamp-title::before,
+.stamp-title::after {
+    content: '';
+    width: 3px;
+    height: 40px;
+    background-color: #ed2b64;
+}
+
+.stamp-title::before {
+    margin-right: 30px;
+    transform: rotate(-35deg);
+}
+.stamp-title::after {
+    margin-left: 30px;
+    transform: rotate(35deg);
+}
+
+.stamp-description {
+    text-align: center;
+    line-height: 1.5em;
+    padding: 30px;
+    letter-spacing: 0.1em;
+    background-color: #f0f0f0;
+}
+
+.rules {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.stepbar {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.stepbar .step {
+    margin: 2em 0;
+    position: relative;
+}
+
+.stepbar .step .step-title {
+    display: inline-flex;
+    align-items: center;
+}
+
+.stepbar .step .step-title .step-num {
+    display: inline-block;
+    width: 3em;
+    height: 3em;
+    content: '';
+    border-radius: 50%;
+    background-color: #ed2b64;
+    color: #fff;
+    text-align: center;
+}
+
+.stepbar .step .step-title .step-num span {
+    display: inline-block;
+    line-height: 1.2em;
+    /* font-size: 0.8em; */
+    font-weight: bold;
+    position: relative;
+    top: 1em;
+}
+
+.stepbar .step .step-title .title {
+    margin: 0.5em;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.stepbar .step .step-txt {
+    padding-left: 3.5em;
+}
+
+.stepbar .step .step-txt .txt {
+    font-size: 0.9em;
+    line-height: 1.5em;
+}
+.stepbar .step .step-txt .step-img {
+    width: 50%;
+    aspect-ratio: 1;
+    display: flex;
+}
+
+.stepbar .step .step-line {
+    width: 2px;
+    height: calc(100% + 1em);
+    background-color: #ed2b64;
+    position: absolute;
+    top: 1em;
+    left: 1.5em;
+    z-index: -1;
+}
+
+.step:last-of-type .step-line:last-of-type {
+    display: none;
+}
+
+@media screen and (max-width: 960px) {
+    .stepbar {
+        width: 90%;
+    }
+}

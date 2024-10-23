@@ -1,5 +1,5 @@
-import "../styles/Mainvisual.css";
-import mainvisual from "../assets/mainvisual.png";
+import '../styles/Mainvisual.css'
+import mainvisual from '../assets/mainvisual_1.webp'
 
 export const Mainvisual = () => {
     return (
@@ -18,5 +18,5 @@ export const Mainvisual = () => {
                 <span className="colored">10:00 ~ 20:00</span>
             </h2>
         </div>
-    );
-};
+    )
+}

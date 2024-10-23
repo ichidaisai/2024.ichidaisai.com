@@ -20,7 +20,7 @@
 }
 
 .guest-span {
-    background: linear-gradient(transparent 60%, #52ce98 60%);
+    background: linear-gradient(transparent 60%, #ed2b64 60%);
     padding: 2px 12px;
     font-size: large;
 }
@@ -42,7 +42,7 @@
 }
 
 .guest h2:before {
-    content: "";
+    content: '';
     position: absolute;
     display: inline-block;
 
@@ -54,12 +54,12 @@
 
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
-    background-color: black;
+    background-color: #ed2b64;
     border-radius: 2px;
 }
 
 .guest h3:before {
-    content: "";
+    content: '';
     position: absolute;
     display: inline-block;
 

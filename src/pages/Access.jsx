@@ -1,9 +1,9 @@
-import "../styles/Access.css";
+import '../styles/Access.css'
 
 export const Access = () => {
     return (
         <div className="access">
-            <div className="text">
+            <div className="access-container">
                 <h2>アクセス</h2>
 
                 <h3>
@@ -31,9 +31,9 @@ export const Access = () => {
             </div>
             <div className="table">
                 <h3>広島電鉄バス 臨時時刻表</h3>
-                <img src="src\assets\bus_table.jpg" />
+                <img src="src\assets\bus_table.webp" />
                 <p>
-                    <a href="src\assets\bus_table.pdf">PDFはこちらから</a>
+                    <a href="public\2024102627.pdf">PDFはこちらから</a>
                 </p>
             </div>
             <div className="map">
@@ -44,5 +44,5 @@ export const Access = () => {
                 ></iframe>
             </div>
         </div>
-    );
-};
+    )
+}

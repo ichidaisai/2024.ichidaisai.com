@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom";
-import "../styles/NewsList.css";
+import { Link } from 'react-router-dom'
+import '../styles/NewsList.css'
 
 export const NewsList = () => {
     return (
@@ -25,5 +25,5 @@ export const NewsList = () => {
                 </ul>
             </div>
         </>
-    );
-};
+    )
+}
