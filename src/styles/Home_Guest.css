@@ -5,6 +5,10 @@
     padding-bottom: 10px;
 }
 
+.home_guest-content span {
+    font-weight: bold;
+}
+
 .home_guest-list {
     display: flex;
     flex-wrap: wrap;
@@ -28,6 +32,8 @@
     font-weight: bold;
     margin: 0.5em 0;
 }
+
+
 
 @media screen and (max-width: 428px) {
     .home_guest-description {

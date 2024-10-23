@@ -1,6 +1,6 @@
 import '../styles/Guest.css'
 import guest_tyuuizikou from '../assets/Arakezurityuuizikou.webp'
-import guest_cover from '../assets/guest_cover.webp'
+import guest_cover from '../assets/guest_cover_1.webp'
 
 export const Guest = () => {
     return (
