@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import xLogo from "../assets/x_logo.png";
-import instagramLogo from "../assets/instagram_logo.png";
+import xLogo from "../assets/logo-white.png";
+import instagramLogo from "../assets/Instagram_Glyph_White.png";
 
 export const Footer = () => {
     return (
