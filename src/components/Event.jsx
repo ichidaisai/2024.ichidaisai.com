@@ -26,7 +26,7 @@ export const Event = () => {
             <div className="event-list">
                 <Link
                     className="event-item"
-                    style={{ textDecoration: "none" }}
+                    style={{ textDecoration: 'none' }}
                     to="/kehaigiri"
                     onClick={returnTop}
                 >

@@ -12,7 +12,7 @@ import { Funding } from './pages/Founding'
 import { PosterList } from './pages/PosterList'
 import { Stage } from './pages/Stage'
 import { StampRally } from './pages/StampRally'
-import { Kehaigiri } from './pages/Kehaigiri';
+import { Kehaigiri } from './pages/Kehaigiri'
 
 const router = createBrowserRouter([
     {
@@ -52,7 +52,7 @@ const router = createBrowserRouter([
                 element: <StampRally />,
             },
             {
-                path: "/kehaigiri",
+                path: '/kehaigiri',
                 element: <Kehaigiri />,
             },
         ],
