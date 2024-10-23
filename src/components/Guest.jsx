@@ -1,4 +1,5 @@
 import '../styles/Guest.css'
+import guest_tyuuizikou from '../assets/Arakezurityuuizikou.webp'
 import guest_cover from '../assets/guest_cover.webp'
 
 export const Guest = () => {
@@ -49,6 +50,8 @@ export const Guest = () => {
                 <a href="https://arakezurishiga.com" className="link">
                     公式サイト
                 </a>
+                <h3>注意事項</h3>
+                <img src={guest_tyuuizikou} alt="Arakezuriの注意事項" />
             </div>
         </div>
     )
