@@ -12,7 +12,7 @@ import { Funding } from './pages/Founding'
 import { PosterList } from './pages/PosterList'
 import { Stage } from './pages/Stage'
 import { StampRally } from './pages/StampRally'
-import { Map } from "./pages/Map";
+import { Map } from './pages/Map'
 
 const router = createBrowserRouter([
     {
@@ -44,7 +44,7 @@ const router = createBrowserRouter([
                 element: <PosterList />,
             },
             {
-                path: "/map",
+                path: '/map',
                 element: <Map />,
             },
             {
