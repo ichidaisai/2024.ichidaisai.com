@@ -84,7 +84,7 @@ export const Header = () => {
                                 </span>
                             </li>
                         </Link>
-                        <Link to="/pending" onClick={closeMenu}>
+                        <Link to="/" onClick={closeMenu}>
                             <li>
                                 <span className="left">MAP</span>
                                 <span className="right">

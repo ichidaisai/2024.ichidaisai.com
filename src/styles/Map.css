@@ -1,0 +1,145 @@
+.MAP h3 {
+    margin-top: 70px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    border-bottom: 3px solid #e80ca6;
+    display: inline-block;
+    padding-bottom: 5px; /* 下の余白を調整 */
+}
+.mogi-map ,.mogi-div ,cafe-container {
+    margin-left: 30px;
+}
+.mogi-map {
+    max-width: 100%;
+    height: auto;
+    width: 90%;
+    display: block;
+}
+.mogi-icon {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    flex-wrap: wrap;
+    flex-flow: column;
+    border: 3px solid #ffffff;
+    position: relative;
+    width: 150px;
+}
+.mogi-icon img {
+    padding: 5%;
+}
+/* .mogi-icon p {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: rgba(252, 161, 243, 0.644);
+}  */
+
+.mogi-div{
+    display: flex;
+    flex-wrap: wrap;
+}
+.gakuseikaikan ,.koudou ,.jouhoutou1f ,.kougitou{
+    display: block;
+}
+.gakuseikaikan img {
+    display: flex;
+}
+.kokusai1f-map {
+    display: block;
+    height: auto;
+    width: 30%;
+}
+.kokusai3f-map {
+    display: flex;
+    height: auto;
+    width: 60%;
+    padding-right: 5%;
+}
+.kokusai-map ,.geijutu3f-map {
+    display: block;
+    height: auto;
+    width: 70%;
+}
+/* .geijutu-map {
+    display: block;
+    height: auto;
+    width: 60%;
+} */
+.geijutu1f2f-map {
+    display: block;
+    height: auto;
+    width: 50%;
+}
+.geijutu4f-map ,.geijutu5f-map {
+    display: block;
+    height: auto;
+    width: 80%;
+}
+.geijutu6f-map {
+    display: block;
+    height: auto;
+    width: 40%;
+}
+
+.cafe1-map {
+    display: flex;
+    /* max-width: 100%; */
+    height: auto;
+    width: 50%;
+}
+.cafe-icon {
+    margin-top: 30px;
+    max-width: 100%;
+    height: auto;
+    width: 25%;
+    position: relative;
+    /* float: left; */
+}
+.cafe-icon img {
+    /* flex-wrap: wrap;
+    height: auto;
+    width: 150px; */
+    padding: 5%;
+}
+.cafe-icon p {
+    position: absolute;
+    font-size: 30px;
+    top: -20px;
+    left: 0px;
+    /* background-color: rgb(255, 255, 255); */
+}
+.gakuseikaikan .cafe1-container .cafe1-map .cafe-icon {
+    margin-right: 30%;
+}
+
+.cafe1-container ,.cafe2-container ,.cafe3-container {
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+}
+.cafe1-container {
+    justify-content: space-between;
+    column-gap: 15%;
+}
+/* .cafe2-container ,cafe3-container {
+    column-gap: 0px;
+} */ */
+.cafe3-container {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+@media screen and (max-width: 768px) {
+    .cafe-container{
+        display: block;
+    }
+    .cafe-icon p {
+        position: absolute;
+        font-size: 20px;
+        top: -20px;
+        left: 0px;
+    }
+}
