@@ -15,12 +15,9 @@ export const Header = () => {
     }
     return (
         <header>
-            <img
-                src={ichidaisai_logo_512}
-                alt="header-logo"
-                className="header-logo"
-            />
-
+            <Link to="/">
+                <img src={ichidaisai_logo_512} alt="header-logo" className="header-logo"/>
+            </Link>
             <nav>
                 <ul className={`nav-list ${open ? 'open' : ''}`}>
                     <Link to="/">
