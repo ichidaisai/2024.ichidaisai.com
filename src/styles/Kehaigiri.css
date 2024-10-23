@@ -1,5 +1,5 @@
-.EventName{
-    line-height:normal;
+.EventName {
+    line-height: normal;
 }
 
 .kehaigiri-top {
@@ -28,26 +28,23 @@
     transform: rotate(35deg);
 }
 
-.Explanation{
-    text-align:center;
-    line-height:70px;
-    font-size:20px;
+.Explanation {
+    text-align: center;
+    line-height: 70px;
+    font-size: 20px;
 }
 
-
-.icon{
-    width:40%;
-    margin:0 auto;
+.icon {
+    width: 40%;
+    margin: 0 auto;
 }
 
-
-
-.SubTitle{
-    text-align:center;
-    font-size:30px;
-    font-weight:bold;
-    text-decoration:underline;
-    text-decoration-color:#ed2b64;
+.SubTitle {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: #ed2b64;
 }
 
 .EventName {
@@ -76,8 +73,8 @@
     transform: rotate(0deg);
 }
 
-.MailAddress{
-    line-height:30px;
-    text-align:center;
-    font-size:20px;
+.MailAddress {
+    line-height: 30px;
+    text-align: center;
+    font-size: 20px;
 }
