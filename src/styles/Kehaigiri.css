@@ -1,0 +1,83 @@
+.EventName{
+    line-height:normal;
+}
+
+.kehaigiri-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.kehaigiri-top::before,
+.kehaigiri-top::after {
+    content: '';
+    width: 3px;
+    height: 40px;
+    background-color: #ed2b64;
+}
+
+.kehaigiri-top::before {
+    margin-right: 30px;
+    transform: rotate(-35deg);
+}
+.kehaigiri-top::after {
+    margin-left: 30px;
+    transform: rotate(35deg);
+}
+
+.Explanation{
+    text-align:center;
+    line-height:70px;
+    font-size:20px;
+}
+
+
+.icon{
+    width:40%;
+    margin:0 auto;
+}
+
+
+
+.SubTitle{
+    text-align:center;
+    font-size:30px;
+    font-weight:bold;
+    text-decoration:underline;
+    text-decoration-color:#ed2b64;
+}
+
+.EventName {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.EventName::before,
+.EventName::after {
+    content: '';
+    width: 3px;
+    height: 80px;
+    background-color: #ed2b64;
+}
+
+.EventName::before {
+    margin-right: 30px;
+    transform: rotate(0deg);
+}
+.EventName::after {
+    margin-left: 30px;
+    transform: rotate(0deg);
+}
+
+.MailAddress{
+    line-height:30px;
+    text-align:center;
+    font-size:20px;
+}

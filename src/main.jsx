@@ -14,6 +14,7 @@ import { Stage } from './pages/Stage'
 import { StampRally } from './pages/StampRally'
 import { Karimonokyousou } from './pages/Karimonokyousou'
 import { Map } from './pages/Map'
+import { Kehaigiri } from './pages/Kehaigiri'
 
 const router = createBrowserRouter([
     {
@@ -59,6 +60,10 @@ const router = createBrowserRouter([
             {
                 path: '/karimonokyousou',
                 element: <Karimonokyousou />,
+            },
+            {
+                path: "/kehaigiri",
+                element: <Kehaigiri />,
             },
         ],
     },
