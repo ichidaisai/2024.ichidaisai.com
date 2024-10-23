@@ -47,11 +47,11 @@ export const Guest = () => {
                     メンバーは白井竣馬(Vo.Gt) 石坂亮輔(Gt.Cho) 宇野智紀(Ba.Cho)
                     椿佑輔(Dr.Cho) の4名で構成。
                 </p>
-                <h3>注意事項</h3>
-                <img src={guest_tyuuizikou} alt="Arakezuriの注意事項" />
                 <a href="https://arakezurishiga.com" className="link">
                     公式サイト
                 </a>
+                <h3>注意事項</h3>
+                <img src={guest_tyuuizikou} alt="Arakezuriの注意事項" />
             </div>
         </div>
     )
