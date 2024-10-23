@@ -24,7 +24,12 @@ export const Event = () => {
             </div>
 
             <div className="event-list">
-                <div className="event-item">
+                <Link
+                    className="event-item"
+                    style={{ textDecoration: "none" }}
+                    to="/kehaigiri"
+                    onClick={returnTop}
+                >
                     <div className="event-icon">
                         <img src={kehaigiri_icon} />
                     </div>
@@ -33,7 +38,7 @@ export const Event = () => {
                         <p className="date">16:40-17:00</p>
                         <h5 className="event-title">気配斬り</h5>
                     </div>
-                </div>
+                </Link>
 
                 <Link
                     style={{ textDecoration: 'none' }}
