@@ -83,7 +83,7 @@ export const StampRally = () => {
                             <span>4</span>
                         </div>
                         <p className="title">
-                            パンフレットをかざして、次の目的地へGO！
+                            パンフレットをかざして、<br />次の目的地へGO！
                         </p>
                     </div>
                     <div className="step-txt">

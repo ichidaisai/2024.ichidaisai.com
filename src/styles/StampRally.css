@@ -94,7 +94,7 @@
 
 .stepbar .step .step-line {
     width: 2px;
-    height: calc(100% + 1em);
+    height: calc(110% + 1em);
     background-color: #ed2b64;
     position: absolute;
     top: 1em;
@@ -109,5 +109,13 @@
 @media screen and (max-width: 960px) {
     .stepbar {
         width: 90%;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .stepbar .step .step-title .title {
+        margin: 0.5em;
+        font-weight: bold;
+        font-size: 1.0em;
     }
 }
