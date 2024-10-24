@@ -2,7 +2,8 @@
     font-size: 32px;
     font-weight: 700;
     position: relative;
-    margin: 2em;
+    margin-bottom: 2em;
+    margin-top: 2em;
     text-align: center;
 }
 
@@ -57,7 +58,7 @@
 }
 
 .stage span:hover {
-    background-color: rgb(250, 57, 94);
+    background-color: #ed2b64;
     color: white;
     text-decoration-line: none;
 }
@@ -78,4 +79,10 @@
 
 .stage_main {
     text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .stage span {
+        padding: 20px 60px;
+    }
 }
