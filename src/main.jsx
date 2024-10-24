@@ -44,6 +44,10 @@ const router = createBrowserRouter([
                 element: <PosterList />,
             },
             {
+                path: '/map',
+                element: <Map />,
+            },
+            {
                 path: '/stage',
                 element: <Stage />,
             },
