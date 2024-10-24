@@ -1,5 +1,5 @@
 import '../styles/Kuragest.css'
-import kuragest_cover from '../assets/kuragest.webp'
+import kuragest_cover from '../assets/Kuragest.webp'
 
 export const Kuragest = () => {
     return (
