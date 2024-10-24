@@ -1,4 +1,4 @@
-.kuraguest  {
+.kuraguest {
     position: relative;
     margin: 2em;
     text-align: center;
@@ -32,7 +32,7 @@
 }
 
 .kuraguest .content {
-    line-height: 2.0;
+    line-height: 2;
 }
 
 .kuraguest .center {
