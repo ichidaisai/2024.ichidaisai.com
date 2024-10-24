@@ -52,6 +52,7 @@
 .table p {
     text-align: right;
     color: blue;
+    line-height: 1.25em;
 }
 
 .map {
@@ -63,4 +64,24 @@
     max-width: 1000px;
     width: 100%;
     height: auto;
+}
+
+details {
+    border-left: solid 8px #AAA; 
+    border-bottom: solid 1px #AAA; 
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 12px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+details > summary {
+    text-align: left;
+}
+
+table {
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
