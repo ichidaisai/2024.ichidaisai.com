@@ -87,7 +87,7 @@ export const Event = () => {
                     <div className="event-description">
                         <p className="date">10/26</p>
                         <p className="date">12:20-12:50</p>
-                        <h5 className="event-title">借りモノ競争 in HCU</h5>
+                        <h5 className="event-title">借りモノ協走 in HCU</h5>
                     </div>
                 </Link>
             </div>

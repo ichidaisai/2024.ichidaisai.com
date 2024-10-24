@@ -4,7 +4,7 @@ export const Karimonokyousou = () => {
     return (
         <>
             <div className="karimono-visual">
-                <div className="karimono-title">借りモノ競争 in HCU</div>
+                <div className="karimono-title">借りモノ協走 in HCU</div>
             </div>
             <div>
                 <img src={karimono} className="karimono-gazou" />
