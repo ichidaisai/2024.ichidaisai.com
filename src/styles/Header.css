@@ -18,19 +18,38 @@ header .header-logo {
     display: flex;
 }
 
-.nav-list li {
-    font-size: 0.9em;
-    height: 80px;
-    padding: 0 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.nav-list .nav-item {
+    display: block;
+    width: 100px;
+    position: relative;
 }
 
-header .nav-list a:hover {
+.nav-list .nav-item a {
+    font-size: 0.9em;
+    height: 80px;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+	justify-content: center;
+}
+
+header .nav-list .nav-item a:hover {
     background-color: #ed2b64;
     text-decoration: none;
     color: #fff;
+}
+
+.nav-item .dropmenu{
+    display: none;
+    position: absolute;
+    z-index: 10;
+}
+
+.nav-item:hover .dropmenu {
+    display: block;
+    background-color: #fff;
+    width: 100px;
+    border: solid #f3f3f3 1px;
 }
 
 .toggle_btn .mask .nav-menu {
@@ -123,16 +142,26 @@ header .nav-list a:hover {
         padding: 2em;
     }
 
-    .active-nav-list ul li {
-        padding: 1.8em;
+    .active-nav-list ul li a {
+        padding: 1.5em;
         display: flex;
         font-weight: bold;
     }
 
-    .active-nav-list ul li {
-        padding: 1.8em;
+     .drop_btn {
+        padding: 1.5em;
         display: flex;
         font-weight: bold;
+
+    }
+    .drop_btn2{
+        display: none;
+    }
+
+    .drop_btn2.active{
+        display: block;
+        padding: 0;
+        padding-left: 30px;
     }
 
     .active-nav-list a:hover {
@@ -140,9 +169,17 @@ header .nav-list a:hover {
         text-decoration: none;
     }
 
-    .active-nav-list ul li .right {
+    .active-nav-list ul li a .right {
         transform: translateY(-2px);
         margin-left: auto;
+    }
+    .drop_btn .right{
+        transform: translateY(-2px);
+        margin-left: auto;
+    }
+
+    .drop-item{
+    font-size: 0.8em;
     }
 
     .none-nav-list {
