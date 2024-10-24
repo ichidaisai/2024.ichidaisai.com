@@ -9,11 +9,10 @@ export const Home = () => {
     return (
         <>
             <Mainvisual />
-            <NewsList />
-            <NoticeList />
-            <Event />
             <Home_Guest />
+            <Event />
             <PosterButton />
+            <NoticeList />
         </>
     )
 }
