@@ -41,8 +41,12 @@ export const NoticeList = () => {
                         <br />
                         バスの増便に関する詳しい情報は、こちらをご覧ください。
                         <p>
-                        <a href="https://drive.google.com/file/d/1aCtsAo3_g0QMRh1O9Qx5gAvGZumN75Qo/view?usp=drive_link" className="text-link">
-                        ＞広島市立大学10/26,27臨時時刻表</a>
+                            <a
+                                href="https://drive.google.com/file/d/1aCtsAo3_g0QMRh1O9Qx5gAvGZumN75Qo/view?usp=drive_link"
+                                className="text-link"
+                            >
+                                ＞広島市立大学10/26,27臨時時刻表
+                            </a>
                         </p>
                     </div>
                 </div>
