@@ -40,13 +40,10 @@ export const NoticeList = () => {
                         一般来場者の皆様には、できるだけバスなどの公共交通機関をご利用いただくようお願い申し上げます。
                         <br />
                         バスの増便に関する詳しい情報は、こちらをご覧ください。
-                        <div
-                            className="bus-schedule"
-                            style={{ cursor: 'pointer' }}
-                            onClick={handleClick}
-                        >
-                            ＞広島市立大学10/26,27臨時時刻表
-                        </div>
+                        <p>
+                        <a href="https://drive.google.com/file/d/1aCtsAo3_g0QMRh1O9Qx5gAvGZumN75Qo/view?usp=drive_link" className="text-link">
+                        ＞広島市立大学10/26,27臨時時刻表</a>
+                        </p>
                     </div>
                 </div>
             </div>
