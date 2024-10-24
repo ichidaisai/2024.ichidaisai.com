@@ -1,7 +1,7 @@
 import '../styles/Header.css'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
-import ichidaisai_logo_512 from '../assets/ichidaisai_logo_512.png'
+import ichidaisai_logo_512 from '../assets/ichidaisai_logo_512.webp'
 import { SlArrowRight } from 'react-icons/sl'
 
 export const Header = () => {
@@ -15,12 +15,13 @@ export const Header = () => {
     }
     return (
         <header>
-            <img
-                src={ichidaisai_logo_512}
-                alt="header-logo"
-                className="header-logo"
-            />
-
+            <Link to="/">
+                <img
+                    src={ichidaisai_logo_512}
+                    alt="header-logo"
+                    className="header-logo"
+                />
+            </Link>
             <nav>
                 <ul className={`nav-list ${open ? 'open' : ''}`}>
                     <Link to="/">
@@ -32,7 +33,7 @@ export const Header = () => {
                     <Link to="/stage">
                         <li>STAGE</li>
                     </Link>
-                    <Link to="/pending">
+                    <Link to="/map">
                         <li>MAP</li>
                     </Link>
                     <Link to="/pending">
@@ -84,7 +85,7 @@ export const Header = () => {
                                 </span>
                             </li>
                         </Link>
-                        <Link to="/pending" onClick={closeMenu}>
+                        <Link to="/map" onClick={closeMenu}>
                             <li>
                                 <span className="left">MAP</span>
                                 <span className="right">

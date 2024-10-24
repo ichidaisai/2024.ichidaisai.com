@@ -9,7 +9,7 @@ export const Theme = () => {
                 <div className="theme-content">
                     <img
                         className="ichidaisai-mainvisual"
-                        src="/public/poster.jpg"
+                        src="/public/poster.webp"
                         alt=""
                     ></img>
                     <h2>Spawn！（スポーン）</h2>

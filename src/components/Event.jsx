@@ -1,10 +1,10 @@
 import '../styles/Event.css'
 import { Link } from 'react-router-dom'
-import bingo_icon from '../assets/eventIcon/bingo_icon.png'
-import karimono_icon from '../assets/eventIcon/karimono_icon.png'
-import kehaigiri_icon from '../assets/eventIcon/kehaigiri_icon.png'
-import nodojiman_icon from '../assets/eventIcon/nodojiman_icon.png'
-import stamp_icon from '../assets/eventIcon/stamp_icon.png'
+import bingo_icon from '../assets/eventIcon/bingo_icon.webp'
+import karimono_icon from '../assets/eventIcon/karimono_icon.webp'
+import kehaigiri_icon from '../assets/eventIcon/kehaigiri_icon.webp'
+import nodojiman_icon from '../assets/eventIcon/nodojiman_icon.webp'
+import stamp_icon from '../assets/eventIcon/stamp_icon.webp'
 
 const returnTop = () => {
     window.scrollTo({

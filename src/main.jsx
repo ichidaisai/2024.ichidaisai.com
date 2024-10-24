@@ -13,6 +13,7 @@ import { PosterList } from './pages/PosterList'
 import { Stage } from './pages/Stage'
 import { StampRally } from './pages/StampRally'
 import { Karimonokyousou } from './pages/Karimonokyousou'
+import { Map } from './pages/Map'
 
 const router = createBrowserRouter([
     {
@@ -42,6 +43,10 @@ const router = createBrowserRouter([
             {
                 path: '/poster',
                 element: <PosterList />,
+            },
+            {
+                path: '/map',
+                element: <Map />,
             },
             {
                 path: '/stage',
