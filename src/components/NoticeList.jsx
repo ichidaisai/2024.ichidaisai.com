@@ -1,7 +1,7 @@
 import '../styles/NoticeList.css'
-import nosake from '../assets/nosake.png'
-import kinen from '../assets/kinen.png'
-import nopet from '../assets/nopet.png'
+import nosake from '../assets/nosake.webp'
+import kinen from '../assets/kinen.webp'
+import nopet from '../assets/nopet.webp'
 
 export const NoticeList = () => {
     const pdfDownloadUrl = 'public/2024102627.pdf'

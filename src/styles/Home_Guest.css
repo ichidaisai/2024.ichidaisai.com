@@ -1,0 +1,40 @@
+.home_guest-content {
+    width: 90%;
+    margin: 0 auto;
+    line-height: 1.5em;
+    padding-bottom: 10px;
+}
+
+.home_guest-content span {
+    font-weight: bold;
+}
+
+.home_guest-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.home_guest-item {
+    width: 30%;
+    margin-right: 5%;
+    margin-bottom: 20px;
+}
+.home_guest-item:nth-child(3n) {
+    margin-right: 0;
+}
+.home_guest-icon {
+    width: 100%;
+    aspect-ratio: 1;
+}
+
+.home_guest-list .date {
+    font-weight: bold;
+    margin: 0.5em 0;
+}
+
+@media screen and (max-width: 428px) {
+    .home_guest-description {
+        font-size: 12px;
+    }
+}

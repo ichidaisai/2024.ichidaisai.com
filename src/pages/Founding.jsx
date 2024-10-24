@@ -1,9 +1,9 @@
 import '../styles/Funding.css'
 import { Link } from 'react-router-dom'
 
-import ichi1 from '../assets/ichipoppo/106001.png'
-import ichi2 from '../assets/ichipoppo/102002.png'
-import ichi3 from '../assets/ichipoppo/106003.png'
+import ichi1 from '../assets/ichipoppo/106001.webp'
+import ichi2 from '../assets/ichipoppo/102002.webp'
+import ichi3 from '../assets/ichipoppo/106003.webp'
 
 export const Funding = () => {
     return (
