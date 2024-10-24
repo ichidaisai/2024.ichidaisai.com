@@ -29,7 +29,7 @@
 
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
-    background-color: black;
+    background-color: #ed2b64;
     border-radius: 2px;
 }
 
@@ -46,7 +46,7 @@
 
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
-    background-color: black;
+    background-color: #ed2b64;
     border-radius: 1px;
 }
 
@@ -59,7 +59,7 @@
 }
 
 .stage span:hover {
-    background-color: rgb(250, 57, 94);
+    background-color: #ed2b64;
     color: white;
     text-decoration-line: none;
 }
