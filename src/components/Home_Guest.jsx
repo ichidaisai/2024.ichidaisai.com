@@ -44,7 +44,7 @@ export const Home_Guest = () => {
                 </Link>
                 <Link
                     style={{ textDecoration: 'none' }}
-                    to="/funding/collabguest"
+                    to="/funding/guest"
                     className="home_guest-item"
                     onClick={returnTop}
                 >

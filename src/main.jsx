@@ -56,7 +56,7 @@ const router = createBrowserRouter([
                 element: <StampRally />,
             },
             {
-                path: '/funding/collabguest',
+                path: '/funding/guest',
                 element: <Kuragest />,
             },
         ],
