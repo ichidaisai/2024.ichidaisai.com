@@ -33,7 +33,7 @@ export const Header = () => {
                     <Link to="/stage">
                         <li>STAGE</li>
                     </Link>
-                    <Link to="/pending">
+                    <Link to="/map">
                         <li>MAP</li>
                     </Link>
                     <Link to="/pending">
@@ -85,7 +85,7 @@ export const Header = () => {
                                 </span>
                             </li>
                         </Link>
-                        <Link to="/" onClick={closeMenu}>
+                        <Link to="/map" onClick={closeMenu}>
                             <li>
                                 <span className="left">MAP</span>
                                 <span className="right">
