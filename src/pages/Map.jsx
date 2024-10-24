@@ -1,5 +1,5 @@
+/* eslint-disable */
 import '../styles/Map.css'
-import { Link } from 'react-router-dom'
 
 //カフェマップ画像
 import gakuseikaikanmap from '../assets/gakuseikaikan.webp'
