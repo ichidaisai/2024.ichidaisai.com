@@ -1,9 +1,8 @@
-.kuraguest  {
+.kuraguest {
     position: relative;
     margin: 2em;
     text-align: center;
 }
-
 
 .kuraguest h2 {
     font-size: 200%;
@@ -33,7 +32,7 @@
 }
 
 .kuraguest .content {
-    line-height: 2.0;
+    line-height: 2;
 }
 
 .kuraguest .center {
@@ -66,4 +65,3 @@
 .kuracontent {
     margin: 2rem;
 }
-
