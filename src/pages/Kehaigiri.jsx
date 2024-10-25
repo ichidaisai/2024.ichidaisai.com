@@ -26,7 +26,6 @@ export const Kehaigiri = () => {
                 {/* <div className="MailAddress">
                     kikaku31th@outlook.jp へ応募のご連絡お待ちしております!
                 </div> */}
-
             </div>
         </>
     )
