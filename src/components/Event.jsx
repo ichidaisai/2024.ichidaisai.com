@@ -23,7 +23,7 @@ export const Event = () => {
                 各イベントの詳細はこちらからチェック！
             </div>
 
-            <div className="event-list"> 
+            <div className="event-list">
                 <Link
                     style={{ textDecoration: 'none' }}
                     to="/stamprally"
@@ -38,7 +38,7 @@ export const Event = () => {
                         <h5 className="event-title">スタンプラリー</h5>
                     </div>
                 </Link>
-                
+
                 <Link
                     className="event-item"
                     style={{ textDecoration: 'none' }}
@@ -71,7 +71,7 @@ export const Event = () => {
                         <h5 className="event-title">のど自慢</h5>
                     </div>
                 </Link>
-                
+
                 <Link
                     className="event-item"
                     style={{ textDecoration: 'none' }}
