@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
-import xLogo from '../assets/x_logo.webp'
-import instagramLogo from '../assets/instagram_logo.webp'
+import xLogo from '../assets/logo-white.webp'
+import instagramLogo from '../assets/Instagram_Glyph_White.webp'
 
 export const Footer = () => {
     return (

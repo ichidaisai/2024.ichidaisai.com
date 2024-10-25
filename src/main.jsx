@@ -12,6 +12,8 @@ import { Funding } from './pages/Founding'
 import { PosterList } from './pages/PosterList'
 import { Stage } from './pages/Stage'
 import { StampRally } from './pages/StampRally'
+import { Karimonokyousou } from './pages/Karimonokyousou'
+import { Map } from './pages/Map'
 import { Kehaigiri } from './pages/Kehaigiri'
 
 const router = createBrowserRouter([
@@ -44,12 +46,20 @@ const router = createBrowserRouter([
                 element: <PosterList />,
             },
             {
+                path: '/map',
+                element: <Map />,
+            },
+            {
                 path: '/stage',
                 element: <Stage />,
             },
             {
                 path: '/stamprally',
                 element: <StampRally />,
+            },
+            {
+                path: '/karimonokyousou',
+                element: <Karimonokyousou />,
             },
             {
                 path: '/kehaigiri',
