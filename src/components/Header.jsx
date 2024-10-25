@@ -46,7 +46,7 @@ export const Header = () => {
                                 <Link to="/guest">Arakezuri</Link>
                             </li>
                             <li className="dropmenu-item">
-                                <Link to="/guest">コラボ企画</Link>
+                                <Link to="/funding/guest">コラボ企画</Link>
                             </li>
                         </ul>
                     </li>
@@ -123,7 +123,10 @@ export const Header = () => {
                                         </Link>
                                     </li>
                                     <li className="dropmenu-item">
-                                        <Link to="/guest" onClick={closeMenu}>
+                                        <Link
+                                            to="/funding/guest"
+                                            onClick={closeMenu}
+                                        >
                                             <span className="left">
                                                 コラボ企画
                                             </span>
