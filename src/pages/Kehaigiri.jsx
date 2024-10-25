@@ -4,7 +4,7 @@ export const Kehaigiri = () => {
     return (
         <>
             <div>
-                <div className="kehaigiri-top">気配切り</div>
+                <div className="kehaigiri-top">気配斬り</div>
                 <div className="icon">
                     <img src={kehaigiri_icon} />
                 </div>

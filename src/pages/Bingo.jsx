@@ -12,7 +12,6 @@ export const Bingo = () => {
                 <div className="bingo-text">
                     ichidai_sai 毎年恒例ビンゴ大会🎁!!
                     <br />
-                    {/* <br /> */}
                     ビンゴカードは、大学祭実行委員会が行なっている
                     <br />
                     模擬店の利用者と市大祭のグッズを購入された方に配布しております!
@@ -20,16 +19,10 @@ export const Bingo = () => {
                     豪華景品を獲得できるチャンスがビンゴ大会に必要なのは運だけです。
                     <div className="emphasis">運がすべて!!</div>
                     たくさんのご参加お待ちしております♪
-                    {/* <br /> */}
-                    <br />● 日時10/26(土) 17:10~17:40
-                    {/* <br /> */}
-                    <br />● 場所 メインステージ
-                    {/* <br />
-                    <br /> */}
-                    <div className="mailadress">
-                        なにか質問ございましたら
-                        kikaku31th@outlook.jpまでご連絡ください!
-                    </div>
+                    <br />
+                    ● 日時10/26(土) 17:10~17:40
+                    <br />
+                    ● 場所 メインステージ
                 </div>
             </div>
         </>
