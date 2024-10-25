@@ -28,11 +28,11 @@
     transform: rotate(35deg);
 }
 
-.Explanation {
+/* .Explanation {
     text-align: center;
     line-height: 70px;
     font-size: 20px;
-}
+} */
 
 .icon {
     width: 40%;
@@ -45,18 +45,29 @@
     font-weight: bold;
     text-decoration: underline;
     text-decoration-color: #ed2b64;
+    padding: 20px;
 }
 
-.EventName {
-    display: flex;
+.Explanation {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    text-align: center;
+    /* margin: 20px 0; */
+}
+
+.kehaigiri-text {
+    line-height: 1.5em;
     justify-content: center;
     align-items: center;
     font-size: 18px;
     text-align: center;
     margin: 20px 0;
+    background-color: #eee;
+    padding: 20px;
 }
-
-.EventName::before,
+/* .EventName::before,
 .EventName::after {
     content: '';
     width: 3px;
@@ -71,10 +82,10 @@
 .EventName::after {
     margin-left: 30px;
     transform: rotate(0deg);
-}
+} */
 
-.MailAddress {
+/* .MailAddress {
     line-height: 30px;
     text-align: center;
     font-size: 20px;
-}
+} */
