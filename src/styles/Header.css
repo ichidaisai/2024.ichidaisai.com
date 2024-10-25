@@ -30,7 +30,7 @@ header .header-logo {
     padding: 0 10px;
     display: flex;
     align-items: center;
-	justify-content: center;
+    justify-content: center;
 }
 
 header .nav-list .nav-item a:hover {
@@ -39,7 +39,7 @@ header .nav-list .nav-item a:hover {
     color: #fff;
 }
 
-.nav-item .dropmenu{
+.nav-item .dropmenu {
     display: none;
     position: absolute;
     z-index: 10;
@@ -148,17 +148,16 @@ header .nav-list .nav-item a:hover {
         font-weight: bold;
     }
 
-     .drop_btn {
+    .drop_btn {
         padding: 1.5em;
         display: flex;
         font-weight: bold;
-
     }
 
-    .drop_btn2{
+    .drop_btn2 {
         display: none;
     }
-    .drop_btn2.active{
+    .drop_btn2.active {
         display: block;
         padding: 0;
         padding-left: 30px;
@@ -173,13 +172,13 @@ header .nav-list .nav-item a:hover {
         transform: translateY(-2px);
         margin-left: auto;
     }
-    .drop_btn .right{
+    .drop_btn .right {
         transform: translateY(-2px);
         margin-left: auto;
     }
 
-    .drop-item{
-    font-size: 0.8em;
+    .drop-item {
+        font-size: 0.8em;
     }
 
     .none-nav-list {
