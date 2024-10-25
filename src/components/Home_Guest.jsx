@@ -44,9 +44,9 @@ export const Home_Guest = () => {
                 </Link>
                 <Link
                     style={{ textDecoration: 'none' }}
-                    //to="/guest"
+                    to="/funding/guest"
                     className="home_guest-item"
-                    //onClick={returnTop}
+                    onClick={returnTop}
                 >
                     <div className="home_guest-icon">
                         <img src={guest_glid_2} />
