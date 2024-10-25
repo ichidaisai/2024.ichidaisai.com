@@ -60,7 +60,7 @@ const router = createBrowserRouter([
                 element: <StampRally />,
             },
             {
-                path: "/Nodojiman",
+                path: '/Nodojiman',
                 element: <Nodojiman />,
             },
             {
