@@ -1,5 +1,5 @@
 import '../styles/Karimonokyousou.css'
-import karimono from '../assets/eventIcon/karimono_icon.png'
+import karimono from '../assets/eventIcon/karimono_icon.webp'
 export const Karimonokyousou = () => {
     return (
         <>
