@@ -1,12 +1,14 @@
+import { useNavigate } from 'react-router-dom'
 import '../styles/NoticeList.css'
 import nosake from '../assets/nosake.webp'
 import kinen from '../assets/kinen.webp'
 import nopet from '../assets/nopet.webp'
 
 export const NoticeList = () => {
-    const pdfDownloadUrl = 'public/2024102627.pdf'
+    const navigate = useNavigate()
+
     const handleClick = () => {
-        window.open(pdfDownloadUrl, '_blank')
+        navigate('/access')
     }
 
     return (
@@ -39,14 +41,14 @@ export const NoticeList = () => {
                         <br />
                         一般来場者の皆様には、できるだけバスなどの公共交通機関をご利用いただくようお願い申し上げます。
                         <br />
-                        バスの増便に関する詳しい情報は、こちらをご覧ください。
-                        <div
-                            className="bus-schedule"
+                        当日のアクセスについては、こちらをご覧ください。
+                        <h5
+                            className="text-switch"
                             style={{ cursor: 'pointer' }}
                             onClick={handleClick}
                         >
-                            ＞広島市立大学10/26,27臨時時刻表
-                        </div>
+                            アクセス情報はこちら
+                        </h5>
                     </div>
                 </div>
             </div>
