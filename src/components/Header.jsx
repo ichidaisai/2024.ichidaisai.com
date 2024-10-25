@@ -58,12 +58,12 @@ export const Header = () => {
                     </li>
 
                     <li className="nav-item">
-                        <Link to="/pending" className="nav-link">
+                        <Link to="/map" className="nav-link">
                             MAP
                         </Link>
                     </li>
                     <li className="nav-item">
-                        <Link to="/pending" className="nav-link">
+                        <Link to="/about" className="nav-link">
                             ABOUT
                         </Link>
                     </li>
