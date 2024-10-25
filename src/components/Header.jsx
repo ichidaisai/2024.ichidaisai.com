@@ -141,7 +141,7 @@ export const Header = () => {
                             </Link>
                         </li>
                         <li>
-                            <Link to="/" onClick={closeMenu}>
+                            <Link to="/map" onClick={closeMenu}>
                                 <span>MAP</span>
                                 <span className="right">
                                     <SlArrowRight />
@@ -149,7 +149,7 @@ export const Header = () => {
                             </Link>
                         </li>
                         <li>
-                            <Link to="/pending" onClick={closeMenu}>
+                            <Link to="/about" onClick={closeMenu}>
                                 <span>ABOUT</span>
                                 <span className="right">
                                     <SlArrowRight />
