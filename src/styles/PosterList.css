@@ -11,3 +11,7 @@
     margin: 50px 0 30px 0;
     font-weight: bold;
 }
+
+.pos-list nobr {
+    margin: 5px;
+}
