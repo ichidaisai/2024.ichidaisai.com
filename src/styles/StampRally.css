@@ -56,6 +56,7 @@
     display: inline-block;
     width: 3em;
     height: 3em;
+    aspect-ratio: 1;
     content: '';
     border-radius: 50%;
     background-color: #ed2b64;
@@ -109,13 +110,5 @@
 @media screen and (max-width: 960px) {
     .stepbar {
         width: 90%;
-    }
-}
-
-@media screen and (max-width: 760px) {
-    .stepbar .step .step-title .title {
-        margin: 0.5em;
-        font-weight: bold;
-        font-size: 1.0em;
     }
 }
