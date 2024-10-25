@@ -38,3 +38,17 @@
     padding-top: 10px;
     text-decoration: underline;
 }
+
+.text-switch {
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.text-switch:hover {
+    color: #1e90ff;
+}
+
+.notice .text {
+    margin-bottom: 80px;
+}

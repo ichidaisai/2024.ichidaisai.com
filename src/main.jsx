@@ -12,7 +12,13 @@ import { Funding } from './pages/Founding'
 import { PosterList } from './pages/PosterList'
 import { Stage } from './pages/Stage'
 import { StampRally } from './pages/StampRally'
+import { Nodojiman } from './pages/Nodojiman'
+import { Karimonokyousou } from './pages/Karimonokyousou'
 import { Map } from './pages/Map'
+import { Kehaigiri } from './pages/Kehaigiri'
+import { Kuragest } from './components/Kuragest'
+import { Bingo } from './pages/Bingo'
+import { About } from './pages/About'
 
 const router = createBrowserRouter([
     {
@@ -54,6 +60,30 @@ const router = createBrowserRouter([
             {
                 path: '/stamprally',
                 element: <StampRally />,
+            },
+            {
+                path: '/Nodojiman',
+                element: <Nodojiman />,
+            },
+            {
+                path: '/karimonokyousou',
+                element: <Karimonokyousou />,
+            },
+            {
+                path: '/kehaigiri',
+                element: <Kehaigiri />,
+            },
+            {
+                path: '/funding/guest',
+                element: <Kuragest />,
+            },
+            {
+                path: '/bingo',
+                element: <Bingo />,
+            },
+            {
+                path: '/about',
+                element: <About />,
             },
         ],
     },
