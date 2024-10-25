@@ -123,7 +123,10 @@ export const Header = () => {
                                         </Link>
                                     </li>
                                     <li className="dropmenu-item">
-                                        <Link to="/funding/guest" onClick={closeMenu}>
+                                        <Link
+                                            to="/funding/guest"
+                                            onClick={closeMenu}
+                                        >
                                             <span className="left">
                                                 コラボ企画
                                             </span>
