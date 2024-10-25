@@ -9,7 +9,7 @@ export const Kuragest = () => {
                 <p>
                     広島の頑張る学生を応援する企画
                     <br />
-                    【坂道でおでんじょ×市大祭】
+                    【坂道でおじんじょ×市大祭】
                 </p>
                 <p>
                     <span className="guest-span">
@@ -19,13 +19,13 @@ export const Kuragest = () => {
                     <br />
                     野外ステージ
                 </p>
-                <img src={kuragest_cover} alt="坂道おでんじょの宣材写真" />
+                <img src={kuragest_cover} alt="坂道おじんじょの宣材写真" />
             </div>
             <div className="content center">
                 <g>
                     広島の頑張る学生を応援する企画
                     <br />
-                    【坂道でおでんじょ×市大祭】
+                    【坂道でおじんじょ×市大祭】
                     <br />
                     のコラボステージに
                     <br />
