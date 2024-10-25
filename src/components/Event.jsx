@@ -24,8 +24,7 @@ export const Event = () => {
             </div>
 
             <div className="event-list"> 
-
-            <Link
+                <Link
                     style={{ textDecoration: 'none' }}
                     to="/stamprally"
                     className="event-item"
