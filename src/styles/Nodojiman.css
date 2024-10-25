@@ -1,10 +1,43 @@
 .bor {
-    padding: 100px;
+    /* padding: 100px;
     line-height: 2em;
+    text-align: center; */
+    line-height: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
     text-align: center;
+    margin: 20px 0;
+    background-color: #eee;
+    padding: 20px;
 }
 .nodojiman-gazou{
     display: block;
     width: 50%;
     margin:0 auto;
+}
+.nodojiman-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    text-align: center;
+    margin: 20px 0;
+}
+.nodojiman-title::before,
+.nodojiman-title::after {
+    content: '';
+    width: 3px;
+    height: 40px;
+    background-color: #ed2b64;
+}
+
+.nodojiman-title::before {
+    margin-right: 30px;
+    transform: rotate(-35deg);
+}
+.nodojiman-title::after {
+    margin-left: 30px;
+    transform: rotate(35deg);
 }

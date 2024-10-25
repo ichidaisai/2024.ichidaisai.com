@@ -4,7 +4,7 @@ export const Nodojiman = () => {
     return (
         <>
             <div> 
-                <h2 className="section-title">のど自慢大会</h2> 
+                <h2 className="nodojiman-title">のど自慢大会</h2> 
                 <img className="nodojiman-gazou" src={nodojiman} />
                 <div className="bor">
                     歌を歌うのが好きな方、聞くのが好きな方！朗報です！
