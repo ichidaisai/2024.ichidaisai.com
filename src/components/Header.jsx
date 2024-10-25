@@ -112,7 +112,7 @@ export const Header = () => {
 
                             {/* プルダウン */}
                             <div
-                                className={`drop_btn ${guestOpen ? 'active' : ''}`}
+                                className={`drop_btn2 ${guestOpen ? 'active' : ''}`}
                             >
                                 <ul className="dropmenu">
                                     <li className="dropmenu-item">

@@ -154,10 +154,10 @@ header .nav-list .nav-item a:hover {
         font-weight: bold;
 
     }
+
     .drop_btn2{
         display: none;
     }
-
     .drop_btn2.active{
         display: block;
         padding: 0;
