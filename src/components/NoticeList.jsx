@@ -1,15 +1,15 @@
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom'
 import '../styles/NoticeList.css'
 import nosake from '../assets/nosake.webp'
 import kinen from '../assets/kinen.webp'
 import nopet from '../assets/nopet.webp'
 
 export const NoticeList = () => {
-    const navigate = useNavigate();  
+    const navigate = useNavigate()
 
     const handleClick = () => {
-        navigate('/access');  
-    };
+        navigate('/access')
+    }
 
     return (
         <>
@@ -42,10 +42,10 @@ export const NoticeList = () => {
                         一般来場者の皆様には、できるだけバスなどの公共交通機関をご利用いただくようお願い申し上げます。
                         <br />
                         当日のアクセスについては、こちらをご覧ください。
-                        <h5 
-                        className="text-switch"
-                        style={{cursor: 'pointer'}}
-                        onClick={handleClick}
+                        <h5
+                            className="text-switch"
+                            style={{ cursor: 'pointer' }}
+                            onClick={handleClick}
                         >
                             アクセス情報はこちら
                         </h5>

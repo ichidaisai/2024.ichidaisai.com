@@ -32,12 +32,14 @@ export const Access = () => {
             </div>
             <div className="table">
                 <h3>広島電鉄バス 臨時時刻表</h3>
-                <
-                    img src={bus_table}
-                />
+                <img src={bus_table} />
                 <p>
-                <a href="https://drive.google.com/file/d/1aCtsAo3_g0QMRh1O9Qx5gAvGZumN75Qo/view?usp=drive_link" className="table-link">
-                    PDFはこちらから</a>
+                    <a
+                        href="https://drive.google.com/file/d/1aCtsAo3_g0QMRh1O9Qx5gAvGZumN75Qo/view?usp=drive_link"
+                        className="table-link"
+                    >
+                        PDFはこちらから
+                    </a>
                 </p>
             </div>
             <div className="map">
