@@ -17,6 +17,7 @@ import { Karimonokyousou } from './pages/Karimonokyousou'
 import { Map } from './pages/Map'
 import { Kehaigiri } from './pages/Kehaigiri'
 import { Kuragest } from './components/Kuragest'
+import { Bingo } from './pages/Bingo'
 
 const router = createBrowserRouter([
     {
@@ -74,6 +75,10 @@ const router = createBrowserRouter([
             {
                 path: '/funding/guest',
                 element: <Kuragest />,
+            },
+            {
+                path: '/bingo',
+                element: <Bingo />,
             },
         ],
     },
