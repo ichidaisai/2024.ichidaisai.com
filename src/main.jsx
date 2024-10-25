@@ -62,7 +62,7 @@ const router = createBrowserRouter([
                 element: <Karimonokyousou />,
             },
             {
-                path: "/kehaigiri",
+                path: '/kehaigiri',
                 element: <Kehaigiri />,
             },
         ],
