@@ -1,0 +1,67 @@
+.kuraguest {
+    position: relative;
+    margin: 2em;
+    text-align: center;
+}
+
+.kuraguest h2 {
+    font-size: 200%;
+    font-weight: 700;
+
+    position: relative;
+    margin: 2em;
+    text-align: center;
+}
+
+.kuraguest p {
+    font-size: 20px;
+    position: relative;
+    margin: 2em;
+    text-align: center;
+}
+
+.kuraguest g {
+    font-size: 20px;
+    text-align: center;
+}
+
+.kuraguest-span {
+    background: linear-gradient(transparent 60%, #ed2b64 60%);
+    padding: 2px 12px;
+    font-size: large;
+}
+
+.kuraguest .content {
+    line-height: 2;
+}
+
+.kuraguest .center {
+    text-align: center;
+}
+
+.kuraguest h2:before {
+    content: '';
+    position: absolute;
+    display: inline-block;
+
+    bottom: -25px;
+
+    width: 200px;
+    height: 5px;
+    left: 50%;
+
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background-color: #ed2b64;
+    border-radius: 2px;
+}
+
+.about_container {
+    font-size: large;
+    margin: 4em;
+    line-height: 2;
+}
+
+.kuracontent {
+    margin: 2rem;
+}

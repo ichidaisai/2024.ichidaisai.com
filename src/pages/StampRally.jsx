@@ -1,11 +1,11 @@
 import '../styles/StampRally.css'
-import stamp1 from '../assets/stamp1.png'
-import stamp2 from '../assets/stamp2.png'
+import stamp1 from '../assets/stamp1.webp'
+import stamp2 from '../assets/stamp2.webp'
 
-import stamp4_1 from '../assets/stamp4_1.png'
-import stamp4_2 from '../assets/stamp4_2.png'
-import stamp5 from '../assets/stamp5.png'
-import stamp10 from '../assets/stamp10.png'
+import stamp4_1 from '../assets/stamp4_1.webp'
+import stamp4_2 from '../assets/stamp4_2.webp'
+import stamp5 from '../assets/stamp5.webp'
+import stamp10 from '../assets/stamp10.webp'
 
 export const StampRally = () => {
     return (

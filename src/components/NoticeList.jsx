@@ -1,12 +1,14 @@
+import { useNavigate } from 'react-router-dom'
 import '../styles/NoticeList.css'
-import nosake from '../assets/nosake.png'
-import kinen from '../assets/kinen.png'
-import nopet from '../assets/nopet.png'
+import nosake from '../assets/nosake.webp'
+import kinen from '../assets/kinen.webp'
+import nopet from '../assets/nopet.webp'
 
 export const NoticeList = () => {
-    const pdfDownloadUrl = 'public/2024102627.pdf'
+    const navigate = useNavigate()
+
     const handleClick = () => {
-        window.open(pdfDownloadUrl, '_blank')
+        navigate('/access')
     }
 
     return (
@@ -17,12 +19,8 @@ export const NoticeList = () => {
                     <p>大学祭に来られる際の注意事項は以下になります。</p>
                     <ul className="notice-list">
                         <li>敷地内全面禁煙</li>
-                        <li>敷地内での飲酒禁止</li>
-                        <li>敷地内への酒類の持込禁止</li>
-                        <li>ペット持込禁止（盲導犬など介助犬は除く）</li>
-                        <li>
-                            新型コロナウイルスなど，感染症への基本的な対策のお願い
-                        </li>
+                        <li>敷地内全面飲酒禁止、酒類の持ち込み不可</li>
+                        <li>ペット同伴禁止（盲導犬など介助犬は除く）</li>
                         <li>公共交通機関のご利用のお願い</li>
                     </ul>
 
@@ -43,14 +41,14 @@ export const NoticeList = () => {
                         <br />
                         一般来場者の皆様には、できるだけバスなどの公共交通機関をご利用いただくようお願い申し上げます。
                         <br />
-                        バスの増便に関する詳しい情報は、こちらをご覧ください。
-                        <div
-                            className="bus-schedule"
+                        当日のアクセスについては、こちらをご覧ください。
+                        <h5
+                            className="text-switch"
                             style={{ cursor: 'pointer' }}
                             onClick={handleClick}
                         >
-                            ＞広島市立大学10/26,27臨時時刻表
-                        </div>
+                            アクセス情報はこちら
+                        </h5>
                     </div>
                 </div>
             </div>

@@ -13,6 +13,11 @@ import { PosterList } from './pages/PosterList'
 import { Stage } from './pages/Stage'
 import { StampRally } from './pages/StampRally'
 import { Nodojiman } from './pages/Nodojiman'
+import { Karimonokyousou } from './pages/Karimonokyousou'
+import { Map } from './pages/Map'
+import { Kehaigiri } from './pages/Kehaigiri'
+import { Kuragest } from './components/Kuragest'
+
 const router = createBrowserRouter([
     {
         path: '/',
@@ -43,6 +48,10 @@ const router = createBrowserRouter([
                 element: <PosterList />,
             },
             {
+                path: '/map',
+                element: <Map />,
+            },
+            {
                 path: '/stage',
                 element: <Stage />,
             },
@@ -53,6 +62,18 @@ const router = createBrowserRouter([
             {
                 path: "/Nodojiman",
                 element: <Nodojiman />,
+            },
+            {
+                path: '/karimonokyousou',
+                element: <Karimonokyousou />,
+            },
+            {
+                path: '/kehaigiri',
+                element: <Kehaigiri />,
+            },
+            {
+                path: '/funding/guest',
+                element: <Kuragest />,
             },
         ],
     },

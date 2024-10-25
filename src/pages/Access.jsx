@@ -1,4 +1,5 @@
 import '../styles/Access.css'
+import bus_table from '../assets/bus_table.webp'
 
 export const Access = () => {
     return (
@@ -31,9 +32,14 @@ export const Access = () => {
             </div>
             <div className="table">
                 <h3>広島電鉄バス 臨時時刻表</h3>
-                <img src="src\assets\bus_table.jpg" />
+                <img src={bus_table} />
                 <p>
-                    <a href="src\assets\bus_table.pdf">PDFはこちらから</a>
+                    <a
+                        href="https://drive.google.com/file/d/1aCtsAo3_g0QMRh1O9Qx5gAvGZumN75Qo/view?usp=drive_link"
+                        className="table-link"
+                    >
+                        PDFはこちらから
+                    </a>
                 </p>
             </div>
             <div className="map">

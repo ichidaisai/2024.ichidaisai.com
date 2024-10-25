@@ -1,10 +1,10 @@
 import '../styles/Event.css'
 import { Link } from 'react-router-dom'
-import bingo_icon from '../assets/eventIcon/bingo_icon.png'
-import karimono_icon from '../assets/eventIcon/karimono_icon.png'
-import kehaigiri_icon from '../assets/eventIcon/kehaigiri_icon.png'
-import nodojiman_icon from '../assets/eventIcon/nodojiman_icon.png'
-import stamp_icon from '../assets/eventIcon/stamp_icon.png'
+import bingo_icon from '../assets/eventIcon/bingo_icon.webp'
+import karimono_icon from '../assets/eventIcon/karimono_icon.webp'
+import kehaigiri_icon from '../assets/eventIcon/kehaigiri_icon.webp'
+import nodojiman_icon from '../assets/eventIcon/nodojiman_icon.webp'
+import stamp_icon from '../assets/eventIcon/stamp_icon.webp'
 
 const returnTop = () => {
     window.scrollTo({
@@ -24,7 +24,12 @@ export const Event = () => {
             </div>
 
             <div className="event-list">
-                <div className="event-item">
+                <Link
+                    className="event-item"
+                    style={{ textDecoration: 'none' }}
+                    to="/kehaigiri"
+                    onClick={returnTop}
+                >
                     <div className="event-icon">
                         <img src={kehaigiri_icon} />
                     </div>
@@ -33,7 +38,7 @@ export const Event = () => {
                         <p className="date">16:40-17:00</p>
                         <h5 className="event-title">気配斬り</h5>
                     </div>
-                </div>
+                </Link>
 
                 <Link
                     style={{ textDecoration: 'none' }}
@@ -78,7 +83,12 @@ export const Event = () => {
                     </div>
                 </Link>
 
-                <div className="event-item">
+                <Link
+                    className="event-item"
+                    style={{ textDecoration: 'none' }}
+                    to="/karimonokyousou"
+                    onclick={returnTop}
+                >
                     <div className="event-icon">
                         <img src={karimono_icon} />
                     </div>
@@ -86,9 +96,9 @@ export const Event = () => {
                     <div className="event-description">
                         <p className="date">10/26</p>
                         <p className="date">12:20-12:50</p>
-                        <h5 className="event-title">借りモノ競争 in HCU</h5>
+                        <h5 className="event-title">借りモノ協走 in HCU</h5>
                     </div>
-                </div>
+                </Link>
             </div>
         </>
     )
