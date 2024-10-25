@@ -61,10 +61,10 @@ export const Event = () => {
                     </div>
 
                     <Link
-                    className="event-item"
-                    style={{ textDecoration: "none" }}
-                    to="/bingo"
-                    onClick={returnTop}
+                        className="event-item"
+                        style={{ textDecoration: 'none' }}
+                        to="/bingo"
+                        onClick={returnTop}
                     >
                         <p className="date">10/26</p>
                         <p className="date">17:10-17:40</p>

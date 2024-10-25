@@ -5,7 +5,7 @@
     font-size: 26px;
     text-align: center;
     margin: 20px 0;
-    font-weight:bold;
+    font-weight: bold;
 }
 
 .stamp-title::before,
@@ -16,22 +16,19 @@
     background-color: #ed2b64;
 }
 
-.aa{
+.aa {
     margin: 20px 0;
     text-align: center;
     line-height: 1.5em;
     color: #ed2b64;
-   
 }
-.bb{
+.bb {
     width: 100%;
-    height:auto;
+    height: auto;
     aspect-ratio: 1;
 }
-.cc{
+.cc {
     font-size: 26px;
     color: #ff0000;
-    font-weight:bold;
+    font-weight: bold;
 }
-
-
