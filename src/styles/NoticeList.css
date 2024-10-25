@@ -48,3 +48,7 @@
 .text-switch:hover {
     color: #1e90ff;
 }
+
+.notice .text {
+    margin-bottom: 80px;
+}
