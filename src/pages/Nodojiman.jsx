@@ -1,5 +1,5 @@
 import '../styles/Nodojiman.css'
-import nodojiman from '../assets/eventIcon/nodojiman_icon.png'
+import nodojiman from '../assets/eventIcon/nodojiman_icon.webp'
 export const Nodojiman = () => {
     return (
         <>
