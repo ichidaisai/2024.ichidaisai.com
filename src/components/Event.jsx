@@ -60,11 +60,16 @@ export const Event = () => {
                         <img src={bingo_icon} />
                     </div>
 
-                    <div className="event-description">
+                    <Link
+                    className="event-item"
+                    style={{ textDecoration: "none" }}
+                    to="/bingo"
+                    onClick={returnTop}
+                    >
                         <p className="date">10/26</p>
                         <p className="date">17:10-17:40</p>
                         <h5 className="event-title">ビンゴ</h5>
-                    </div>
+                    </Link>
                 </div>
 
                 <Link
