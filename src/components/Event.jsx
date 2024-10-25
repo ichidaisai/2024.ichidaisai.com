@@ -55,22 +55,19 @@ export const Event = () => {
                     </div>
                 </Link>
 
-                <div className="event-item">
+                <Link
+                    className="event-item"
+                    style={{ textDecoration: 'none' }}
+                    to="/bingo"
+                    onClick={returnTop}
+                >
                     <div className="event-icon">
                         <img src={bingo_icon} />
                     </div>
-
-                    <Link
-                        className="event-item"
-                        style={{ textDecoration: 'none' }}
-                        to="/bingo"
-                        onClick={returnTop}
-                    >
-                        <p className="date">10/26</p>
-                        <p className="date">17:10-17:40</p>
-                        <h5 className="event-title">ビンゴ</h5>
-                    </Link>
-                </div>
+                    <p className="date">10/26</p>
+                    <p className="date">17:10-17:40</p>
+                    <h5 className="event-title">ビンゴ</h5>
+                </Link>
 
                 <Link
                     style={{ textDecoration: 'none' }}

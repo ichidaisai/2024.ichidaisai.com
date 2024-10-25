@@ -4,31 +4,32 @@ import bingotori from '../assets/eventIcon/bingo_icon.webp'
 export const Bingo = () => {
     return (
         <>
-            assets
             <div>
-                <div className="stamp-title">ビンゴ大会</div>
-                <div className="bb">
+                <div className="bingo-title">ビンゴ大会</div>
+                <div className="bingo-img">
                     <img src={bingotori} />
                 </div>
-                <div className="aa">
+                <div className="bingo-text">
                     ichidai_sai 毎年恒例ビンゴ大会🎁!!
                     <br />
-                    <br />
-                    ビンゴカードは、大学祭実行委委員会が行なっている
+                    {/* <br /> */}
+                    ビンゴカードは、大学祭実行委員会が行なっている
                     <br />
                     模擬店の利用者と市大祭のグッズを購入された方に配布しております!
                     <br />
                     豪華景品を獲得できるチャンスがビンゴ大会に必要なのは運だけです。
-                    <div className="cc">運がすべて!!</div>
+                    <div className="emphasis">運がすべて!!</div>
                     たくさんのご参加お待ちしております♪
-                    <br />
+                    {/* <br /> */}
                     <br />● 日時10/26(土) 17:10~17:40
-                    <br />
+                    {/* <br /> */}
                     <br />● 場所 メインステージ
-                    <br />
-                    <br />
-                    なにか質問ございましたら kikaku31th@outlook.jp
-                    までご連絡ください!
+                    {/* <br />
+                    <br /> */}
+                    <div className="mailadress">
+                        なにか質問ございましたら
+                        kikaku31th@outlook.jpまでご連絡ください!
+                    </div>
                 </div>
             </div>
         </>
