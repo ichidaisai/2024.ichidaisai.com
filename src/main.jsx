@@ -6,6 +6,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import { Pending } from './components/Pending'
 import Layout from './Layout'
 import { Home } from './pages/Home'
+import { End } from './components/End'
 import { Guest } from './components/Guest'
 import { Access } from './pages/Access'
 import { Funding } from './pages/Founding'
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
             {
                 path: '/',
                 element: <Home />,
+            },
+            {
+                path: '/end',
+                element: <End />,
             },
             {
                 path: '/pending',
