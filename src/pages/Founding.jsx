@@ -1,55 +1,107 @@
 import '../styles/Funding.css'
-import { Link } from 'react-router-dom'
 
-import ichi1 from '../assets/ichipoppo/106001.webp'
-import ichi2 from '../assets/ichipoppo/102002.webp'
-import ichi3 from '../assets/ichipoppo/106003.webp'
+import ichipopo1 from '../assets/ichipoppo/ichipopo1.webp'
+import ichipopo2 from '../assets/ichipoppo/ichipopo2.webp'
+import ichipopo3 from '../assets/ichipoppo/ichipopo3.webp'
+import ichipopo4 from '../assets/ichipoppo/ichipopo4.webp'
 
 export const Funding = () => {
     return (
         <div className="funding">
-            <p>
-                クラウドファンディングに挑戦します！
-                <br />
-                今年初の試みとして、市大祭はより一層の盛り上がりを目指して、クラウドファンディングに挑戦します！
-                <br />
-                あなたのご支援が、学生たちの熱い思いを形にする大きな力になります！
-                <br />
-                ぜひ、皆さまの温かいご支援を、どうぞよろしくお願いいたします！
-                <br />
-                期間やリターンなどの詳しい内容はこちらをクリック！
-                <br />
-            </p>
+            <h2>クラウドファンディング結果報告</h2>
+            <div className="funding_greeting">
+                <p>
+                    今年の市大祭のテーマ「Spawn」には、「化学反応を起こす」という想いを込めています。
+                    <br />
+                    私たちは、多くの方々とともに新しい化学反応を生み出すため、
+                    <br />
+                    クラウドファンディングという新たな挑戦に踏み出しました。
+                    <br />
+                    支えてくださったすべての方のおかげで、私たちの挑戦が実を結び、
+                    <br />
+                    記念すべき市大祭を無事に開催することができました。
+                    <br />
+                    これからも、広島市立大学と市大祭が皆様にとって身近であり続けられるよう、
+                    精一杯努めてまいります。
+                    <br />
+                    今後とも暖かいご声援をどうぞよろしくお願いいたします。
+                </p>
+            </div>
 
-            <Link
-                style={{ textDecoration: 'none' }}
-                to="https://tarubo.en-jine.com/projects/ichidaisaithirtyfirst?p_token=61fa3df42d1f409cb1d9d658c5da343b"
-            >
-                <button className="btn">クラファンページはこちら</button>
-            </Link>
-            <p>
-                クラウドファンディングで市大祭を支援し、外部ゲストを招きませんか？！
-                <br />
-                今年の大学祭のテーマは『Spawn!』です。
-                <br />
-                このテーマには、新たな挑戦や成長、そして皆さんと共に「化学反応」を起こしたいという強い思いが込められています。
-                <br />
-                今年は学生同士だけでなく、幅広い世代が楽しめるイベントや、地域の子どもたちに喜んでもらえる企画を数多く用意しています！
-                <br />
-                しかし、運営資金はOBOG（卒業生）後援会や企業様からの協賛金に支えられているものの、新たな取り組みが多い今年は特に資金面での課題があります。
-                <br />
-                31年目を迎える市大祭を成功させ、これからも長く続く大学祭を作り上げるために、ぜひ皆さまのご支援をお願いいたします。
-            </p>
+            <div className="funding_amount_section">
+                <span className="funding_amount_label">集まった金額</span>
+                <div className="funding_amount">617,000 円</div>
+                <span className="funding_amount_label2">(目標金額500,000円)</span>
+            </div>
+
+            <div className="supporters_count_section">
+                <span className="supporters_count_label">支援者数</span>
+                <div className="supporters_count">92 人</div>
+            </div>
 
             <div className="ichipoppo-funding">
                 <div>
-                    <img src={ichi3} />
+                    <img src={ichipopo1} alt="喜ぶいちぽっぽ1" />
                 </div>
                 <div>
-                    <img src={ichi1} />
+                    <img src={ichipopo2} alt="喜ぶいちぽっぽ2" />
                 </div>
                 <div>
-                    <img src={ichi2} />
+                    <img src={ichipopo3} alt="喜ぶいちぽっぽ3" />
+                </div>
+            </div>
+
+            <div className="suppoters_titles">
+                <div className="suppoters_title">Spawn！プロジェクト支援者様一覧</div>
+                <div className="suppoters_title_caution">(敬称略)</div>
+            </div>
+
+            <div className="supporters_list">
+                <div className="supporters_list1">ヨモ</div>
+                <div className="supporters_list2">タロウ　たか　oikawa</div>
+                <div className="supporters_list3">
+                    <p>
+                        第31回市大祭愛してるよ委員会　ryukun　
+                        <br />
+                        Haitii　YOKOYOKO　
+                        <br />
+                        しんちゃん　あおいの母ちゃん　ギョンス　
+                        <br />
+                        ゆたゆきママ　画角斜め　31boss　
+                        <br />
+                        ぱぴこ　しごでき企画局長応援団員　
+                        <br />
+                        情報科学部長　31koho-boss　まさえちゃん　
+                        <br />
+                        統括　poco　r　MY　K.T　
+                        <br />
+                        ざっく　はんちゃん　JpH　
+                        <br />
+                        こあっさん　amaちゃん　chry　
+                    </p>
+                </div>
+                <div className="supporters_list4">
+                    いなさん　たにぱん　そのちゃん　キタノ　さかもと　ヒカル　
+                    <br />
+                    いちはら　fish　ケン　ふふ　ひさし　前川亜里(広報OB)　
+                    <br />
+                    ゆずれもん　teko　
+                    <br />
+                    他48名
+                </div>
+            </div>
+
+            <div className="funding_lastgreeting">
+                <p>    
+                    皆様の温かいご支援と応援に、心より感謝申し上げます。
+                    頂いた支援金は、第31回市大祭のオリジナルグッズ制作やステージ企画の運営費として
+                    大切に活用させていただきました。
+                </p>
+            </div>
+
+            <div className="ichipoppo-funding">
+                <div>
+                    <img src={ichipopo4} alt="お礼をするいちぽっぽ" />
                 </div>
             </div>
         </div>
