@@ -6,7 +6,6 @@
     font-family: Arial, sans-serif;
 }
 
-
 .funding h2 {
     font-size: 32px;
     font-weight: 700;
@@ -27,14 +26,12 @@
     border-radius: 2px;
 }
 
-
 .funding_greeting,
 .funding_lastgreeting {
     margin-bottom: 20px;
     text-align: center;
-    line-height: 2.5em; 
+    line-height: 2.5em;
 }
-
 
 .funding_amount_section,
 .supporters_count_section,
@@ -43,20 +40,17 @@
     margin: 20px 0;
 }
 
-
 .funding_amount {
     font-size: 4em;
     font-weight: bold;
-    color: #ed2b64; 
+    color: #ed2b64;
     display: inline-block;
     margin: 0;
-
 }
 .funding_amount_label,
 .supporters_count_label,
 .suppoters_title,
-.suppoters_title_caution 
-{
+.suppoters_title_caution {
     font-size: 1.5em;
     font-weight: bold;
     color: #333;
@@ -92,7 +86,6 @@
     border-radius: 5px;
 }
 
-
 .supporters_list1,
 .supporters_list2,
 .supporters_list3,
@@ -102,21 +95,20 @@
     padding: 30px 0;
 }
 
-
 .supporters_list1 {
-    font-size: 2.0em; 
+    font-size: 2em;
     font-weight: bold;
     line-height: 2.5em;
 }
 .supporters_list2 {
-    font-size: 1.7em; 
+    font-size: 1.7em;
     line-height: 2.5em;
 }
 .supporters_list3 {
-    font-size: 1.2em; 
+    font-size: 1.2em;
     line-height: 2.5em;
 }
 .supporters_list4 {
     font-size: 0.8em;
-    line-height: 2.5em; 
+    line-height: 2.5em;
 }

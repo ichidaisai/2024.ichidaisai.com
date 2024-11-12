@@ -31,7 +31,9 @@ export const Funding = () => {
             <div className="funding_amount_section">
                 <span className="funding_amount_label">集まった金額</span>
                 <div className="funding_amount">617,000 円</div>
-                <span className="funding_amount_label2">(目標金額500,000円)</span>
+                <span className="funding_amount_label2">
+                    (目標金額500,000円)
+                </span>
             </div>
 
             <div className="supporters_count_section">
@@ -52,7 +54,9 @@ export const Funding = () => {
             </div>
 
             <div className="suppoters_titles">
-                <div className="suppoters_title">Spawn！プロジェクト支援者様一覧</div>
+                <div className="suppoters_title">
+                    Spawn！プロジェクト支援者様一覧
+                </div>
                 <div className="suppoters_title_caution">(敬称略)</div>
             </div>
 
@@ -92,7 +96,7 @@ export const Funding = () => {
             </div>
 
             <div className="funding_lastgreeting">
-                <p>    
+                <p>
                     皆様の温かいご支援と応援に、心より感謝申し上げます。
                     頂いた支援金は、第31回市大祭のオリジナルグッズ制作やステージ企画の運営費として
                     大切に活用させていただきました。
