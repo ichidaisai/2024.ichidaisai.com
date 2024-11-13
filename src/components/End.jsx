@@ -20,10 +20,10 @@ export const End = () => {
                         たくさんのご来場、温かいご支援、そしてご協力ありがとうございました！
                     </p>
                     <br />
-                    <Link 
-                    className="switch-funding"
-                    to="funding"
-                    onClick={returnTop}
+                    <Link
+                        className="switch-funding"
+                        to="funding"
+                        onClick={returnTop}
                     >
                         <h5>クラウドファンディング結果ページはこちら</h5>
                     </Link>
