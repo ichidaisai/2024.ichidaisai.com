@@ -11,3 +11,8 @@
 .end .picture {
     width: 75%;
 }
+.switch-funding h5 {
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: underline;
+}
