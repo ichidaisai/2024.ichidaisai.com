@@ -27,11 +27,10 @@
     border-radius: 2px;
 }
 
-
-.funding_greeting{
+.funding_greeting {
     margin-bottom: 20px;
     text-align: center;
-    line-height: 2.5em; 
+    line-height: 2.5em;
 }
 
 .funding_lastgreeting {
@@ -42,7 +41,6 @@
     line-height: 2.5em;
 }
 
-
 .funding_amount_section,
 .supporters_count_section,
 .suppoters_titles {
@@ -51,11 +49,10 @@
     padding: 30px 0;
 }
 
-
 .funding_amount {
     font-size: 4em;
     font-weight: bold;
-    color: #ed2b64; 
+    color: #ed2b64;
     display: inline-block;
     margin: 0;
 }
@@ -63,8 +60,7 @@
 .funding_amount_label,
 .supporters_count_label,
 .supporters_title,
-.supporters_title_caution 
-{
+.supporters_title_caution {
     text-align: center;
     font-size: 1.5em;
     font-weight: bold;
@@ -116,16 +112,16 @@
 }
 
 .supporters_list1 {
-    font-size: 2.2em; 
+    font-size: 2.2em;
 }
 
 .supporters_list2 {
-    font-size: 1.7em; 
+    font-size: 1.7em;
 }
 
 .supporters_list3,
-.supporters_list5  {
-    font-size: 1.2em; 
+.supporters_list5 {
+    font-size: 1.2em;
 }
 
 .supporters_list4 {
@@ -133,24 +129,22 @@
 }
 
 .supporters_list2,
-.supporters_list3
-{
+.supporters_list3 {
     display: flex;
-    flex-wrap: wrap; 
-    justify-content: center; 
-    gap: 30px;  
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
 }
 
-.supporters_list4
-{
+.supporters_list4 {
     display: flex;
-    flex-wrap: wrap; 
-    justify-content: center; 
-    gap: 10px;  
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
 }
 
 .supporters_list2 div,
 .supporters_list3 div,
 .supporters_list4 div {
-    min-width: 100px; 
+    min-width: 100px;
 }
