@@ -13,6 +13,7 @@
     margin: 2em 0;
     text-align: center;
 }
+
 .funding h2:before {
     content: '';
     position: absolute;
@@ -26,31 +27,45 @@
     border-radius: 2px;
 }
 
-.funding_greeting,
+
+.funding_greeting{
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 2.5em; 
+}
+
 .funding_lastgreeting {
     margin-bottom: 20px;
     text-align: center;
+    border-top: 1px solid #ccc;
+    padding: 30px 0;
     line-height: 2.5em;
 }
+
 
 .funding_amount_section,
 .supporters_count_section,
 .suppoters_titles {
     text-align: center;
     margin: 20px 0;
+    padding: 30px 0;
 }
+
 
 .funding_amount {
     font-size: 4em;
     font-weight: bold;
-    color: #ed2b64;
+    color: #ed2b64; 
     display: inline-block;
     margin: 0;
 }
+
 .funding_amount_label,
 .supporters_count_label,
-.suppoters_title,
-.suppoters_title_caution {
+.supporters_title,
+.supporters_title_caution 
+{
+    text-align: center;
     font-size: 1.5em;
     font-weight: bold;
     color: #333;
@@ -95,20 +110,47 @@
     padding: 30px 0;
 }
 
+.supporters_list5 {
+    text-align: center;
+    padding: 30px 0;
+}
+
 .supporters_list1 {
-    font-size: 2em;
-    font-weight: bold;
-    line-height: 2.5em;
+    font-size: 2.2em; 
 }
+
 .supporters_list2 {
-    font-size: 1.7em;
-    line-height: 2.5em;
+    font-size: 1.7em; 
 }
-.supporters_list3 {
-    font-size: 1.2em;
-    line-height: 2.5em;
+
+.supporters_list3,
+.supporters_list5  {
+    font-size: 1.2em; 
 }
+
 .supporters_list4 {
-    font-size: 0.8em;
-    line-height: 2.5em;
+    font-size: 0.9em;
+}
+
+.supporters_list2,
+.supporters_list3
+{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 30px;  
+}
+
+.supporters_list4
+{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 10px;  
+}
+
+.supporters_list2 div,
+.supporters_list3 div,
+.supporters_list4 div {
+    min-width: 100px; 
 }
