@@ -1,0 +1,20 @@
+.end {
+    width: 90%;
+    margin: 0 auto;
+    line-height: 1.5em;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.end .content {
+    font-weight: bold;
+}
+
+.end .picture {
+    width: 75%;
+    margin: 0 auto;
+}
+.switch-funding h5 {
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: underline;
+}
