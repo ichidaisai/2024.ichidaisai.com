@@ -1,55 +1,138 @@
 import '../styles/Funding.css'
-import { Link } from 'react-router-dom'
 
-import ichi1 from '../assets/ichipoppo/106001.webp'
-import ichi2 from '../assets/ichipoppo/102002.webp'
-import ichi3 from '../assets/ichipoppo/106003.webp'
+import ichipopo1 from '../assets/ichipoppo/ichipopo1.webp'
+import ichipopo2 from '../assets/ichipoppo/ichipopo2.webp'
+import ichipopo3 from '../assets/ichipoppo/ichipopo3.webp'
+import ichipopo4 from '../assets/ichipoppo/ichipopo4.webp'
+
+const supportersList1 = ['ヨモ']
+const supportersList2 = ['タロウ', 'たか', 'oikawa']
+const supportersList3 = [
+    'ryukun',
+    'Haitii',
+    'YOKOYOKO',
+    'しんちゃん',
+    'あおいの母ちゃん',
+    'ギョンス',
+    'ゆたゆきママ',
+    '画角斜め',
+    '31boss',
+    'ぱぴこ',
+    '情報科学部長',
+    '31koho-boss',
+    'まさえちゃん',
+    '統括',
+    'poco',
+    'r',
+    'MY',
+    'K.T',
+    'ざっく',
+    'はんちゃん',
+    'JpH',
+    'こあっさん',
+    'amaちゃん',
+    'chry',
+]
+const supportersList4 = [
+    'いなさん',
+    'たにぱん',
+    'そのちゃん',
+    'キタノ',
+    'さかもと',
+    'ヒカル',
+    'いちはら',
+    'fish',
+    'ケン',
+    'ふふ',
+    'ひさし',
+    '前川亜里(広報OB)',
+    'ゆずれもん',
+    'teko',
+]
+const supportersList5 = ['他50名']
 
 export const Funding = () => {
     return (
         <div className="funding">
-            <p>
-                クラウドファンディングに挑戦します！
-                <br />
-                今年初の試みとして、市大祭はより一層の盛り上がりを目指して、クラウドファンディングに挑戦します！
-                <br />
-                あなたのご支援が、学生たちの熱い思いを形にする大きな力になります！
-                <br />
-                ぜひ、皆さまの温かいご支援を、どうぞよろしくお願いいたします！
-                <br />
-                期間やリターンなどの詳しい内容はこちらをクリック！
-                <br />
-            </p>
+            <h2>クラウドファンディング結果報告</h2>
 
-            <Link
-                style={{ textDecoration: 'none' }}
-                to="https://tarubo.en-jine.com/projects/ichidaisaithirtyfirst?p_token=61fa3df42d1f409cb1d9d658c5da343b"
-            >
-                <button className="btn">クラファンページはこちら</button>
-            </Link>
-            <p>
-                クラウドファンディングで市大祭を支援し、外部ゲストを招きませんか？！
-                <br />
-                今年の大学祭のテーマは『Spawn!』です。
-                <br />
-                このテーマには、新たな挑戦や成長、そして皆さんと共に「化学反応」を起こしたいという強い思いが込められています。
-                <br />
-                今年は学生同士だけでなく、幅広い世代が楽しめるイベントや、地域の子どもたちに喜んでもらえる企画を数多く用意しています！
-                <br />
-                しかし、運営資金はOBOG（卒業生）後援会や企業様からの協賛金に支えられているものの、新たな取り組みが多い今年は特に資金面での課題があります。
-                <br />
-                31年目を迎える市大祭を成功させ、これからも長く続く大学祭を作り上げるために、ぜひ皆さまのご支援をお願いいたします。
-            </p>
+            <div className="funding_greeting">
+                <p>
+                    今年の市大祭のテーマ「Spawn」には、「化学反応を起こす」という想いを込めています。
+                    <br />
+                    私たちは、多くの方々とともに新しい化学反応を生み出すため、
+                    <br />
+                    クラウドファンディングという新たな挑戦に踏み出しました。
+                    <br />
+                    支えてくださったすべての方のおかげで、私たちの挑戦が実を結び、
+                    <br />
+                    記念すべき市大祭を無事に開催することができました。
+                    <br />
+                    これからも、広島市立大学と市大祭が皆様にとって身近であり続けられるよう、
+                    <br />
+                    精一杯努めてまいります。
+                    <br />
+                    今後とも暖かいご声援をどうぞよろしくお願いいたします。
+                </p>
+            </div>
+
+            <div className="funding_amount_section">
+                <span className="funding_amount_label">集まった金額</span>
+                <span className="funding_amount">617,000 円</span>
+                <span className="funding_amount_label2">
+                    (目標金額500,000円)
+                </span>
+            </div>
+
+            <div className="supporters_count_section">
+                <span className="supporters_count_label">支援者数</span>
+                <span className="supporters_count">92 人</span>
+            </div>
+
+            <div className="ichipoppo-funding">
+                {[ichipopo1, ichipopo2, ichipopo3].map((src, index) => (
+                    <div key={index}>
+                        <img src={src} alt={`喜ぶいちぽっぽ${index + 1}`} />
+                    </div>
+                ))}
+            </div>
+
+            <div className="supporters_titles">
+                <div className="supporters_title">
+                    Spawn！プロジェクト支援者様一覧
+                </div>
+                <div className="supporters_title_caution">(敬称略)</div>
+            </div>
+
+            <div className="supporters_list">
+                {[
+                    supportersList1,
+                    supportersList2,
+                    supportersList3,
+                    supportersList4,
+                    supportersList5,
+                ].map((list, index) => (
+                    <div key={index} className={`supporters_list${index + 1}`}>
+                        {list.map((supporter, idx) => (
+                            <div key={idx}>{supporter}</div>
+                        ))}
+                    </div>
+                ))}
+            </div>
+
+            <div className="funding_lastgreeting">
+                <p>
+                    皆様の温かいご支援と応援に、心より感謝申し上げます。
+                    <br />
+                    頂いた支援金は、第31回市大祭のオリジナルグッズ制作やステージ企画の運営費として
+                    <br />
+                    大切に活用させていただきました。
+                </p>
+            </div>
 
             <div className="ichipoppo-funding">
                 <div>
-                    <img src={ichi3} />
-                </div>
-                <div>
-                    <img src={ichi1} />
-                </div>
-                <div>
-                    <img src={ichi2} />
+                    <img src={ichipopo4} alt="お礼をするいちぽっぽ" />
                 </div>
             </div>
         </div>
