@@ -40,10 +40,10 @@ export const Event = () => {
                 </Link>
 
                 <Link
-                    className="event-item"
                     style={{ textDecoration: 'none' }}
                     to="/karimonokyousou"
-                    onclick={returnTop}
+                    className="event-item"
+                    onClick={returnTop}
                 >
                     <div className="event-icon">
                         <img src={karimono_icon} />

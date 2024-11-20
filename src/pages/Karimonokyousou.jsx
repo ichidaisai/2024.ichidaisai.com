@@ -17,9 +17,6 @@ export const Karimonokyousou = () => {
                     <br />
                     是非！ご参加ください！
                 </div>
-                <div className="MailAddress">
-                    kikaku31th@outlook.jp まで応募のご連絡お待ちしております！
-                </div>
             </div>
         </>
     )
